@@ -1,117 +1,117 @@
 <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/lexica/ara/lan" owner="admin" group="dba" mode="755" created="2017-10-03T09:27:27-04:00" version="1">
     <acl entries="0" version="1"/>
-    <resource type="XMLResource" name="u_T0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:38-04:00" modified="2017-10-03T09:27:38-04:00" filename="u_T0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u16_T0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:38-04:00" modified="2017-10-03T09:27:38-04:00" filename="u16_T0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="uv0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:38-04:00" modified="2017-10-03T09:27:38-04:00" filename="uv0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u04_v0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:38-04:00" modified="2017-10-03T09:27:38-04:00" filename="u04_v0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="ug0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:27-04:00" modified="2017-10-03T09:27:27-04:00" filename="ug0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u19_g0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:27-04:00" modified="2017-10-03T09:27:27-04:00" filename="u19_g0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="uk0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:28-04:00" modified="2017-10-03T09:27:28-04:00" filename="uk0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u22_k0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:28-04:00" modified="2017-10-03T09:27:28-04:00" filename="u22_k0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="ut0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:28-04:00" modified="2017-10-03T09:27:28-04:00" filename="ut0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u03_t0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:28-04:00" modified="2017-10-03T09:27:28-04:00" filename="u03_t0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="uw0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:28-04:00" modified="2017-10-03T09:27:28-04:00" filename="uw0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u27_w0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:28-04:00" modified="2017-10-03T09:27:28-04:00" filename="u27_w0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="un0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:28-04:00" modified="2017-10-03T09:27:28-04:00" filename="un0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u25_n0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:28-04:00" modified="2017-10-03T09:27:28-04:00" filename="u25_n0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="uz0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:29-04:00" modified="2017-10-03T09:27:29-04:00" filename="uz0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u11_z0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:29-04:00" modified="2017-10-03T09:27:29-04:00" filename="u11_z0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="ud0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:29-04:00" modified="2017-10-03T09:27:29-04:00" filename="ud0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u08_d0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:29-04:00" modified="2017-10-03T09:27:29-04:00" filename="u08_d0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="u_Y1.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:29-04:00" modified="2017-10-03T09:27:29-04:00" filename="u_Y1.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u28_y1.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:29-04:00" modified="2017-10-03T09:27:29-04:00" filename="u28_y1.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="u_S0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:29-04:00" modified="2017-10-03T09:27:29-04:00" filename="u_S0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u14_S0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:29-04:00" modified="2017-10-03T09:27:29-04:00" filename="u14_S0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="us0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:30-04:00" modified="2017-10-03T09:27:30-04:00" filename="us0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u12_s0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:30-04:00" modified="2017-10-03T09:27:30-04:00" filename="u12_s0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="uf0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:31-04:00" modified="2017-10-03T09:27:31-04:00" filename="uf0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u20_f0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:31-04:00" modified="2017-10-03T09:27:31-04:00" filename="u20_f0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="u_E0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:31-04:00" modified="2017-10-03T09:27:31-04:00" filename="u_E0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u18_E0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:31-04:00" modified="2017-10-03T09:27:31-04:00" filename="u18_E0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="um1.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:32-04:00" modified="2017-10-03T09:27:32-04:00" filename="um1.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u24_m1.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:32-04:00" modified="2017-10-03T09:27:32-04:00" filename="u24_m1.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="u_Y0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:32-04:00" modified="2017-10-03T09:27:32-04:00" filename="u_Y0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u28_y0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:32-04:00" modified="2017-10-03T09:27:32-04:00" filename="u28_y0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="ul0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:32-04:00" modified="2017-10-03T09:27:32-04:00" filename="ul0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u23_l0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:32-04:00" modified="2017-10-03T09:27:32-04:00" filename="u23_l0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="uh0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:32-04:00" modified="2017-10-03T09:27:32-04:00" filename="uh0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u26_h0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:32-04:00" modified="2017-10-03T09:27:32-04:00" filename="u26_h0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="uj0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:32-04:00" modified="2017-10-03T09:27:32-04:00" filename="uj0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u05_j0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:32-04:00" modified="2017-10-03T09:27:32-04:00" filename="u05_j0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="ul1.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:33-04:00" modified="2017-10-03T09:27:33-04:00" filename="ul1.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u23_l1.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:33-04:00" modified="2017-10-03T09:27:33-04:00" filename="u23_l1.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="ux0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:33-04:00" modified="2017-10-03T09:27:33-04:00" filename="ux0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u07_x0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:33-04:00" modified="2017-10-03T09:27:33-04:00" filename="u07_x0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="uq0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:33-04:00" modified="2017-10-03T09:27:33-04:00" filename="uq0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u21_q0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:33-04:00" modified="2017-10-03T09:27:33-04:00" filename="u21_q0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="u$0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:34-04:00" modified="2017-10-03T09:27:34-04:00" filename="u$0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u13_X0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:34-04:00" modified="2017-10-03T09:27:34-04:00" filename="u13_X0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="u_Z0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:34-04:00" modified="2017-10-03T09:27:34-04:00" filename="u_Z0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u17_Z0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:34-04:00" modified="2017-10-03T09:27:34-04:00" filename="u17_Z0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="uq1.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:34-04:00" modified="2017-10-03T09:27:34-04:00" filename="uq1.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u21_q1.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:34-04:00" modified="2017-10-03T09:27:34-04:00" filename="u21_q1.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="un1.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:34-04:00" modified="2017-10-03T09:27:34-04:00" filename="un1.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u25_n1.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:34-04:00" modified="2017-10-03T09:27:34-04:00" filename="u25_n1.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="um0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:35-04:00" modified="2017-10-03T09:27:35-04:00" filename="um0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u24_m0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:35-04:00" modified="2017-10-03T09:27:35-04:00" filename="u24_m0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="u_H0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:35-04:00" modified="2017-10-03T09:27:35-04:00" filename="u_H0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u06_H0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:35-04:00" modified="2017-10-03T09:27:35-04:00" filename="u06_H0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="u_D0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:35-04:00" modified="2017-10-03T09:27:35-04:00" filename="u_D0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u15_D0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:35-04:00" modified="2017-10-03T09:27:35-04:00" filename="u15_D0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="ua0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:36-04:00" modified="2017-10-03T09:27:36-04:00" filename="ua0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u09_c0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:36-04:00" modified="2017-10-03T09:27:36-04:00" filename="u09_c0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="u_A0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:36-04:00" modified="2017-10-03T09:27:36-04:00" filename="u_A0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u01_A0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:36-04:00" modified="2017-10-03T09:27:36-04:00" filename="u01_A0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
     <resource type="XMLResource" name="uq2.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:36-04:00" modified="2017-10-03T09:27:36-04:00" filename="uq2.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="uw1.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:36-04:00" modified="2017-10-03T09:27:36-04:00" filename="uw1.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u27_w1.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:36-04:00" modified="2017-10-03T09:27:36-04:00" filename="u27_w1.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
     <resource type="XMLResource" name="u_0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:36-04:00" modified="2017-10-03T09:27:36-04:00" filename="u_0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="uk1.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:37-04:00" modified="2017-10-03T09:27:37-04:00" filename="uk1.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u22_k1.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:37-04:00" modified="2017-10-03T09:27:37-04:00" filename="u22_k1.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="uh1.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:37-04:00" modified="2017-10-03T09:27:37-04:00" filename="uh1.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u26_h1.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:37-04:00" modified="2017-10-03T09:27:37-04:00" filename="u26_h1.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="ur0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:37-04:00" modified="2017-10-03T09:27:37-04:00" filename="ur0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u10_r0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:37-04:00" modified="2017-10-03T09:27:37-04:00" filename="u10_r0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="ub0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:38-04:00" modified="2017-10-03T09:27:38-04:00" filename="ub0.xml" mimetype="application/xml">
+    <resource type="XMLResource" name="u02_b0.xml" owner="admin" group="dba" mode="644" created="2017-10-03T09:27:38-04:00" modified="2017-10-03T09:27:38-04:00" filename="u02_b0.xml" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
 </collection>
