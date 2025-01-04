@@ -1,0 +1,59 @@
+@page table-of-contents {
+    margin: 1in; /* Adjust the page margin as needed */
+    column-count: 0;
+
+}
+
+@page main-content{
+    size: 13in 19in; /* Page size set to 10x13 inches */
+    margin: 1in; /* Adjust the page margin as needed */
+    /* margin-inside: o.2in; Adjust the inside margin as needed */
+}
+
+
+body {
+    column-count: 3; /* Number of columns */
+    column-gap: 1em; /* Gap between columns */
+    column-rule: 1px solid black; /* Solid lines between columns */
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+}
+
+/* Adjusting max-width for text elements like paragraphs and divs */
+p, div {
+    max-width: 65ch; /* Set max width for text wrapping */
+    word-wrap: break-word; /* Breaks long words and wraps them to the next line */
+    overflow-wrap: break-word; /* Similar to word-wrap, but more robust in handling overflow text */
+}
+
+/* Adjusting padding or margin for text elements */
+p, div {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+/* Creatng a table of contents and then adding a page break */
+.pagebreak {
+    page-break-after: always; /* This creates a page break before each .pagebreak element */
+}
+
+h2 + div {
+    column-count: 1; /* Apply this to the div wrapping the ToC */
+}
+
+.stdheader {
+    size: 13in 20in; /* Page size set to 10x13 inches */
+    font-size: 16pt;
+    background: royalblue;
+    border: 0px hidden; 
+    height: 100px;
+    position: fixed;
+    width: 1000px;
+    top:0;
+    left: 0%;
+    margin-left: 500px;
+    display:block;
+}

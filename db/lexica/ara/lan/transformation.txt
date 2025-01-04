@@ -1,0 +1,6 @@
+1. Transform the xml file to html in Oxygen XML Editor.
+2. Execute the following regex in vscode on html:
+    Find: (?<!\n)\n(?!<\n)
+    Replace: <br>
+3. Use Prince XML to convert the html file to pdf using the style.css file.
+
