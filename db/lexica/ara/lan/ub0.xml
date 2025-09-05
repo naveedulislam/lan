@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI.2><text><body><div1 part="N" n="b" org="uniform" sample="complete" type="alphabetical letter">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="tei.css"?>
+<TEI.2><text><body><div1 part="N" n="b" org="uniform" sample="complete" type="alphabetical letter">
 <head lang="ar">ب</head>
 
  <div2 part="N" n="b" org="uniform" sample="complete" type="alphabetical letter">
@@ -18,8 +20,7 @@ they are not generally regarded as nouns, but
 as mere sounds: (Sb, M:) [these are generally
 pronounced with imáleh, i. e. bé, té, &amp;c., with
 the exception of <foreign lang="ar">حا</foreign>, <foreign lang="ar">خا</foreign>, <foreign lang="ar">طا</foreign>, and <foreign lang="ar">ظا</foreign>; and when
-they are regarded as nouns, their duals are <foreign lang="ar">بَيَانِ</foreign>,
-<foreign lang="ar">تَيَانِ</foreign>, &amp;c.:] the pl. of <foreign lang="ar">بَآءٌ</foreign> is <foreign lang="ar">بَآءَاتٌ</foreign>; and that of
+they are regarded as nouns, their duals are <foreign lang="ar">تَيَانِ</foreign> ,<foreign lang="ar">بَيَانِ</foreign>, &amp;c.:] the pl. of <foreign lang="ar">بَآءٌ</foreign> is <foreign lang="ar">بَآءَاتٌ</foreign>; and that of
 <foreign lang="ar">بَا</foreign> is <foreign lang="ar">أَبْوَآءٌ</foreign> (TA ubi suprà.) It is one of the
 letters termed <foreign lang="ar">مَجْهُورَه</foreign> [or vocal, i. e. pronounced
 with the voice, and not with the breath only];
@@ -81,16 +82,16 @@ have prescribed in the case of [the preposition]
 known. (MF.) It denotes the same in the saying
 <foreign lang="ar">بِهِ دَآءٌ</foreign> [<hi rend="ital">In him is a disease;</hi> i. e. a <hi rend="ital">disease is
 cleaving to him</hi>]: and so [accord. to some] in
-<foreign lang="ar">أَقْسَمْتُ بٱللّٰهِ</foreign> [<hi rend="ital">I swore,</hi> or, emphatically, <hi rend="ital">I swear,
+<foreign lang="ar">أَقْسَمْتُ بِٱللّٰهِ</foreign> [<hi rend="ital">I swore,</hi> or, emphatically, <hi rend="ital">I swear,
 by God;</hi> and similar phrases, respecting which
 see a later division of this paragraph]. (L.) So,
-too, in <foreign lang="ar">أَشْرَكَ بٱللّٰهِ</foreign>, because meaning <hi rend="ital">He associated
+too, in <foreign lang="ar">أَشْرَكَ بِٱللّٰهِ</foreign>, because meaning <hi rend="ital">He associated
 another with God:</hi> and in <foreign lang="ar">وَكَّلْتُ بِفُلَانٍ</foreign>, meaning <hi rend="ital">I associated a</hi> <foreign lang="ar">وَكِيل</foreign> [or <hi rend="ital">factor</hi> &amp;c.] <hi rend="ital">with
 such a one.</hi> (T.) [And so in other phrases here
 following.] <foreign lang="ar">عَلَيْكَ بِزَيْدٍ</foreign> <hi rend="ital">Keep thou to Zeyd:</hi> or
 <hi rend="ital">take thou Zeyd.</hi> (TA voce <foreign lang="ar">عَلَى</foreign>.) <foreign lang="ar">عَلَيْكَ بِكَذَا</foreign> <hi rend="ital">Keep
 thou to such a thing:</hi> (El-Munáwee:) or <hi rend="ital">take thou
-such a thing.</hi> (Ham p. 216.) <foreign lang="ar">فَبَهَا وَنَعْمَتْ</foreign> <hi rend="ital">Keep
+such a thing.</hi> (Ham p. 216.) <foreign lang="ar">فَبِهَا وَنِعْمَتْ</foreign> <hi rend="ital">Keep
 thou to it,</hi> <foreign lang="ar">فبها</foreign> meaning <foreign lang="ar">فَعَلَيْكَ بِهَا</foreign>, (Mgh in art.
 <foreign lang="ar">نعم</foreign>,) [or <hi rend="ital">let him keep to it,</hi> i. e. <foreign lang="ar">فَعَلَيْهِ بِهَا</foreign>,] or
 <hi rend="ital">thou hast taken to,</hi> or <hi rend="ital">adopted and followed,</hi> or
@@ -117,7 +118,7 @@ a thing <hi rend="ital">hath adhered to the ordinance of indulgence; and excelle
 the agent to become an objective complement;
 as in <foreign lang="ar">ذَهَبْتُ بِزَيْدٍ</foreign> syn. with <foreign lang="ar">أَذْهَبْتُهُ</foreign> [<hi rend="ital">I made Zeyd
 to go away;</hi> or <hi rend="ital">I took him away</hi>]; (Mughnee;)
-and hence, [in the Kur ii. 16,] <foreign lang="ar">ذَهَبَ ٱللّٰهُ بِنُورِهِمْ</foreign>
+and hence, [in the Quran 2. 17,] <foreign lang="ar">ذَهَبَ ٱللّٰهُ بِنُورِهِمْ</foreign>
 [<hi rend="ital">God taketh away their light</hi>]; (Mughnee, K;)
 which refutes the assertion of Mbr and Suh, that
 <foreign lang="ar">ذَهَبْتُ بِزَيْدٍ</foreign> means [<hi rend="ital">I went away with Zeyd;</hi>
@@ -131,7 +132,7 @@ but IB says that this is not correct as of common
 application; for some verbs are rendered trans.
 by means of hemzeh, but not by reduplication;
 and some by reduplication, but not by hemzeh;
-and some by <foreign lang="ar">ب</foreign>, but not by hemzeh nor by reduplication: you say, <foreign lang="ar">دَفَعْتُ زَيْدًا بِعَمْرٍو</foreign> [as meaning <hi rend="ital">I made ' Amr to repel Zeyd,</hi> lit. <hi rend="ital">I repelled
+and some by <foreign lang="ar">ب</foreign>, but not by hemzeh nor by reduplication: you say, <foreign lang="ar">دَفَعْتُ زَيْدًا بِعَمْرٍ</foreign> [as meaning <hi rend="ital">I made ' Amr to repel Zeyd,</hi> lit. <hi rend="ital">I repelled
 Zeyd by ' Amr</hi>], but not <foreign lang="ar">أَدْفَعْتُهُ</foreign> nor <foreign lang="ar">دَفَّعْتُهُ</foreign>. (TA.)
 ― 
        <milestone unit="sense" n="2"/>-b3-  It also denotes the employing a thing as an
@@ -152,10 +153,10 @@ to denote beginning, as though one said, <foreign lang="ar">أَبْتَدَأُ
        <milestone unit="sense" n="2"/>-b4-  It also denotes a cause; as in <foreign lang="ar">إِنَّكُمْ ظَلَمْتُمْ</foreign>
 <foreign lang="ar">أَنْفُسَكُمْ بِٱتِّخَاذِكُمُ ٱلْعِجْلَ</foreign> [<hi rend="ital">Verily ye have wronged
 yourselves by,</hi> i. e. <hi rend="ital">because of, your taking to
-yourselves the calf as a god</hi> (Kur ii. 51)]; and
+yourselves the calf as a god</hi> (Quran 2. 54)]; and
 in <foreign lang="ar">فَكُلًّا أَخَذْنَا بِذَنْبِهِ</foreign> [<hi rend="ital">And every one of these we
 have punished for,</hi> i. e. <hi rend="ital">because of, his sin</hi> (Kur
-xxix. 39)]; (Mughnee, K) and in <foreign lang="ar">لَنْ يَدْخُلَ</foreign>
+xxix. 40)]; (Mughnee, K) and in <foreign lang="ar">لَنْ يَدْخُلَ</foreign>
 <foreign lang="ar">أَحَدَكُمُ الجَنَّةَ بِعَمَلِهِ</foreign> [<hi rend="ital">Not any of you shall enter
 Paradise by,</hi> or <hi rend="ital">for,</hi> or <hi rend="ital">because of, his works</hi>].
 (TA from a trad.) And so in <foreign lang="ar">لَقَيتُ بِزَيْدٍ الأَسَدَ</foreign>
@@ -191,7 +192,7 @@ denote a cause when prefixed to <foreign lang="ar">أَنَّ</foreign> and to <
 as in <foreign lang="ar">ذٰلِكَ بِأَنَّهُمْ كَانُوا يَكْفُرُونَ بِآيَاتِ ٱللّٰهِ</foreign> [<hi rend="ital">That was
 because they used to disbelieve in the signs of
 God</hi>]; and in <foreign lang="ar">ذٰلِكَ بِمَا عَصَوْا</foreign> [<hi rend="ital">That was because
-they disobeyed</hi>]: both instances in the Kur ii. 58.
+they disobeyed</hi>]: both instances in the Quran 2. 61.
 (Bd.) ― 
        <milestone unit="sense" n="2"/>-b5-  It is also used to denote concomitance,
 as <hi rend="ital">syn. with</hi> <foreign lang="ar">مَعَ</foreign>; (Mughnee, K;) as in <foreign lang="ar">اِشْتَرَيْتُ</foreign>
@@ -200,12 +201,12 @@ bit and bridle and his saddle</hi>]; (TA;) and in
 <foreign lang="ar">لَمَّا رَآنِى بِالسَّلَاحِ هَرَبَ</foreign>, i. e. <hi rend="ital">When he saw me</hi> advancing <hi rend="ital">with the weapon,</hi> [he fled;] or <hi rend="ital">when he
 saw me possessor of a weapon;</hi> (Sh, T;) and in
 <foreign lang="ar">اِهْبِطْ بِسَلَامٍ</foreign> [<hi rend="ital">Descend thou with security,</hi> or <hi rend="ital">with
-greeting</hi> (Kur xi. 50)]; and in <foreign lang="ar">وَقَدْ دَخَلُوا بِٱلْكُفْرِ</foreign>
-[<hi rend="ital">They having entered with unbelief</hi> (Kur v. 66)];
+greeting</hi> (Quran 11. 48)]; and in <foreign lang="ar">وَقَدْ دَخَلُوا بِٱلْكُفْرِ</foreign>
+[<hi rend="ital">They having entered with unbelief</hi> (Quran 5. 61)];
 (Mughnee, K;) <foreign lang="ar">بالكفر</foreign> being a denotative of state.
 (Bd.) Authors differ respecting the <foreign lang="ar">ب</foreign> in the
-saying, <foreign lang="ar">فَسَبِّحْ بِحَمْدِ رَبِّكَ</foreign>, in the Kur [xv. 98 and
-ex. 3]; some saying that it denotes concomitance,
+saying, <foreign lang="ar">فَسَبِّحْ بِحَمْدِ رَبِّكَ</foreign>, in the Quran [15. 99 and
+110. 4]; some saying that it denotes concomitance,
 and that <foreign lang="ar">حمد</foreign> is prefixed to the objective complement, so that the meaning is, <foreign lang="ar">سَبِّحْهٌ حَامِدًا لَهُ</foreign>
 [<hi rend="ital">Declare thou his (thy Lord's) freedom from
 everything derogatory from his glory, praising
@@ -220,7 +221,7 @@ everything derogatory from his glory by means of</hi>
 ascribing to Him <hi rend="ital">that wherewith He hath praised
 himself</hi>]: and so, too, respecting the saying,
 <foreign lang="ar">سُبْحَانَكَ ٱللّٰهُمَّ وَبِحَمْدِكَ</foreign>; some asserting that it is
-one proposition, the, being redundant; but others
+one proposition, the و being redundant; but others
 saying, it is two propositions, the <foreign lang="ar">و</foreign> being a conjunction, and the verb upon which the <foreign lang="ar">ب</foreign> is
 dependent being suppressed, so that the meaning
 is, [<hi rend="ital">I declare thy freedom from everything derogatory from thy glory, 0 God,</hi>] <foreign lang="ar">وَبِحَمْدِكَ سَبَّحْتُكَ</foreign>
@@ -230,8 +231,7 @@ freedom</hi> &amp;c.]. (Mughnee. [Other explanations
 of these two phrases have been proposed; but
 those given above are the most approved.]) You
 also say, <foreign lang="ar">عَلَىَّ بِهِ</foreign>, meaning <hi rend="ital">Bring thou him,</hi> [i. e.]
-<hi rend="ital">come with him, to me.</hi> (Har p. 109.) <foreign lang="ar">ضَاقَتْ عَلَيْهِمُ</foreign>
-<foreign lang="ar">ٱلْأَرْضُ بِمَا رَحُبَتْ</foreign>, in the Kur ix. 119, means <foreign lang="ar">بِرُحْبِهَا</foreign>
+<hi rend="ital">come with him, to me.</hi> (Har p. 109.) <foreign lang="ar">ضَاقَتۡ عَلَیۡہِمُ الۡاَرۡضُ بِمَا رَحُبَتۡ </foreign>, in the Quran 9. 118, means <foreign lang="ar">بِرُحْبِهَا</foreign>
 [i. e. <hi rend="ital">The earth became strait to them, with,</hi>
 meaning <hi rend="ital">notwithstanding, its amplitude,</hi> or <hi rend="ital">spaciousness</hi>]. (Bd.) Sometimes the negative <foreign lang="ar">لا</foreign>
 intervenes between <foreign lang="ar">بِ</foreign> [denoting concomitance]
@@ -244,10 +244,10 @@ a noun signifying a place or a time; (Mughnee, *
 K, * TA;) as in <foreign lang="ar">جَلَسْتُ بِالمَسْجِدِ</foreign> [<hi rend="ital">I sat in the
 mosque</hi>]; (TA;) and <foreign lang="ar">وَلَقَدْ نَصَرَكُمُ ٱللّٰهُ بِبَدْرٍ</foreign> [<hi rend="ital">And
 verily God aided you against your enemies at
-Bedr</hi> (Kur iii. 119)]; and <foreign lang="ar">نَجَّيْنَاهُمْ بِسَحَرٍ</foreign> [<hi rend="ital">We
-saved them a little before daybreak</hi> (Kur liv. 34)]:
+Bedr</hi> (Quran 3. 123)]; and <foreign lang="ar">نَجَّيْنَاهُمْ بِسَحَرٍ</foreign> [<hi rend="ital">We
+saved them a little before daybreak</hi> (Quran 54. 34)]:
 (Mughnee, K, TA:) and so in <foreign lang="ar">بِأَيِّكُمُ ٱلْمَفْتُونُ</foreign> (T,
-K,) in the Kur [lxviii. 6], (TA,) accord. to some,
+K,) in the Quran [68. 7], (TA,) accord. to some,
 (T, Mughnee,) i. e. <hi rend="ital">In which of you is madness;</hi>
 or <hi rend="ital">in which</hi> of the two parties <hi rend="ital">of you is the mad:</hi>
 (Bd:) or the <foreign lang="ar">ب</foreign> is here redundant; (Sb, Bd,
@@ -283,7 +283,7 @@ the substitute, or thing given or done in exchange
 [or return; or to the word signifying that for
 which a substitute is given, or for which a thing
 is given or done in exchange or return]; (Mughnee;) as in the saying, <foreign lang="ar">اِشْتَرَيْتُهُ بِأَلْفِ دِرْهَمٍ</foreign> [<hi rend="ital">I purchased it for a thousand dirhems</hi>]; (Mughnee,
-K; *) [and in the saying in the Kur ix. 112,
+K; *) [and in the saying in the Quran 9. 111,
 <foreign lang="ar">إِنَّ ٱللّٰهَ ٱشْتَرى مِنَ ٱلْمُؤْمِنِينَ أَنْفُسَهُمْ وَأَمْوَالَهُمْ بِأَنَّ</foreign>
 <foreign lang="ar">لَهُمُ ٱلْجَنَّةَ</foreign> <hi rend="ital">Verily God hath purchased of the believers
 their souls and their possessions for</hi> the price of
@@ -301,7 +301,7 @@ former is preferable; (TA;) [and <foreign lang="ar">خَدَمَ بِطَعَا�
 [<hi rend="ital">This is in return for that,</hi> (an explanation somewhat differing from one in the next preceding
 division of this paragraph,) <hi rend="ital">and no blame is imputable to fortune</hi>]: and hence, <foreign lang="ar">اُدْخُلُوا ٱلجَنَّةَ بِمَا</foreign>
 <foreign lang="ar">كُنْتُمْ تَعْمَلُونَ</foreign> [<hi rend="ital">Enter ye Paradise in return for
-that which ye wrought</hi> (Kur xvi. 34)]; for the
+that which ye wrought</hi> (Quran 16. 34)]; for the
 <foreign lang="ar">ب</foreign> here is not that which denotes a cause, as the
 Moatezileh assert it to be, and as all [of the Sunnees] hold it to be in the saying of the Prophet,
 <foreign lang="ar">لَنْ يَدْخُلَ أَحَدُكُمُ الجَنَّةَ بِعَمَلِهِ</foreign> [before cited and
@@ -311,8 +311,8 @@ the trad. and the verse of the Kur-án. (Mughnee.)
 ― 
        <milestone unit="sense" n="2"/>-b9-  It is also <hi rend="ital">syn. with</hi> <foreign lang="ar">عَنْ</foreign>; and is said to be
 peculiar to interrogation; as in <foreign lang="ar">فَٱسْأَلْ بِهِ خَبِيرًا</foreign>
-[<hi rend="ital">And ask thou respecting Him,</hi> or <hi rend="ital">it, one possessing knowledge</hi> (Kur xxv. 60)]; (Mughnee, K;)
-and accord. to IAar in the Kur lxx. 1; (T;) and
+[<hi rend="ital">And ask thou respecting Him,</hi> or <hi rend="ital">it, one possessing knowledge</hi> (Quran 25. 60)]; (Mughnee, K;)
+and accord. to IAar in the Quran 70. 1; (T;) and
 in the saying of ' Alkameh,
 <quote><L> <foreign lang="ar">فَإِنْ تَسْأَلُونِى بِالنِّسَآءِ فَإِنَّنِي</foreign></L>
 <L> <foreign lang="ar">بَصِيرٌ بِأَدْوَآءِ النِّسَآءِ خَبِيرُ</foreign></L>
@@ -322,10 +322,10 @@ in the saying of ' Alkameh,
 women, skilful</hi>]: (A' Obeyd, TA:) or it is not
 peculiar to interrogation; as in <foreign lang="ar">وَيَوْمَ تَشَقَّقُ ٱلسَّمَآءُ</foreign>
 <foreign lang="ar">بِٱلْغَمَامِ</foreign> [<hi rend="ital">And the day when the heavens shall be
-rent asunder from the clouds</hi> (Kur xxv. 27)];
+rent asunder from the clouds</hi> (Quran 25. 27)];
 (Mughnee, K) and <foreign lang="ar">مَا غَرَّكَ بِرَبِّكَ</foreign> (K) i. e. <hi rend="ital">What
 hath beguiled thee from thy Lord,</hi> and from
-believing in him? in the Kur lxxxii. 6; and so
+believing in him? in the Quran 82. 6; and so
 in the same, lvii. 13: (TA: [but see art. <foreign lang="ar">غر</foreign>:])
 or, accord. to Z, the <foreign lang="ar">ب</foreign> in <foreign lang="ar">بالغمام</foreign> means <hi rend="ital">by, as by
 an instrument;</hi> (Mughnee;) or it means <hi rend="ital">because
@@ -336,11 +336,11 @@ syn. with <foreign lang="ar">عَنْ</foreign>; but their explanation is improb
        <milestone unit="sense" n="2"/>-b10-  It is also <hi rend="ital">syn. with</hi> <foreign lang="ar">عَلَىِ</foreign>; as in
 <foreign lang="ar">إِنْ تِأْمَنْهُ بِقِنْطَارٍ</foreign> (Mughnee, K *) or <foreign lang="ar">بِدِينَارٍ</foreign> (S) [<hi rend="ital">If
 thou give him charge over a hundredweight</hi> or
-<hi rend="ital">over a deenár</hi> (Kur iii. 68)]; like as <foreign lang="ar">عَلَى</foreign> is
+<hi rend="ital">over a deenár</hi> (Quran 3. 68)]; like as <foreign lang="ar">عَلَى</foreign> is
 sometimes put in the place of <foreign lang="ar">بِ</foreign> as after the
 verb <foreign lang="ar">رَضِىَ</foreign>: (S, TA:) and so in <foreign lang="ar">لَوْ تُسَوَّى بِهِمُ</foreign>
 <foreign lang="ar">ٱلْأَرْضُ</foreign> [<hi rend="ital">That the ground were made even over
-them</hi>], in the Kur [iv. 45], (TA,) i. e. <hi rend="ital">that</hi>
+them</hi>], in the Quran [iv. 45], (TA,) i. e. <hi rend="ital">that</hi>
 <pb n="143"/>
 <hi rend="ital">they were buried;</hi> (Bd) and in <foreign lang="ar">مَرَرْتُ بِزَيْدٍ</foreign>
 [<hi rend="ital">I passed by Zeyd</hi>], accord. to Akh, as before
@@ -362,7 +362,7 @@ instances are cited from poets; and two of these
 are cited also in the Mughnee:]) and thus it
 signifies in <foreign lang="ar">عَيْنًا يَشْرَبُ بِهَا عِبَادُ ٱللّٰهِ</foreign> [<hi rend="ital">A fountain from
 which the servants of God shall drink,</hi> in the
-Kur lxxvi. 6; and the like occurs in lxxxiii. 28];
+Quran 76. 6; and the like occurs in 83. 28];
 (Msb, Mughnee, K;) accord. to the authorities
 mentioned above; (Mughnee;) or the meaning
 is, <hi rend="ital">with which the servants of God shall satisfy
@@ -372,7 +372,7 @@ wine: (Mughnee:) if the <foreign lang="ar">ب</foreign> were redundant, [as
 some assert it to be, (Bd,)] the meaning would
 be, that they shall drink the whole of it; which
 is not right: (Msb:) thus, also, it is used in
-<foreign lang="ar">وَٱمْسَحُوا بِرُؤُ=سِكُمْ</foreign> [in the Kur v. 8], (Msb, Mughnee, K,) accord. to some; (Mughnee;) i. e. [<hi rend="ital">And
+<foreign lang="ar">وَٱمْسَحُوا بِرُؤُسِكُمْ</foreign> [in the Quran 5. 8], (Msb, Mughnee, K,) accord. to some; (Mughnee;) i. e. [<hi rend="ital">And
 wipe ye] a part of your heads;</hi> and this explanation has been given as on the authority of EshSháfi'ee; but he is said to have disapproved it,
 and to have held that the <foreign lang="ar">ب</foreign> here denotes adhesion:
 (TA:) this latter is its apparent meaning in this
@@ -380,7 +380,7 @@ and the other instances: or, as some say, in this
 last instance it is used to denote the employing a
 thing as an aid or instrument, and there is an
 ellipsis in the phrase, and an inversion; the
-meaning being, <foreign lang="ar">اِمْسَحُوا رُؤُ=سَكُمْ بِالمَآءِ</foreign> [<hi rend="ital">wipe ye
+meaning being, <foreign lang="ar">اِمْسَحُوا رُؤُسَكُمْ بِالمَآءِ</foreign> [<hi rend="ital">wipe ye
 your heads with water</hi>]. (Mughnee.) ― 
        <milestone unit="sense" n="2"/>-b12-  It is
 also used to denote swearing; (Mughnee, K;)
@@ -414,9 +414,9 @@ possessed of goodness,</hi> or <hi rend="ital">goodliness,</hi> or <hi rend="ita
 <foreign lang="ar">زَيْدٌ</foreign> [<hi rend="ital">Good,</hi> or <hi rend="ital">goodly,</hi> or <hi rend="ital">beautiful,</hi> or <hi rend="ital">very good</hi>
 &amp;c., is <hi rend="ital">Zeyd! or how good,</hi> or <hi rend="ital">goodly,</hi> or <hi rend="ital">beautiful, is Zeyd!</hi>], as in the B: (TA:) secondly,
 in most instances; and this is in the case of the
-agent of <foreign lang="ar">كَفَى</foreign>; as in <foreign lang="ar">كَفَى بِٱللّٰهِ شَهِيدًا</foreign> [<hi rend="ital">God sufficeth, being witness,</hi> or <hi rend="ital">as a witness</hi> (Kur xiii.,
+agent of <foreign lang="ar">كَفَى</foreign>; as in <foreign lang="ar">كَفَى بِٱللّٰهِ شَهِيدًا</foreign> [<hi rend="ital">God sufficeth, being witness,</hi> or <hi rend="ital">as a witness</hi> (Quran 13.,
 last verse; &amp;c.)]; (Mughnee, K [and a similar
-ex. is given in the S, from the Kur xxv. 33;]) the
+ex. is given in the S, from the Quran 25. 33;]) the
 <foreign lang="ar">ب</foreign> here denoting emphatic praise; but you may
 drop it, saying, <foreign lang="ar">كَفَى ٱللّٰهُ شَهِيدًا</foreign>: (Fr, TA:)
 thirdly, in a case of necessity, by poetic licence;
@@ -431,15 +431,15 @@ were increasing?</hi>]. (Mughnee, K.) It is also
 redundantly prefixed to the objective complement
 of a verb; as in <foreign lang="ar">وَلَا تُلْقُوا بِأَيْديكُمْ إِلَى ٱلتَّهْلُكَةِ</foreign>
 [<hi rend="ital">And cast ye not yourselves</hi> (<foreign lang="ar">بأيديكم</foreign> meaning
-<foreign lang="ar">بِأَنْفُسِكُمْ</foreign>) <hi rend="ital">to perdition</hi> (Kur ii. 191)]; and in
+<foreign lang="ar">بِأَنْفُسِكُمْ</foreign>) <hi rend="ital">to perdition</hi> (Quran 2. 191)]; and in
 <foreign lang="ar">وَهُزِّى إِلَيْكِ بِجِذْعِ النَّخْلَةِ</foreign> [<hi rend="ital">And shake thou towards
-thee the trunk of the palm-tree</hi> (Kur xix. 25)]:
+thee the trunk of the palm-tree</hi> (Quran 19. 25)]:
 but some say that the former means <hi rend="ital">and cast
 ye not yourselves</hi> (<foreign lang="ar">أَنْفُسَكُمْ</foreign> being understood) <hi rend="ital">with
 your hands to perdition;</hi> or that the meaning
 is, <hi rend="ital">by means,</hi> or <hi rend="ital">because, of your hands:</hi> (Mughnee:) and ISd says that <foreign lang="ar">هُزِّى</foreign>, in the latter, is
 made trans. by means of <foreign lang="ar">ب</foreign> because it is used
-in the sense of <foreign lang="ar">جُزِّى</foreign>: (TA in art <foreign lang="ar">هز</foreign>:) so, too,
+in the sense of <foreign lang="ar">جُرِّى</foreign>: (TA in art <foreign lang="ar">هز</foreign>:) so, too,
 in the saying,
 <quote><L><foreign lang="ar">نَضْرِبُ بِالسَّيْفِ وَ نَرجُو بِالفَرَجْ</foreign></L>
 </quote>
@@ -473,7 +473,7 @@ case?</hi>]; and so, accord. to Sb, in <foreign lang="ar">بِأيِّكُمُ �
 with <foreign lang="ar">فِى</foreign>]; but Abu-l-Hasan says that <foreign lang="ar">بأيّكم</foreign> is
 dependent upon <foreign lang="ar">اِسْتِقْرَار</foreign> suppressed, denoting the
 predicate of <foreign lang="ar">اَلمفتون</foreign>; and some say that this
-is an inf. n. in the sense of <foreign lang="ar">فِنْنَةٌ</foreign>; [so that the
+is an inf. n. in the sense of <foreign lang="ar">فِتْنَةٌ</foreign>; [so that the
 meaning may be, <foreign lang="ar">بأَيِّكُمُ المَفْتُونُ مُسْتَقِرٌّ</foreign> <hi rend="ital">In which of
 you is madness residing?</hi>]; or, as some say, <foreign lang="ar">بِ</foreign> is
 here syn. with <foreign lang="ar">فِى</foreign> [as I have before mentioned],
@@ -481,23 +481,23 @@ here syn. with <foreign lang="ar">فِى</foreign> [as I have before mentioned],
 added before that which is originally an inchoative, namely, the noun, or subject, of <foreign lang="ar">لَيْسَ</foreign>, on the
 condition of its being transferred to the later place
 which is properly that of the enunciative; as in
-the reading of some, <foreign lang="ar">وُجُوهَكُمْ</foreign>] <foreign lang="ar">لَيْسَ ٱلبِرَّ بِأَنْ تُوَلُّوا</foreign>
-[<foreign lang="ar">قَبَلَ ٱلْمَشْرِقِ وَ ٱلْمَغْرِبِ</foreign> [<hi rend="ital">Your turning your faces
+the reading of some, <foreign lang="ar">لَيْسَ ٱلبِرَّ بِأَنْ تُوَلُّوا</foreign> 
+[<foreign lang="ar">وُجُوهَكُمْ قَبَلَ ٱلْمَشْرِقِ وَ ٱلْمَغْرِبِ</foreign>] [<hi rend="ital">Your turning your faces
 towards the east and the west is not obedience</hi>
-(Kur ii. 172)]; with <foreign lang="ar">البرّ</foreign> in the accus. case.
+(Quran 2. 172)]; with <foreign lang="ar">البرّ</foreign> in the accus. case.
 (Mughnee.) It is also redundantly prefixed to
 the enunciative; and this is in two kinds of
 cases: first, when the phrase is not affirmative;
 and cases of this kind may be followed as exs.;
 as <foreign lang="ar">لَيْسَ زَيْدٌ بِقَائِمٍ</foreign> [<hi rend="ital">Zeyd is not standing</hi>]; and
-<foreign lang="ar">وَمَا ٱللّٰهُ بِغَافِلٍ عَمَّا تَعْمَلُونَ</foreign> [<hi rend="ital">And God is not heedless of that which ye do</hi> (Kur ii. 69, &amp;c.)]:
+<foreign lang="ar">وَمَا ٱللّٰهُ بِغَافِلٍ عَمَّا تَعْمَلُونَ</foreign> [<hi rend="ital">And God is not heedless of that which ye do</hi> (Quran 2. 69, &amp;c.)]:
 secondly, when the phrase is affirmative; and
 in cases of this kind, one limits himself to what
 has been heard [from the Arabs]: so say Akh
 and his followers; and they hold to be an instance
 of this kind the phrase, <foreign lang="ar">جَزَآءُ سَيِّئَةٍ بِمِثْلِهَا</foreign> [<hi rend="ital">The
 recompense of an evil action is the like thereof</hi>
-(Kur x. 28)]; and the saying of the Hamásee,
+(Quran 10. 28)]; and the saying of the Hamásee,
 <quote><L> <foreign lang="ar">وَمَنْعُكَهَا بِشَىْءٍ يُسْتَطَاعُ</foreign></L>
 </quote>
 [<hi rend="ital">And the preventing thee from having her</hi> (referring to a mare) <hi rend="ital">is a thing that is possible</hi>]: but
@@ -547,9 +547,9 @@ and one does not say, <foreign lang="ar">لَقِيتُ مِنْهُ أَسَد�
 [or <foreign lang="ar">رَأَيْتُ مِنْهُ أَسَدًا</foreign>, as above, or <foreign lang="ar">بَحْرًا</foreign>,] but when
 meaning to express an intensive degree of boldness, or of generosity. (Mughnee.) It is also
 redundantly prefixed to the corroborative <foreign lang="ar">نَفْسٌ</foreign>
-and <foreign lang="ar">عَيْنٌ</foreign>: and some hold it to be so in <foreign lang="ar">يَتَرَبَّنَ</foreign>
-<foreign lang="ar">بِأَنْفُسِهِنَّ</foreign> [as meaning <hi rend="ital">Shall themselves wait</hi> (Kur
-ii. 228 and 234)]: but this presents matter for
+and <foreign lang="ar">عَيْنٌ</foreign>: and some hold it to be so in <foreign lang="ar">يَتَرَبَّصْنَ بِأَنْفُسِهِنَّ</foreign>
+[as meaning <hi rend="ital">Shall themselves wait</hi> (Kur
+2. 228 and 234)]: but this presents matter for
 consideration; because the affixed pronoun in the
 nom. case, [whether expressed, as in this instance,
 in which it is the final syllable <foreign lang="ar">نَ</foreign>, or implied
@@ -601,7 +601,7 @@ a butt with an arrow, <foreign lang="ar">أَنَا بهَا أَنَا بهَا
 it!</hi>]. (Sh, T.) And in another trad., Mohammad
 is related to have said to one who told him of
 a man's having committed an unlawful action,
-<foreign lang="ar">لَعَلَّكَ بِذٰلِكِ</foreign>, meaning <foreign lang="ar">لَعَلَّكَ صَاحِبُ الأَمْرِ</foreign> [<hi rend="ital">May-be
+<foreign lang="ar">لَعَلَّكَ بِذٰلِكَ</foreign>, meaning <foreign lang="ar">لَعَلَّكَ صَاحِبُ الأَمْرِ</foreign> [<hi rend="ital">May-be
 thou art the doer of that thing</hi>]. (T.) And in
 another, he is related to have said to a woman
 brought to him for having committed adultery or
@@ -616,7 +616,7 @@ One says also, <foreign lang="ar">مَنْ لِى بِكَذَا</foreign>, mean
 be responsible, answerable, amenable,</hi> or <hi rend="ital">surety,
 to me for such a thing?</hi> (Har p. 126: and the
 like is said in p. 191.) And similar to this is
-the saying, <foreign lang="ar">كَأَنِّى بِكَ</foreign>, meaning <foreign lang="ar">كَأَنِّي أَبْصُرُ بِكَ</foreign>
+the saying, <foreign lang="ar">كَأَنِّى بِكَ</foreign>, meaning <foreign lang="ar">كَأَنِّى أَبْصُرُ بِكَ</foreign>
 [It is <hi rend="ital">as though I saw thee</hi>]; i. e. I know from
 what I witness of thy condition to-day how thy
 condition will be to-morrow; so that it is as
@@ -653,9 +653,9 @@ denotes <hi rend="ital">Two.</hi>]
     <form type="R Q">
       <itype>R. Q. 1</itype> 
       <orth orig="" extent="full" lang="ar">بَأْبَأَهُ</orth></form>, (Lth, T, S, M, K,) and <foreign lang="ar">بأبأ بِهِ</foreign>,
-(Fr, M, K,) inf. n. <foreign lang="ar">بَأْبَآَةُ</foreign> (Lth, T, M) and <foreign lang="ar">بَئْبَآءٌ</foreign>;
-(Fr, M;) [as also <foreign lang="ar">بأَبِى</foreign>; see art. <foreign lang="ar">بِأَبِى أَنْتَ</foreign>;] <hi rend="ital">He said to
-him,</hi> <foreign lang="ar">بِأَبِي</foreign>, (Fr, M,) or <foreign lang="ar">بأَبَا</foreign>, (M,) or <foreign lang="ar">بِأَبِى أَنْتَ</foreign>,
+(Fr, M, K,) inf. n. <foreign lang="ar">بَأْبَآَةُ</foreign> (Lth, T, M) and <foreign lang="ar">بِئْبَآءٌ</foreign>;
+(Fr, M;) [as also <foreign lang="ar">أَبَّاهُ</foreign>; see art. <foreign lang="ar">ابو</foreign>;] <hi rend="ital">He said to
+him,</hi> <foreign lang="ar">بِأَبِى</foreign>, (Fr, M,) or <foreign lang="ar">بِأَبَا</foreign>, (M,) or <foreign lang="ar">بِأَبِى أَنْتَ</foreign>,
 (Lth, T, K,) [all meaning <hi rend="ital">With my father mayest
 thou be ransomed!</hi> or] meaning <foreign lang="ar">أَفْدِيكَ بِأَبِى</foreign> [<hi rend="ital">I
 will ransom thee with my father</hi>]; (Lth, T;) or
@@ -726,7 +726,7 @@ IKh cites from Jereer,
 [<hi rend="ital">Of</hi> a race <hi rend="ital">the source of glory, and the very heart
 of generosity,</hi> or <hi rend="ital">nobleness</hi>]: but Aboo-'Alee El-
 Kálee quotes the words thus;
-<quote><L> <foreign lang="ar">فِى ضِئْضِئِ المَجْدِ وَ بُؤْبُوْءِ الكَرَمْ</foreign></L>
+<quote><L> <foreign lang="ar">فِى ضِئْضِئِ المَجْدِ وَ بُؤْبُوْءِ</foreign> ↓ <orth type="arrow" lang="ar">الكَرَمْ</orth></L>
 </quote>
 [which may be rendered, <hi rend="ital">of</hi> a race <hi rend="ital">the source of
 glory, and the very root of generosity</hi>]; whence
@@ -741,7 +741,7 @@ thing;] like <foreign lang="ar">بُحْبُوحٌ</foreign>. (TA.) ―
 The <hi rend="ital">pupil,</hi> or <hi rend="ital">apple,</hi> or the <hi rend="ital">image that is seen
 reflected in the black,</hi> (<foreign lang="ar">عَيْر</foreign> AA, T, or <foreign lang="ar">إِنْسَان</foreign> K,)
 of the eye. (AA, T, K.) Whence the saying,
-<foreign lang="ar">هُوَ أَعَزُّ عَلَىِّ مِنْ بُؤْبُؤِ عَيْنِى</foreign> [<hi rend="ital">He is dearer to me
+<foreign lang="ar">هُوَ أَعَزُّ عَلَىَّ مِنْ بُؤْبُؤِ عَيْنِى</foreign> [<hi rend="ital">He is dearer to me
 than the apple of my eye;</hi> a saying common in
 the present day, with the substitution of <foreign lang="ar">إِنْسَان</foreign>
 for <foreign lang="ar">بُؤْبُؤ</foreign>]. (TA.) ― 
@@ -799,7 +799,7 @@ called</hi>] <foreign lang="ar">كُحْل</foreign> <hi rend="ital">is kept:</h
 [i. e. <hi rend="ital">Babel</hi>], <hi rend="ital">a place</hi> [<hi rend="ital">well known</hi>] <hi rend="ital">in El-'Irák:</hi>
 it is an epithet applied to enchantment, [which is
 said to have been there taught by two fallen
-angels, Hároot and Mároot, (see the Kur ii. 96,)]
+angels, Hároot and Mároot, (see the Quran 2. 96,)]
 and to wine. (S, K, TA.) ― 
        <milestone unit="sense" n="2"/>-b2-  And hence, (TA,)
 <hi rend="ital">Poison:</hi> [and, accord to the CK, <hi rend="ital">wine;</hi>] as also
@@ -844,7 +844,7 @@ Msb, K,) but the former alone is mentioned by
 Th in the Fs, and is the chaste word, (TA,)
 arabicized, from the Persian <foreign lang="ar">بَاهَا</foreign>, (S,) <hi rend="ital">A sort,</hi> or
 <hi rend="ital">species,</hi> (S, K,) of food, or viands. (S.) Hence
-the saying, <foreign lang="ar">اِجْعَلِ البَأْجَات بَإْجاً وَاحِدًا</foreign> [<hi rend="ital">Make thou
+the saying, <foreign lang="ar">اِجْعَلِ البَأْجَات بَأْجاً وَاحِدًا</foreign> [<hi rend="ital">Make thou
 the sorts,</hi> or <hi rend="ital">species,</hi> of food, or viands, to be <hi rend="ital">one
 sort,</hi> or <hi rend="ital">species</hi>]: (S, K:) occurring in a trad., in
 which it is without <foreign lang="ar">ء</foreign> in each case, accord. to
@@ -856,7 +856,7 @@ brought, and their contents were emptied into
 one; he saying the words above. (Marginal note
 in a copy of the S.) IKh says that a man would
 bring various sorts [of food], and one would say,
-<foreign lang="ar">اِجْعَلْهَا بأْجاً وَاحدِا</foreign> [<hi rend="ital">Make thou them</hi> to be <hi rend="ital">one
+<foreign lang="ar">اِجْعَلْهَا بأْجاً وَاحِدًا</foreign> [<hi rend="ital">Make thou them</hi> to be <hi rend="ital">one
 sort</hi>]. (TA.) The pl. is [<foreign lang="ar">بَأْجَاتٌ</foreign>, as shown above,
 as though the sing. were <foreign lang="ar">بَأْجَةٌ</foreign>, and] <foreign lang="ar">أَبْوَاجٌ</foreign>. (Msb,
 TA.) <foreign lang="ar">لَأَجْعَلَنَّ النَّاسَ كُلَّهُمْ بَأْجًا وَاحِدًا</foreign> is [likewise]
@@ -890,7 +890,7 @@ uniform thing.</hi> (Fr.)
     <form>
       <orth orig="" extent="full" lang="ar">بَاذَنْجَانٌ</orth></form>, [or <foreign lang="ar">بَاذِنْجَانٌ</foreign>, commonly pronounced
 in the present day <foreign lang="ar">بَادنْجَان</foreign> and <foreign lang="ar">بَيْدِنْجَان</foreign> and
-<foreign lang="ar">بِيدِنْجَان</foreign>, from the Persian <foreign lang="ar">بَادِنْكَانْ</foreign>,] a word of
+<foreign lang="ar">بِيدِنْجَان</foreign>, from the Persian <foreign lang="ar">بَادِنْݣَانْ</foreign>,] a word of
 well-known meaning, often mentioned by the
 author of the K, [in explaining the words <foreign lang="ar">أَنَبٌ</foreign>
 and <foreign lang="ar">حَدَقٌ</foreign> and <foreign lang="ar">مَغْدٌ</foreign> and <foreign lang="ar">وَغْدٌ</foreign>,] but not in its proper
@@ -899,7 +899,7 @@ place in the lexicon. (TA.) [It signifies The
 the <hi rend="ital">black,</hi> distinguished by the epithet <foreign lang="ar">أَسْوَدُ</foreign>, and
 the <hi rend="ital">white,</hi> distinguished by the epithet <foreign lang="ar">أَبْيَضُ</foreign>.
 And the <hi rend="ital">solanum lycopersicum,</hi> or <hi rend="ital">solanum Aethiopicum;</hi> also called <hi rend="ital">love-apple,</hi> and so by the
-Arabs, <foreign lang="ar">تُفَّاحٌ الحُبٌِّ</foreign>; and <hi rend="ital">golden apple,</hi> <foreign lang="ar">تُفَّاحٌ ذَهَبِىٌّ</foreign>;
+Arabs, <foreign lang="ar">تُفَّاحُ الحُبٌِّ</foreign>; and <hi rend="ital">golden apple,</hi> <foreign lang="ar">تُفَّاحٌ ذَهَبِىٌّ</foreign>;
 and <hi rend="ital">tomato;</hi> and distinguished from the former
 species by the epithet <foreign lang="ar">أَحْمَرُ</foreign>, and by the appellation
 <foreign lang="ar">باذنجان قُوطَة</foreign>.] ― 
@@ -914,7 +914,7 @@ species by the epithet <foreign lang="ar">أَحْمَرُ</foreign>, and by the
       <itype>1</itype> 
       <orth orig="" extent="full" lang="ar">بَأَرَ</orth></form>, (S, M, K,) aor. 
     <form n="infl">
-      <orth orig="Ba" lang="ar">بَاَ^َ</orth></form>, (M, K,) <hi rend="ital">He sunk,</hi> or
+      <orth orig="Ba" lang="ar">يَبْأَرُ</orth></form>, (M, K,) <hi rend="ital">He sunk,</hi> or
 <hi rend="ital">dug,</hi> (S, M, K,) a well; (S, M;) as also ↓ <orth type="arrow" lang="ar">ابتأر</orth>.
 (M, K.) ― 
        <milestone unit="sense" n="2"/>-b2-  Also, aor. as above, inf. n. <foreign lang="ar">بَأْرٌ</foreign>, <hi rend="ital">He
@@ -987,9 +987,9 @@ K.) [See 1.] ＝
 (T, S, M, K.)
 
   </entryFree>
-<entryFree id="n1665" key="بَأّ==رٌ" type="main">
+<entryFree id="n1665" key="بَأّرٌ" type="main">
     <form>
-      <orth orig="" extent="full" lang="ar">بَأّ==رٌ</orth></form>, (T, TA, and so in some copies of the K,) or
+      <orth orig="" extent="full" lang="ar">بَأّرٌ</orth></form>, (T, TA, and so in some copies of the K,) or
 <foreign lang="ar">أَبَّارٌ</foreign>, (as in other copies of the K and so in the
 CK,) the latter formed by transposition, and the
 former [said to have been] not heard, (M,) <hi rend="ital">A
@@ -1073,7 +1073,7 @@ journeying upon an ass of which it is said Very
 evil,</hi> &amp;c., <hi rend="ital">is the ass</hi>]. (I 'Ak p. 232.) Zj says that
 when it is followed by <foreign lang="ar">مَا</foreign>, then <foreign lang="ar">مَا</foreign>, with it, is
 regarded as occupying the place of an indeterminate noun; [namely, <foreign lang="ar">شَيْئًا</foreign>, as a specificative; as
-in the Kur ii. 84,<foreign lang="ar">بِئْسَ مَا ٱشْتَرَوا بِهِ أَنْفُسَهُمْ</foreign>, or <foreign lang="ar">بِئْسَمَا</foreign>,
+in the Quran 2. 84,<foreign lang="ar">بِئْسَ مَا ٱشْتَرَوا بِهِ أَنْفُسَهُمْ</foreign>, or <foreign lang="ar">بِئْسَمَا</foreign>,
 &amp;c., <hi rend="ital">Very evil,</hi> &amp;c., <hi rend="ital">as a thing, is that for which
 they have sold,</hi> or <hi rend="ital">exchanged, themselves:</hi>] (TA:)
 but some say that it is the agent, and is a determinate noun; and this is the opinion of Ibn-Kharoof, which he ascribes to Sb. (I 'Ak ubi
@@ -1107,7 +1107,7 @@ the same sense. (TA.)
 was distressed by it,</hi> or <hi rend="ital">at it;</hi> it does not signify
 dislike: (IB, TA:) or <hi rend="ital">he grieved at it,</hi> (S, M,
 A,) <hi rend="ital">and humbled and abased himself:</hi> so in the
-Kur xi. 38 and xii. 69. (M, A, TA.) It is said
+Quran 11. 38 and 12. 69. (M, A, TA.) It is said
 of a man when a thing that he dislikes becomes
 known to him. (AZ, TA.)
 
@@ -1232,7 +1232,7 @@ both of which are app. wrong.] ―
 <pb n="147"/>
 places. ― 
        <milestone unit="sense" n="2"/>-b2-  Zj explains it as signifying, in the
-Kur vi. 42, <hi rend="ital">Hunger.</hi> (M, TA. *) ― 
+Quran 6. 42, <hi rend="ital">Hunger.</hi> (M, TA. *) ― 
        <milestone unit="sense" n="2"/>-b3-  Also The
 <hi rend="ital">act of beating,</hi> or <hi rend="ital">striking.</hi> (Lth, TA.)
 
@@ -1261,7 +1261,7 @@ description, (M,) and ↓ <orth type="arrow" lang="ar">بِئْسٌ</orth>, (M, 
 (M,) and ↓ <orth type="arrow" lang="ar">بَيْئَسٌ</orth>, (M, K,) and ↓ <orth type="arrow" lang="ar">بَئْئَسٌ</orth>, (M,)
 and ↓ <orth type="arrow" lang="ar">بَيِّسٌ</orth>, and ↓ <orth type="arrow" lang="ar">بَيْسٌ</orth>, which last, however, is
 of no authority, (M,) or ↓ <orth type="arrow" lang="ar">بِيسٌ</orth>, and <foreign lang="ar">بَيِيسٌ</foreign>, with
-the changed into <foreign lang="ar">ى</foreign>, (TA,) <hi rend="ital">A vehement punishment:</hi> (S, M, K:) so in the Kur vii. 165. (TA.)
+the changed into <foreign lang="ar">ى</foreign>, (TA,) <hi rend="ital">A vehement punishment:</hi> (S, M, K:) so in the Quran 7. 165. (TA.)
 
   </entryFree>
 <entryFree id="n1679" key="بِئِيسٌ" type="main">
@@ -1787,7 +1787,7 @@ from fatigue, or perished.</hi> (TA.)
   <entryFree id="n1703" key="بَتَرَ" type="main">
     <form>
       <itype>1</itype> 
-      <orth orig="" extent="full" lang="ar">بَتَرَ</orth></form>, (T, S, M, &amp;c.,) aor 
+      <orth orig="" extent="full" lang="ar">بَتَرَ</orth></form>, (T, S, M, &amp;c.,) aor. 
     <form n="infl">
       <orth orig="Bu" lang="ar">بَتُرَ</orth></form>, (M, Mgh, Msb,)
 inf. n. <foreign lang="ar">بَتْرٌ</foreign>; (T, S, M, &amp;c.;) and ↓ <orth type="arrow" lang="ar">ابتر</orth>; (T;) <hi rend="ital">He
@@ -2108,7 +2108,7 @@ accus. case, as though the speaker said, <foreign lang="ar">أَعْنِيكُم
 manner, ↓ <orth type="arrow" lang="ar">بتّكهُ</orth>, (K,) inf. n. <foreign lang="ar">تَبْتِيكٌ</foreign>; (TA;) but <foreign lang="ar">بتَك</foreign>
 is with teshdeed to denote muchness, or frequency,
 of the action, or its application to many objects.
-(S, TA.) <foreign lang="ar">آذَانَ الأَنْعَامِ</foreign>, in the Kur [iv. 118],
+(S, TA.) <foreign lang="ar">آذَانَ الأَنْعَامِ</foreign>, in the Quran [iv. 118],
 accord. to Abu-l-'Abbás, (TA,) means <hi rend="ital">And they
 shall assuredly cut,</hi> or <hi rend="ital">cut off, the ears of the
 cattle:</hi> (S, * TA:) or, as Az thinks, <hi rend="ital">slit the ears
@@ -2432,7 +2432,7 @@ A, L) <foreign lang="ar">عَلَ الصَّيْدِ</foreign> [<hi rend="ital">
 Msb,) <hi rend="ital">God spread,</hi> or <hi rend="ital">dispersed, mankind,</hi> or
 <hi rend="ital">the beings whom He created,</hi> <foreign lang="ar">فِي الأَرْضِ</foreign> [<hi rend="ital">in the
 earth</hi>]: (T, A:) or <hi rend="ital">God created them.</hi> (Msb.)
-<foreign lang="ar">وَبَثٌّ مِنْهُمَا رِحَالًا كثيرًا وَنِسَآءٌ</foreign>, in the Kur [iv. 1.],
+<foreign lang="ar">وَبَثٌّ مِنْهُمَا رِحَالًا كثيرًا وَنِسَآءٌ</foreign>, in the Quran [iv. 1.],
 means <hi rend="ital">And spread,</hi> or <hi rend="ital">dispersed, and multiplied,
 from them two, many men, and women.</hi> (T.)
 You say also, <foreign lang="ar">بُثَّتِ البُسُطُ</foreign> <hi rend="ital">The carpets were spread.</hi>
@@ -2554,7 +2554,7 @@ grief,</hi> or <hi rend="ital">sorrow, became violent,</hi> or <hi rend="ital">i
   </entryFree>
 <entryFree id="n1748" key="زَرِابِىُّ مَبْثُوثَةٌ" type="main">
     <form>
-      <orth orig="" extent="full" lang="ar">زَرِابِىُّ مَبْثُوثَةٌ</orth></form> [in the Kur lxxxviii. 16] means
+      <orth orig="" extent="full" lang="ar">زَرِابِىُّ مَبْثُوثَةٌ</orth></form> [in the Quran 88. 16] means
 <hi rend="ital">Goodly carpets,</hi> or <hi rend="ital">the like,</hi> (Bd,) <hi rend="ital">spread:</hi> (A,
 Bd:) or, accord. to Fr, <hi rend="ital">many in number.</hi> (T.)
 
@@ -3691,7 +3691,7 @@ often say, <foreign lang="ar">بَحَثَ فِيهِ</foreign> [meaning <hi ren
 <hi rend="ital">inquired, into it; investigated, scrutinized,</hi> or
 <hi rend="ital">examined, it</hi>]: (TA:) one says, <foreign lang="ar">بَحَثَ فِى الأَرْضِ</foreign>
 <hi rend="ital">he dug up the earth;</hi> and thus it is used in the
-Kur v. 34: (Msb:) but accord. to the usage
+Quran 5. 34: (Msb:) but accord. to the usage
 commonly known and obtaining, (TA,) you say,
 <foreign lang="ar">بَحَثَ عَنْهُ</foreign>, (S, A, L, Msb, K,) aor. as above, (L,
 Msb, K,) and so the inf. n.; (L, Msb;) as well
@@ -3856,7 +3856,7 @@ known where he was.</hi> (S.)
 or <hi rend="ital">pulled,</hi> a thing <hi rend="ital">out,</hi> or <hi rend="ital">forth;</hi> and <hi rend="ital">uncovered</hi>
 it, <hi rend="ital">laid</hi> it <hi rend="ital">open,</hi> or <hi rend="ital"> exposed</hi> it; (Abu-l-Jarráh, S,
 K;) as also <foreign lang="ar">بَعْثَرَ</foreign>. (Abu-l-Jarráh, S.) It is said
-in the Kur [c. 9], accord. to one reading, <foreign lang="ar">بُعْثِرَ</foreign>
+in the Quran [c. 9], accord. to one reading, <foreign lang="ar">بُعْثِرَ</foreign>
 <foreign lang="ar">بُحْثِرَ مَا فِى القُبُورِ</foreign>, [instead of <foreign lang="ar">بُعْثِرَ</foreign>,] meaning
 [<hi rend="ital">When that which is in the graves is taken forth
 and uncovered;</hi> i. e.,] <hi rend="ital">when the dead are raised
@@ -4054,7 +4054,7 @@ plants, and waters;</hi> or the <hi rend="ital">part of a country
 near to water;</hi> syn. <foreign lang="ar">رِيفٌ</foreign>: (Aboo-' Alee, K:) and
 the dim. ↓ <orth type="arrow" lang="ar">بُحَيْرٌ</orth> is used in the same sense; or,
 by poetic licence, for ↓ <orth type="arrow" lang="ar">بُحَيْرَةٌ</orth>. (TA.) So in the
-Kur [xxx. 40], <foreign lang="ar">ظَهَرَ الفَسَادُ فِى البَرِّ وَ البَحْرِ</foreign> (assumed tropical:) [<hi rend="ital">Corruption hath appeared in the desert,</hi> or <hi rend="ital">deserts,</hi>
+Quran [xxx. 40], <foreign lang="ar">ظَهَرَ الفَسَادُ فِى البَرِّ وَ البَحْرِ</foreign> (assumed tropical:) [<hi rend="ital">Corruption hath appeared in the desert,</hi> or <hi rend="ital">deserts,</hi>
 <pb n="157"/>
 <hi rend="ital">and in the land of seed-produce and fruitfulness;</hi>
 &amp;c.]: (Aboo-'Alee, TA:) or the meaning here is,
@@ -4254,7 +4254,7 @@ relative to the <foreign lang="ar">بحيرة</foreign> and the <foreign lang="a
 who altered the religion of Ishmael, was 'Amr the
 son of Loheí the son of Kama'ah the son of
 Jundab; and these practices are forbidden in the
-Kur v. 102. (TA.)
+Quran 5. 102. (TA.)
 
   </entryFree>
 <entryFree id="n1846" key="بُحَيْرَةٌ" type="main">
@@ -4700,7 +4700,7 @@ You say, <foreign lang="ar">بَخَسَ الكَيَّالُ</foreign> [for <fo
 <hi rend="ital">The measurer made defective measure</hi>]. (A.)
 And of a just sale, <foreign lang="ar">لَا بَخْسَ فِيهِ وَ لَا شَطَطَ</foreign>, (S,) or
 <foreign lang="ar">وَلَا شُطُوطَ</foreign>, (T, TA,) [<hi rend="ital">There is no deficiency in it
-nor excess.</hi>] And it is said in the Kur [lxxii. 13],
+nor excess.</hi>] And it is said in the Quran [lxxii. 13],
 <foreign lang="ar">فَلَا يَخَافُ بَخْسًا وَلَا رَهَقًا</foreign> <hi rend="ital">He shall not fear diminution</hi> of the reward of his actions, <hi rend="ital">nor wrong,</hi> or
 <hi rend="ital">injustice.</hi> (TA.) And in this sense, [as also in
 the next,] the verb is doubly trans. (Msb.) You
@@ -4728,7 +4728,7 @@ sale.</hi> (K.)
 <entryFree id="n1888" key="بَخْسٌ" type="main">
     <form>
       <orth orig="" extent="full" lang="ar">بَخْسٌ</orth></form> <hi rend="ital">Deficient; defective.</hi> (S.) It is said in
-the Kur [xii. 20], <foreign lang="ar">وَشَرَوْهُ بِثَمَنٍ بَخْسٍ</foreign> <hi rend="ital">And they
+the Quran [xii. 20], <foreign lang="ar">وَشَرَوْهُ بِثَمَنٍ بَخْسٍ</foreign> <hi rend="ital">And they
 sold him for a deficient,</hi> or <hi rend="ital">defective, price:</hi> (S, *
 Msb, * TA:) or <hi rend="ital">for a price less than was incumbent:</hi> or <hi rend="ital">for an insufficient price:</hi> or <hi rend="ital">for an
 unjust price;</hi> accord. to Zj; because the sale of a
@@ -4896,7 +4896,7 @@ found <foreign lang="ar">البخاع</foreign>, with <foreign lang="ar">ب</for
   </entryFree>
 <entryFree id="n1894" key="فَلَعَلَّكَ بَاخِعٌ نَفْسَكَ" type="main">
     <form>
-      <orth orig="" extent="full" lang="ar">فَلَعَلَّكَ بَاخِعٌ نَفْسَكَ</orth></form>, in the Kur [xviii. 5], (S,)
+      <orth orig="" extent="full" lang="ar">فَلَعَلَّكَ بَاخِعٌ نَفْسَكَ</orth></form>, in the Quran [xviii. 5], (S,)
 means (tropical:)  <hi rend="ital">And may-be thou wilt hill thyself</hi> (S, K)
 <hi rend="ital">with grief,</hi> (S,) being beyond measure eager for
 their becoming Muslims. (K, TA.) These words
@@ -5728,11 +5728,11 @@ to it;</hi> syn. <foreign lang="ar">قَدَّمَهُ</foreign>: (Mgh, Msb:) in
 the Ansár, <foreign lang="ar">بَدِئَ به</foreign> is used in this sense of <foreign lang="ar">قدّمه</foreign>;
 (M;) or <foreign lang="ar">بَدِىَ به</foreign> [without <foreign lang="ar">ء</foreign>]; (IKtt, TA; [see
 <foreign lang="ar">بَدةءٌ</foreign>;]) [and <foreign lang="ar">بَدَى به</foreign>; see art. <foreign lang="ar">بدى</foreign>;] and <foreign lang="ar">ابدأ</foreign> ↓ <orth type="arrow" lang="ar">به</orth>
-signifies the same. (Msb.) [So in the Kur xii. 76,
+signifies the same. (Msb.) [So in the Quran 12. 76,
 <foreign lang="ar">فَبَدَأَ بِأَوْعِيَتِهِمْ قَبْلَ وِعَآءِ أَخِيهِ</foreign> <hi rend="ital">And he began with
 their bags, before the bags of his brother.</hi> And
 <foreign lang="ar">بَدَأَهُ</foreign> is sometimes used in the sense of <foreign lang="ar">بَدَأَ بِهِ</foreign>;
-whence, in the Kur ix. 13, <foreign lang="ar">وَهُمْ بَدَؤُوكُمْ أَوَّلَ مَرَّةٍ</foreign>
+whence, in the Quran 9. 13, <foreign lang="ar">وَهُمْ بَدَؤُوكُمْ أَوَّلَ مَرَّةٍ</foreign>
 <hi rend="ital">And they,</hi> it was, <hi rend="ital">began with you the first time;</hi>
 i. e., as Bd says, by acting with hostility, and
 fighting.] You say also, <foreign lang="ar">بَدَّا ثُمَّ عَادَ</foreign> <hi rend="ital">He began,</hi> or
@@ -5760,9 +5760,9 @@ do not have for their objects corporeal things.
 (Mgh.) [El-Mutanakhkhil El-Hudhalee uses the
 phrase <foreign lang="ar">سَأَبْدُؤُهُمْ بِمَشْمَعِةٍ</foreign> <hi rend="ital">I will begin with them</hi>
 (meaning his guests) <hi rend="ital">by sporting and jesting;</hi>
-like the phrase in the Kur ix. 13 cited above:
+like the phrase in the Quran 9. 13 cited above:
 but different from these is the saying in the Kur
-xxxii. 6, <foreign lang="ar">وَبَدَأَ خَلْقِ ٱلْإِنْسَانِ مِنْ طِينٍ</foreign> <hi rend="ital">And He
+32. 6, <foreign lang="ar">وَبَدَأَ خَلْقِ ٱلْإِنْسَانِ مِنْ طِينٍ</foreign> <hi rend="ital">And He
 began the creation of man from clay.</hi>] The
 saying, ↓ <orth type="arrow" lang="ar">فَإِنْ كَانَ السَّبُعُ ٱبْتَدَأَهُ</orth> means <foreign lang="ar">ابتدأ أَخْذَهُ</foreign>
 <foreign lang="ar">أَوْ عَضَّهُ</foreign> [<hi rend="ital">But if the beast,</hi> or <hi rend="ital">bird, of prey has
@@ -5781,7 +5781,7 @@ the agent; (Msb;) and ↓ <orth type="arrow" lang="ar">ابتدأهُ</orth>. (M
 created,</hi> or <hi rend="ital">brought into existence, mankind,</hi> or
 <hi rend="ital">the created beings:</hi> (M, Msb, K:) both signify
 the same. (S.) <foreign lang="ar">مَا يُبْدِئُ</foreign> ↓ <orth type="arrow" lang="ar">البَاطِلُ وَمَا يُعِيدُ</orth> [in
-the Kur xxxiv. 48, means <hi rend="ital">What doth that which
+the Quran 34. 48, means <hi rend="ital">What doth that which
 is false,</hi> or <hi rend="ital">the Devil, originate,</hi> or <hi rend="ital">produce in the
 first instance? and what doth it,</hi> or <hi rend="ital">he, reproduce</hi>
 after it hath perished?]: Zj says that <foreign lang="ar">مَا</foreign>, here, is
@@ -5977,7 +5977,7 @@ also, <foreign lang="ar">بَادِىَ الرأى</foreign>, without; meaning <
 first of what appeared thereof;</hi> [or <hi rend="ital">at the first
 opinion's presenting itself;</hi>;] in which case, the
 phrase does not belong to this art. [but to art.
-<foreign lang="ar">بدو</foreign>]: it occurs in the Kur xi. 29: (M:) AA
+<foreign lang="ar">بدو</foreign>]: it occurs in the Quran 11. 29: (M:) AA
 alone there read <foreign lang="ar">بَادِئَ</foreign>, with; all the other
 readers pronounced it without <foreign lang="ar">ء</foreign> (TA.) ― 
        <milestone unit="sense" n="2"/>-b3-  Also
@@ -6325,7 +6325,7 @@ full age]. (A.) And <foreign lang="ar">بَادَرَ كِبَرَ اليَتِ�
 to be before the orphan's attaining to full age in
 expending his property</hi>]; said of a guardian; <hi rend="ital">i. q.</hi>
 <foreign lang="ar">أَبْدَرَ</foreign> ↓ <orth type="arrow" lang="ar">فِي مَالِ اليَتِيمِ</orth>: (K:) and thus, <foreign lang="ar">بِدَارًاأَنْ</foreign>
-<foreign lang="ar">يَكْبَرُوا</foreign>, in the Kur [iv. 5], means <hi rend="ital">hastening to be
+<foreign lang="ar">يَكْبَرُوا</foreign>, in the Quran [iv. 5], means <hi rend="ital">hastening to be
 before their attaining to full age</hi> in expending
 their property. (Bd, * Jel.) And <foreign lang="ar">بادرهُ الغَايَةَ</foreign> and
 <foreign lang="ar">إِلَى الغَايَةِ</foreign> [<hi rend="ital">He strove with him in hastening,</hi> or
@@ -6613,7 +6613,7 @@ the pronoun;) as also ↓ <orth type="arrow" lang="ar">ابتدعه</orth>; (Msb
       <orth orig="Ba" lang="ar">بَدَعَ</orth></form>, (K, TA,)
 inf. n. <foreign lang="ar">بَدْعٌ</foreign>; (TA;) but <foreign lang="ar">أَبْدَعَ</foreign> is more commonly
 used than <foreign lang="ar">بَدَعَ</foreign>. (TA.) You say, <foreign lang="ar">ابدع ٱللّٰهُ الخَلْقَ</foreign>
-<hi rend="ital">God created the creation, not after any similitude.</hi> (Msb.) And in the Kur [lvii. 27], we find,
+<hi rend="ital">God created the creation, not after any similitude.</hi> (Msb.) And in the Quran [lvii. 27], we find,
 ↓ <orth type="arrow" lang="ar">وَ رَهْبَانِيَّةً ٱبْتَدَعُوهَا</orth> <hi rend="ital">And monkery which they originated,</hi> or <hi rend="ital">innovated.</hi> (TA.) And you say, ↓ <orth type="arrow" lang="ar">بَدَعَ</orth>
 <foreign lang="ar">الرَّكِيَّةَ</foreign>, (IDrd, K,) inf. n. <foreign lang="ar">بَدْعٌ</foreign>, (IDrd,) <hi rend="ital">He produced,</hi> or <hi rend="ital">fetched out, by his labour in digging,
 the water of the well;</hi> (IDrd, K;) and <hi rend="ital">originated
@@ -6720,7 +6720,7 @@ thing, or an affair: (Msb:) pl. <foreign lang="ar">أَبْدَاعٌ</foreign>.
 S.) You say, <foreign lang="ar">فُلَانٌ بِدْعٌ فِى هٰذا الأَمْرِ</foreign>, (S, Msb,)
 i. e. ↓ <orth type="arrow" lang="ar">بَدِيعٌ</orth>, (S,) meaning <hi rend="ital">Such a one is the first
 doer in this affair; the first who has done it.</hi>
-(Msb.) And hence the saying in the Kur [xlvi. 8],
+(Msb.) And hence the saying in the Quran [xlvi. 8],
 <foreign lang="ar">قُلْ مَا كُنْتُ بِدْعًا مِنَ الرُّسُلِ</foreign> (S, Msb, TA) <hi rend="ital">Say
 thou, I am not the first who has been sent of
 the apostles:</hi> (Msb, TA:) or the meaning is, <hi rend="ital">I
@@ -6896,12 +6896,12 @@ place: (Fr, T, TA:) and this verb is also made
 doubly trans. by itself, like <foreign lang="ar">بَدَّلْتُ</foreign>, (Msb,) which
 is used in the sense of <foreign lang="ar">أَبْدَلْتُ</foreign> [as shown above];
 (Mbr, T, TA;) for instance, where it is said, [in
-the Kur lxvi. 5,] <foreign lang="ar">عَسَى رَبُّهُ إِنْ طَلَّقَكُنَّ أَنْ يُبْدِلَهُ</foreign>
+the Quran 66. 5,] <foreign lang="ar">عَسَى رَبُّهُ إِنْ طَلَّقَكُنَّ أَنْ يُبْدِلَهُ</foreign>
 <foreign lang="ar">أَزْوَجًا خَيْرًا مِنْكُنَّ</foreign> [<hi rend="ital">May-be, his Lord, if he divorce
 you, will give him in exchange wives better than
 you</hi>]; accord to one reading, <foreign lang="ar">يُبَدِّلَهُ</foreign> (Msb.) An
 ex. of the latter of these two verbs in the sense
-of the former is the saying in the Kur [xxv. 70],
+of the former is the saying in the Quran [xxv. 70],
 <foreign lang="ar">يُبَدِّلُ ٱللّٰهُ سَيِّآتِهِمْ حَسَنَاتٍ</foreign> [<hi rend="ital">God will change their
 evil deeds by substituting for them good deeds</hi>];
 i. e. will cancel the evil deeds and put in their
@@ -6917,9 +6917,9 @@ different. (Mbr, T, TA.) You say also, <foreign lang="ar">بَدَّلَهُ ٱ�
 <foreign lang="ar">مَنَ الخَوْفِ أَمْنًا</foreign> [<hi rend="ital">God gave him in exchange for
 fear,</hi> or <hi rend="ital">in lieu of fear, security</hi>]. (S.) [And
 <foreign lang="ar">بَدَّلَهُ بِهِ كَذَا</foreign> <hi rend="ital">He gave him in exchange for it,</hi>
-or <hi rend="ital">in lieu of it, such a thing:</hi> see Kur xxxiv. 15.
+or <hi rend="ital">in lieu of it, such a thing:</hi> see Quran 34. 15.
 And <foreign lang="ar">بدّل مَكَانَهُ كَذَا</foreign> <hi rend="ital">He gave in exchange for it,</hi>
-or <hi rend="ital">in lieu of it, such a thing:</hi> see Kur vii. 93
+or <hi rend="ital">in lieu of it, such a thing:</hi> see Quran 7. 93
 and xvi. 103.] <foreign lang="ar">بَدَّلَ حُسْنًا بَعْدَ سُوْءٍ</foreign>, in the Kur
 [xxvii. 11], means <hi rend="ital">He hath done good [by way
 of exchange after evil</hi>]; i. e., <hi rend="ital">repented;</hi> (Jel;)
@@ -7023,13 +7023,13 @@ the place of another.</hi> (S.) And <foreign lang="ar">استبدل ثَوْبً
 <foreign lang="ar">ثَوْبٍ</foreign> [<hi rend="ital">He took a garment,</hi> or <hi rend="ital">piece of cloth, in the
 place,</hi> or <hi rend="ital">in lieu, of a garment,</hi> &amp;c.]; and <foreign lang="ar">أَخًا</foreign>
 <foreign lang="ar">مَكَانَ أَخٍ</foreign> [<hi rend="ital">a brother in the place,</hi> or <hi rend="ital">in lieu, of a
-brother</hi>]. (Lth, T.) It is said in the Kur [ii. 58],
+brother</hi>]. (Lth, T.) It is said in the Quran [ii. 58],
 <foreign lang="ar">أَتَسْتَبْدِلُونَ ٱلَّذِى هُوَ أَدْنَى بِالَّذِى هُوَ خَيْرٌ</foreign> <hi rend="ital">Will ye
 take in exchange that which is worse for that
 which is better?</hi> (Jel. [See also other exs. in
-the Kur ix. 39 and xlvii. last verse.]) And
-<foreign lang="ar">مَنْ يَتَبَدَّلِ</foreign> ↓ <orth type="arrow" lang="ar">الكُفْرَ بِالْإِيمَانِ</orth> [<hi rend="ital">Whoso adopteth infidelity in lieu of faith</hi>]. (Kur ii. 102. [See also
-other exs. in the Kur iv. 2 and xxxiii. 52.]) ― 
+the Quran 9. 39 and 47. last verse.]) And
+<foreign lang="ar">مَنْ يَتَبَدَّلِ</foreign> ↓ <orth type="arrow" lang="ar">الكُفْرَ بِالْإِيمَانِ</orth> [<hi rend="ital">Whoso adopteth infidelity in lieu of faith</hi>]. (Quran 2. 102. [See also
+other exs. in the Quran 4. 2 and 33. 52.]) ― 
        <milestone unit="sense" n="2"/>-b2- 
 See also 2, last sentence but one.
 
@@ -7206,7 +7206,7 @@ the <hi rend="ital">body without the arms and legs:</hi> (Mgh:) or
 of which it is not found]:) or the <foreign lang="ar">جَسَدَ</foreign> [generally
 meaning the <hi rend="ital">body together with the members</hi>] of
 a man; (S;) often applied. to the <hi rend="ital">whole of the</hi>
-<foreign lang="ar">جَسَد</foreign>; (Az, TA;) and in the Kur x. 92 it is said
+<foreign lang="ar">جَسَد</foreign>; (Az, TA;) and in the Quran 10. 92 it is said
 to mean the <hi rend="ital">body without soul:</hi> (S:) pl. <foreign lang="ar">أَبْدَانٌ</foreign>;
 (M, Msb;) whence the phrase, mentioned by Lh,
 <foreign lang="ar">إِنَّهَا لَحَسَنَةُ الأَبْدَانِ</foreign> [meaning <hi rend="ital">Verily she is beautiful in respect of the body</hi>], as though the term
@@ -7224,7 +7224,7 @@ which it is widened</hi>]: (Mgh, Msb:) pl. as above.
 it is [<hi rend="ital">a coat of mail</hi>] <hi rend="ital">like a</hi> <foreign lang="ar">دِرْع</foreign>, <hi rend="ital">except that it is
 short, only such as covers the body, with short
 sleeves:</hi> (T:) or, as some say, <hi rend="ital">any</hi> <foreign lang="ar">دِرْع</foreign>: (M:)
-and so it is said to mean in the Kur x. 92 by
+and so it is said to mean in the Quran 10. 92 by
 IAar (T) and by Th; (M;) but Akh says that
 this assertion is of no account: (S:) pl. as above.
 (M, K.) ― 
@@ -7567,7 +7567,7 @@ Esh-Shemmàkh says,
 [<hi rend="ital">May-be</hi> (<hi rend="ital">but it is right that the promise be fulfilled</hi>) <hi rend="ital">an opinion different from thy first opinion
 hath arisen in thy mind respecting that youthful
 she-camel</hi>]. (M, TA.) <foreign lang="ar">ثُمَّ بَدَا لَهُمْ مِنْ بَعْدِ مَا رَأَوُا</foreign>
-<foreign lang="ar">ٱلْآيَاتِ لَيَسْجُنَنَّهُ</foreign>, in the Kur [xii.35], means <foreign lang="ar">بَدَا</foreign>
+<foreign lang="ar">ٱلْآيَاتِ لَيَسْجُنَنَّهُ</foreign>, in the Quran [xii.35], means <foreign lang="ar">بَدَا</foreign>
 <foreign lang="ar">لَهُمْ بَدَآءٌ</foreign> ↓ <orth type="arrow" lang="ar">وَقَالُوا لَيَسْجُنُنَّهُ</orth>, [i.e. <hi rend="ital">Then an opinion
 arose in their minds, after they had seen the signs</hi>
 of his innocence, <hi rend="ital">and they said that they should
@@ -7869,7 +7869,7 @@ signifies The <hi rend="ital">first that appears,</hi> or <hi rend="ital">become
 (Msb.) [Hence,] <foreign lang="ar">بَادِىَ الرَّأْىِ</foreign> <hi rend="ital">At the</hi> [<hi rend="ital">first</hi>] <hi rend="ital">appearance of opinion;</hi> (Fr, Lh, M;) or <hi rend="ital">according
 to the appearance of opinion;</hi> (Zj, S, K; *) which
 may mean either <hi rend="ital">insincerely</hi> or <hi rend="ital">inconsiderately:</hi>
-(Zj, TA:) so in the Kur xi. 29; (Zj, S;) where
+(Zj, TA:) so in the Quran 11. 29; (Zj, S;) where
 only AA read it with hemz: (TA:) if with
 hemz, it is from <foreign lang="ar">بَدَأْتُ</foreign>, and means <hi rend="ital">at first thought,</hi>
 or <hi rend="ital">on the first opinion.</hi> (S; and Lh in M, art.
@@ -9002,7 +9002,7 @@ religious service to Him:</hi> (TA:) or <hi rend="ital">rendered
 Him ample obedience:</hi> the obedience here meant
 is of two kinds; namely, that of belief and that
 of works; and both these kinds are meant by
-<foreign lang="ar">البِرّ</foreign> in the Kur ii. 172. (B.) [And app. <foreign lang="ar">بَرَّتْ</foreign>
+<foreign lang="ar">البِرّ</foreign> in the Quran 2. 172. (B.) [And app. <foreign lang="ar">بَرَّتْ</foreign>
 <foreign lang="ar">وَلَدَهَا</foreign>, or <foreign lang="ar">بِوَلَدِهَا</foreign>, <hi rend="ital">She behaved with maternal affection towards her child,</hi> or <hi rend="ital">offspring.</hi> (See <foreign lang="ar">بَرٌّ</foreign>.)]
 And <foreign lang="ar">بَرَّهُ</foreign>, (M,) and <foreign lang="ar">بَرَّ رَحِمَهُ</foreign>, (T,) first pers. <foreign lang="ar">بَرِرْتُ</foreign>,
 (T, M,) inf. n. <foreign lang="ar">بِرٌّ</foreign>, (T, M, K,) <hi rend="ital">He behaved towards
@@ -9010,7 +9010,7 @@ him,</hi> and <hi rend="ital">towards his kindred,</hi> or <hi rend="ital">relat
 kindness,</hi> or <hi rend="ital">goodness and affection and gentleness, and regard for his,</hi> or <hi rend="ital">their, circumstances;</hi>
 syn. <foreign lang="ar">وَصَلَهُ</foreign> [and <foreign lang="ar">وَصَلَهُمْ</foreign>]: (T, M, K:) such is
 said to be the signification of the verb as use
-in the Kur lx. 8. (M, B, TA. [See also 3.])
+in the Quran lx. 8. (M, B, TA. [See also 3.])
 And <foreign lang="ar">اَللّٰهُ يَبَرُّ عِبَادَهُ</foreign> (assumed tropical:)  <hi rend="ital">God is merciful to his servants:</hi>
 (M, TA:) or <foreign lang="ar">بَرَّهُ</foreign>, inf. n. <foreign lang="ar">بِرٌّ</foreign>, said of God, means
 <hi rend="ital">He recompensed him,</hi> or <hi rend="ital">rewarded him, for his
@@ -9179,7 +9179,7 @@ or the former word is the original of the latter.
        <milestone unit="sense" n="2"/>-b2-  <hi rend="ital">A desert,</hi> or <hi rend="ital">deserts; a
 waste,</hi> or <hi rend="ital">wastes.</hi> (T, TA. [See also <foreign lang="ar">بَرِّيَّةٌ</foreign>, voce
 <foreign lang="ar">بَرِّيٌّ</foreign>.]) So, accord. to Mujáhid [and the Jel] in
-words of the Kur [vi. 59], <foreign lang="ar">وَ يَعْلَمُ مَا فِى البَرِّ وَ البَحْرِ</foreign>
+words of the Quran [vi. 59], <foreign lang="ar">وَ يَعْلَمُ مَا فِى البَرِّ وَ البَحْرِ</foreign>
 <hi rend="ital">And He knoweth what is in the desert,</hi> or <hi rend="ital">deserts,
 and the towns,</hi> or <hi rend="ital">villages, in which is water,</hi> (T,
 TA,) or <hi rend="ital">which are upon the rivers.</hi> (Jel.) [So
@@ -9294,7 +9294,7 @@ this instance by <foreign lang="ar">الخَيْر</foreign>; and some, by <fore
 T.) It signifies also The <hi rend="ital">good of the present life,
 consisting in spiritual and worldly blessings, and
 of that which is to come, consisting in everlasting
-enjoyment in Paradise:</hi> so in the Kur iii. 86:
+enjoyment in Paradise:</hi> so in the Quran iii. 86:
 (T:) or [simply] <hi rend="ital">Paradise.</hi> (K.) ― 
        <milestone unit="sense" n="2"/>-b4-  Also The
 <hi rend="ital">heart;</hi> or the <hi rend="ital">mind.</hi> (K.) So in the saying,
@@ -9668,7 +9668,7 @@ as in <foreign lang="ar">بَرَأَ ٱللّٰهُ آدَمَ مِنَ الط�
 <hi rend="ital">created, Adam, from,</hi> or <hi rend="ital">out of, clay</hi>]. (TA.)
 This verb relates to substances [as in the exs.
 given above] and to accidents; and hence, [in
-the Kur lvii. 22,] <foreign lang="ar">مِنْ قبْلِ أَنْ نَبْرَأَهَا</foreign> [<hi rend="ital">Before our
+the Quran lvii. 22,] <foreign lang="ar">مِنْ قبْلِ أَنْ نَبْرَأَهَا</foreign> [<hi rend="ital">Before our
 creating it,</hi> if <foreign lang="ar">ها</foreign> refer to <foreign lang="ar">مُصِيبَة</foreign>, preceding it;
 but, as Bd says, it may refer to this, or to <foreign lang="ar">الأَرْض</foreign>,
 or to <foreign lang="ar">أَنْفُس</foreign>]: (M:) but <foreign lang="ar">البَرْءُ</foreign> has a more particular
@@ -9736,7 +9736,7 @@ and] a debt, and a claim, and religion [&amp;c.].
 (M.) You say, <foreign lang="ar">بَرَّأْتُهُ</foreign> ↓ <orth type="arrow" lang="ar">مِنَ العَيْبِ</orth> <hi rend="ital">I made him,
 pronounced him,</hi> or <hi rend="ital">held him, to be free from
 the fault, defect, imperfection, blemish,</hi> or <hi rend="ital">vice.</hi>
-(Msb.) It is said in the Kur [xxxiii. 69], ↓ <orth type="arrow" lang="ar">فَبَرَّأْهُ</orth>
+(Msb.) It is said in the Quran [xxxiii. 69], ↓ <orth type="arrow" lang="ar">فَبَرَّأْهُ</orth>
 <foreign lang="ar">ٱللّٰهُ مِمَا قَالُوا</foreign> (M) <hi rend="ital">But God showed him to be
 clear of that which they said.</hi> (Bd.) You say
 also, <foreign lang="ar">أَبْرَأْتُهُ مِنَ الدَّيْنِ</foreign> <hi rend="ital">I made him, pronounced
@@ -9763,7 +9763,7 @@ upon</hi> [<hi rend="ital">the night,</hi> or <hi rend="ital">day, called</hi>] 
 or <hi rend="ital">quit, of it;</hi> namely, a fault, or the like.
 (Mgh.) [And <hi rend="ital">He declared himself to be clear of
 him; to be not connected,</hi> or <hi rend="ital">implicated, with him;
-he renounced him:</hi> see Kur ii. 161 and 162, &amp;c:]
+he renounced him:</hi> see Quran ii. 161 and 162, &amp;c:]
 
   </entryFree>
 <entryFree id="n2169" key="تَبَارَأْنَا" type="main">
@@ -9889,7 +9889,7 @@ and <foreign lang="ar">أَنَا البَرَآءُ</foreign> ↓ <orth type="a
 and <foreign lang="ar">الخَلَآءُ</foreign> [<hi rend="ital">We are clear,</hi> or <hi rend="ital">quit, of you</hi>]; (Fr,
 T;) i. e., <foreign lang="ar">ذَوُو البَرَآءِ</foreign>: so says Aboo-Is-hák; and
 As says the like of what Fr says. (T.) It is said
-in the Kur [xliii. 25], <foreign lang="ar">إِنَّنِى بَرَآءٌ</foreign> ↓ <orth type="arrow" lang="ar">مِمَّا تَعْبُدُونَ</orth>
+in the Quran [xliii. 25], <foreign lang="ar">إِنَّنِى بَرَآءٌ</foreign> ↓ <orth type="arrow" lang="ar">مِمَّا تَعْبُدُونَ</orth>
 [<hi rend="ital">Verily I am clear of that which ye worship</hi>];
 (T, M;) or <foreign lang="ar">بَرِىْءٌ</foreign>, or ↓ <orth type="arrow" lang="ar">بُرَآءٌ</orth>; accord. to different
 readers. (Bd.) <foreign lang="ar">بَرِىْءٌ</foreign> occurs in several places in
@@ -10125,7 +10125,7 @@ Zodiac;</hi>] <hi rend="ital">one of the</hi> <foreign lang="ar">بُرُوج</f
 distinct name: (TA:) the Arabs in ancient times
 did not know them: (Ham p. 560:) pl. <foreign lang="ar">أَبْرَاجٌ</foreign> as
 well as <foreign lang="ar">بُرُوجٌ</foreign>: (Msb, TA:) these are meant by
-the <foreign lang="ar">بُرُوج</foreign> mentioned in the Kur xv. 16 and xxv. 62
+the <foreign lang="ar">بُرُوج</foreign> mentioned in the Quran xv. 16 and xxv. 62
 and lxxxv. 1: (Bd, Jel:) or in the last of these
 instances, (Bd,) by the <foreign lang="ar">بروج</foreign> in the heaven are
 meant the <hi rend="ital">Mansions of the Moon:</hi> (Bd, Msb:)
@@ -10244,7 +10244,7 @@ you say, <foreign lang="ar">لَا أَبْرَحُ حَتَّى تَقْضِى�
 go away,</hi> or <hi rend="ital">depart,</hi> or <hi rend="ital">withdraw,</hi> (<foreign lang="ar">لَا أَزُولٌ</foreign>, and
 <foreign lang="ar">لَا أَتَنَحَّىِ</foreign>,) <hi rend="ital">until thou accomplish my want:</hi> from
 <foreign lang="ar">بَرِحَ المَكَانُ</foreign>, inf. n. <foreign lang="ar">بَرَاحٌ</foreign>, <hi rend="ital">he went away,</hi> or <hi rend="ital">departed, from the place;</hi> syn. <foreign lang="ar">زَالَ مِنْهُ</foreign>: and to be
-distinguished from the phrase in the Kur [xviii. 59,
+distinguished from the phrase in the Quran [xviii. 59,
 similar as to words,] mentioned below. (Mgh.)
 You say, <foreign lang="ar">بَرِحَ مَكَانَهُ</foreign>, (S, A, L, K,) aor. 
     <form n="infl">
@@ -11032,7 +11032,7 @@ in the saying, <foreign lang="ar">نَسْأَلُكَ الجَنَّةَ وَ �
 Thee Paradise and its pleasantness,</hi> &amp;c. (L.) ― 
        <milestone unit="sense" n="2"/>-b3- 
 Also (assumed tropical:)  <hi rend="ital">Sleep:</hi> (T, S, M, A, K:) [an inf. n. used
-as a subst.:] so in the Kur lxxviii. 24: (S, M,
+as a subst.:] so in the Quran 78. 24: (S, M,
 K:) for sleep cools a man: (TA:) or, accord. to
 I'Ab, it there means the <hi rend="ital">coldness,</hi> or <hi rend="ital">coolness,</hi> of
 beverage. (T.) You say, <foreign lang="ar">مَنَعَ البَرَدُ البَرْدَ</foreign> (assumed tropical:)  <hi rend="ital">The hail
@@ -11885,14 +11885,14 @@ i. e., <foreign lang="ar">مَنْشُورًا</foreign>. (TA.)
       <orth orig="" extent="full" lang="ar">بَرْزَخٌ</orth></form> <hi rend="ital">A thing that intervenes between any two
 things:</hi> (L:) or <hi rend="ital">a bar, an obstruction,</hi> or <hi rend="ital">a thing
 that makes a separation, between two things:</hi> (S,
-A, L, K:) so in the Kur lv. 20: pl. <foreign lang="ar">بَرَازِخُ</foreign>. (L.)
+A, L, K:) so in the Quran lv. 20: pl. <foreign lang="ar">بَرَازِخُ</foreign>. (L.)
 ― 
        <milestone unit="sense" n="2"/>-b2-  The <hi rend="ital">interval between the present life and that
 which is to come,</hi> (S, A,) <hi rend="ital">from the period of
 death to the resurrection,</hi> (S, A, K,) <hi rend="ital">upon which
 he who dies enters;</hi> (S, K;) the <hi rend="ital">period,</hi> or <hi rend="ital">state,
 from the day of death to the day of resurrection:</hi>
-so in the Kur xxiii. 102. (Fr.) ― 
+so in the Quran xxiii. 102. (Fr.) ― 
        <milestone unit="sense" n="2"/>-b3-  <foreign lang="ar">بَرَازِخُ الإِيمَانِ</foreign>
 <hi rend="ital">What is between the beginning of faith,</hi> (L, K,)
 which is the acknowledgment, or confession, of
@@ -12569,7 +12569,7 @@ in the sky.</hi> (Lh, TA.) ―
 (K,) <hi rend="ital">The eye</hi> or <hi rend="ital">eyes,</hi> or <hi rend="ital">his eye</hi> or <hi rend="ital">eyes, glistened,</hi>
 (S, K,) <hi rend="ital">being raised,</hi> or <hi rend="ital">fixedly open:</hi> (S:) or
 <hi rend="ital">became raised,</hi> or <hi rend="ital">fixedly open:</hi> occurring in the
-Kur [lxxv. 7], accord. to one reading: (Fr, TA:)
+Quran [lxxv. 7], accord. to one reading: (Fr, TA:)
 or <hi rend="ital">the eye,</hi> or <hi rend="ital">his eye, became open by reason of
 fright.</hi> (TA.) <foreign lang="ar">بَرِقَ</foreign> has a different meaning,
 which see below. (S.) ― 
@@ -13663,7 +13663,7 @@ K.)
 by God;</hi> and particularly <hi rend="ital">such as continues and
 increases and abounds:</hi>] <hi rend="ital">good,</hi> (Jel in xi. 50,) <hi rend="ital">or
 prosperity,</hi> or <hi rend="ital">good fortune,</hi> (Fr, K,) <hi rend="ital">that proceeds from God:</hi> (Fr, in explanation of the pl. as
-used in the Kur xi. 76:) <hi rend="ital">increase; accession;
+used in the Quran xi. 76:) <hi rend="ital">increase; accession;
 redundance; abundance,</hi> or <hi rend="ital">plenty;</hi> (S, Msb, K,
 Kull;) whether <hi rend="ital">sensible</hi> or <hi rend="ital">intellectual:</hi> and the
 <hi rend="ital">continuance of divinely-bestowed good, such as is
@@ -15750,7 +15750,7 @@ or <hi rend="ital">ground</hi> <foreign lang="ar">أَقِط</foreign>, <hi rend
 olive-oil;</hi> (S, K;) after which it is eaten, without
 being cooked. (S.) ― 
        <milestone unit="sense" n="2"/>-b4-  [And hence the saying
-in the Kur lvi. 5,] <foreign lang="ar">وَبُسَّتِ الجِبَالُ بَسًّا</foreign> <hi rend="ital">And the
+in the Quran lvi. 5,] <foreign lang="ar">وَبُسَّتِ الجِبَالُ بَسًّا</foreign> <hi rend="ital">And the
 mountains shall be crumbled with a</hi> vehement
 <hi rend="ital">crumbling,</hi> (Lh, M, A, K,) <hi rend="ital">like flour, and</hi> <foreign lang="ar">سَوِيق</foreign>,
 (A,) <hi rend="ital">and become earth:</hi> (Fr, K:) or <hi rend="ital">become dust
@@ -16103,7 +16103,7 @@ the same as a subst.: explained with the latter.
 epithet, A face <hi rend="ital">frowning;</hi> or <hi rend="ital">contracted;</hi> or <hi rend="ital">grinning,</hi> or <hi rend="ital">displaying the teeth, with a frowning,</hi> or
 <hi rend="ital">contraction,</hi> or <hi rend="ital">a stern, an austere,</hi> or <hi rend="ital">a morose,
 look.</hi> (M.) [See 1, last sentence.] <foreign lang="ar">وَوُجوهٌ يَوْمئِذٍ</foreign>
-<foreign lang="ar">بَاسِرَةٌ</foreign>, in the Kur lxxv. 24, means <hi rend="ital">And faces on
+<foreign lang="ar">بَاسِرَةٌ</foreign>, in the Quran 75. 24, means <hi rend="ital">And faces on
 that day</hi> shall be <hi rend="ital">excessively frowning</hi> or <hi rend="ital">contracted,</hi> &amp;c.: (Jel:) or <hi rend="ital">expressive of dislike</hi> or
 <hi rend="ital">hatred, and contracted.</hi> (K.) [See also <foreign lang="ar">بَاسِلٌ</foreign>.]
 
@@ -16185,13 +16185,13 @@ the saying <foreign lang="ar">بَسَطَ إِلِىَّ يَدَهُ بِمَ�
 stretched forth,</hi> or <hi rend="ital">extended, towards me his arm,</hi>
 or <hi rend="ital">hand, with,</hi> i. e. <hi rend="ital">to do to me, what I liked and
 disliked</hi>]: (M, TA: *) or <hi rend="ital">he stretched forth his
-hand opened.</hi> (Msb.) It is said in the Kur [v. 31],
+hand opened.</hi> (Msb.) It is said in the Quran [v. 31],
 <foreign lang="ar">لَئِنْ بَسَطْتَ إِلَىَّ يَدَكَ لِتَقْتُلَنِي</foreign> (assumed tropical:) [<hi rend="ital">Assuredly if thou
 stretch forth towards me thy hand to slay me</hi>].
 (M, TA.) <foreign lang="ar">بَسْطُ اليَدِ</foreign> and <foreign lang="ar">الكَفِّ</foreign> is sometimes used
 to denote assaulting and smiting: [as in the last
 of the exs. given above; and] as in the words of
-the Kur [lx. 2], <foreign lang="ar">وَيَبُسُطُوا إِلَيْكُمْ أَيْدِيَهُمْ وَأَلْسِنَتَهُمْ</foreign>
+the Quran [lx. 2], <foreign lang="ar">وَيَبُسُطُوا إِلَيْكُمْ أَيْدِيَهُمْ وَأَلْسِنَتَهُمْ</foreign>
 <foreign lang="ar">بِالسُّوْءِ</foreign> (tropical:) [<hi rend="ital">And they will stretch forth towards you
 their hands and their tongues with evil</hi>]; (TA;)
 i. e., by slaying, (Bd, Jel,) and smiting, (Jel,)
@@ -16222,7 +16222,7 @@ the time of</hi> their <hi rend="ital">being animated</hi>]. (TA.) ―
 [Hence also,] <foreign lang="ar">بَسَطَ ٱللّٰهُ الرِّزْقَ</foreign> (assumed tropical:)  <hi rend="ital">God multiplied,</hi> or
 <hi rend="ital">made abundant, and amplified, enlarged,</hi> or <hi rend="ital">made
 ample</hi> or <hi rend="ital">plentiful, the means of subsistence.</hi> (Msb,
-K. *) It is said in the Kur [ii. 246], <foreign lang="ar">وَٱللّٰهُ يَبِضُ</foreign>
+K. *) It is said in the Quran [ii. 246], <foreign lang="ar">وَٱللّٰهُ يَبِضُ</foreign>
 <foreign lang="ar">وَيَبْسُطُ</foreign> (Msb and TA in art. <foreign lang="ar">قبض</foreign>, q. v.) And
 you say, <foreign lang="ar">بَسَطَ عَلَيْهِمُ العَدْلَ</foreign> (tropical:) [<hi rend="ital">He largely extended
 to them equity,</hi> or <hi rend="ital">justice</hi>]; as also ↓<foreign lang="ar">بسّطهُ</foreign>. (TA.) ― 
@@ -16376,7 +16376,7 @@ Msb:) and <hi rend="ital">length,</hi> or <hi rend="ital">height:</hi> (Sgh:) pl
 (TA:) and, (M, K,) as also ↓<foreign lang="ar">بُسْطَةٌ</foreign>, (K,) <hi rend="ital">excel-lence;</hi> (M, K;) in science and in body: (M:) or
 in science, <hi rend="ital">expatiation,</hi> or <hi rend="ital">dilatation:</hi> (K:) or
 <hi rend="ital">profit to oneself and others:</hi> (TA:) and <hi rend="ital">in body,
-height,</hi> or <hi rend="ital">tallness;</hi> and <hi rend="ital">perfection,</hi> or <hi rend="ital">completeness.</hi> (K.) It is said in the Kur [ii. 24], <foreign lang="ar">وَزَادَهُ</foreign>
+height,</hi> or <hi rend="ital">tallness;</hi> and <hi rend="ital">perfection,</hi> or <hi rend="ital">completeness.</hi> (K.) It is said in the Quran [ii. 24], <foreign lang="ar">وَزَادَهُ</foreign>
 <foreign lang="ar">بَسَطَةً فِى العِلْمِ الجِسْمِ</foreign> [<hi rend="ital">And hath increased him
 in excellence, &amp;c., in respect of science,</hi> or <hi rend="ital">knowledge, and body</hi>]: (M,TA:) Zeyd Ibn-'Alee here
 read ↓<foreign lang="ar">بُسْطَةً</foreign>. (TA.) ― 
@@ -16485,7 +16485,7 @@ TA:) pl. <foreign lang="ar">بُسُطٌ</foreign>: (M, K:) [and so] <foreign la
 (Z, K,) like <foreign lang="ar">أُنُفٌ</foreign> and <foreign lang="ar">سُجُحٌ</foreign>, (Z,) and (Z, K) by
 contraction, (Z,) ↓<foreign lang="ar">بُسْطٌ</foreign>, (Z, K,) and ↓<foreign lang="ar">مَبْسُوطَةٌ</foreign>,
 (TA,) (tropical:) <hi rend="ital">His hand is liberal;</hi> syn. <foreign lang="ar">مُطْلَقَةٌ</foreign>, (S, K,
-TA,) and <foreign lang="ar">طَلْقٌ</foreign>; (TA;) or <hi rend="ital">he is large in expenditure.</hi> (TA.) It is said in the Kur [v. 69], <foreign lang="ar">بَلْ</foreign>
+TA,) and <foreign lang="ar">طَلْقٌ</foreign>; (TA;) or <hi rend="ital">he is large in expenditure.</hi> (TA.) It is said in the Quran [v. 69], <foreign lang="ar">بَلْ</foreign>
 ↓<foreign lang="ar">يَدَاهُ مَبْسُوطَتَانِ</foreign>; (TA;) and accord. to one reading, ↓<foreign lang="ar">بِسْطَانِ</foreign>; (S, K;) and accord. to another,
 with damm, [as though it were ↓ <orth type="arrow" lang="ar">بُسْطَانِ</orth>,] (Z, K,
 TA,) [but it is said that] in this case it is used as
@@ -16541,10 +16541,10 @@ element:</hi> pl. <foreign lang="ar">بَسَائِطُ</foreign>.]
     <form>
       <orth orig="" extent="full" lang="ar">بَاسِطٌ</orth></form> act. part. n. of <foreign lang="ar">بَسَطَ</foreign>. ― 
        <milestone unit="sense" n="2"/>-b2-  It is said in the
-Kur [vi. 93], <foreign lang="ar">وَالمَلَائِكَةُ بَاسِطُوا أَيْدِيهِمْ</foreign>, meaning
+Quran [vi. 93], <foreign lang="ar">وَالمَلَائِكَةُ بَاسِطُوا أَيْدِيهِمْ</foreign>, meaning
 (tropical:) <hi rend="ital">The angels being made to have dominion</hi> over
 them <hi rend="ital">by absolute force and power</hi> (K, * TA.)
-And again, in the Kur [xiii. 15], <foreign lang="ar">كَبَاسِطِ كَفَّيْهِ</foreign>
+And again, in the Quran [xiii. 15], <foreign lang="ar">كَبَاسِطِ كَفَّيْهِ</foreign>
 <foreign lang="ar">إِلَى المَآءِ لِيَبْلُغَ</foreign> (tropical:) <hi rend="ital">Like the supplicator of water,
 making a sign to it [with his two hands], in
 order that it may [reach his mouth</hi>, and so]
@@ -16705,7 +16705,7 @@ a ewe. (JK.)
       <orth orig="" extent="full" lang="ar">بَاسِقٌ</orth></form> [act. part. n. of 1]. <foreign lang="ar">نَخْلَةٌ بَاسِقَةٌ</foreign> <hi rend="ital">A tall
 palm-tree:</hi> [or <hi rend="ital">an exceedingly tall palm-tree;</hi> see
 1:] pl. <foreign lang="ar">بَاسِقَاتٌ</foreign> and <foreign lang="ar">بَوَاسِقُ</foreign>. (Msb.) The former
-of these pls. occurs in the Kur l. 10, meaning
+of these pls. occurs in the Quran l. 10, meaning
 <hi rend="ital">tall</hi>: (S, Bd, TA:) or <hi rend="ital">bearing fruit;</hi> from <foreign lang="ar">أَبْسَقَتْ</foreign>
 said of a ewe, as signifying “she was, or became, pregnant;” so that it is an instance of
 a part. n. of the measure <foreign lang="ar">فَاعِلٌ</foreign> from a verb of
@@ -16847,7 +16847,7 @@ that we have committed, nor for blood that has
 been shed</hi> by us]: (S, M, TA:) for he had given
 his sons in pledge for others, seeking peace, or
 reconciliation. (S, TA.) <foreign lang="ar">أَنْ تُبْسَلَ بِمَا كَسَبَتْ</foreign>,
-in the Kur [vi. 69], means <hi rend="ital">Lest a soul should
+in the Quran [vi. 69], means <hi rend="ital">Lest a soul should
 be given up,</hi> or <hi rend="ital">delivered,</hi> &amp;c., (AO, S, Bd, Jel,
 TA.) <hi rend="ital">to destruction,</hi> (Bd, Jel, TA,) or <hi rend="ital">to punishment,</hi> (Az, TA,) <hi rend="ital">for that which it hath done,</hi> (Az,
 Bd, Jel, TA,) of evil: (Bd:) or <hi rend="ital">be given in
@@ -17303,7 +17303,7 @@ happened to me whereat I rejoiced,</hi> or <hi rend="ital">whereby
 I became rejoiced.</hi> (S.) And <foreign lang="ar">أَبْشَرَ</foreign> ↓ <orth type="arrow" lang="ar">بِمَوْلُودٍ</orth> <hi rend="ital">He
 rejoiced</hi> [<hi rend="ital">at the annunciation of a new-born child</hi>].
 (S.) And <foreign lang="ar">أَبْشِرْ</foreign> ↓ <orth type="arrow" lang="ar">بِخَيْرٍ</orth> <hi rend="ital">Rejoice thou</hi> [<hi rend="ital">at the annunciation of a good event</hi>]. (S, K.) And in the
-same sense ↓ <orth type="arrow" lang="ar">أَبْشِرُوا</orth> is used in the Kur xli. 30.
+same sense ↓ <orth type="arrow" lang="ar">أَبْشِرُوا</orth> is used in the Quran xli. 30.
 (S.)
 
   </entryFree>
@@ -17334,7 +17334,7 @@ these significations are proper. (El-Fakhr Er-Rázee.) You say, <foreign lang="a
 event</hi>]; and <foreign lang="ar">بَشَرَهُ</foreign> ↓ <orth type="arrow" lang="ar">بِهِ</orth>, aor. and inf. ns. as above;
 &amp;c. (TA.) And <foreign lang="ar">بَشَّرْتُهُ بِمَوْلُودٍ</foreign> [<hi rend="ital">I rejoiced him by
 the annunciation of a new-born child</hi>]. (S.) And it
-is said in the Kur [iii. 20, &amp;c.], <foreign lang="ar">بَشِّرْهُمْ بِعَذَابٍ أَلِيمٍ</foreign>
+is said in the Quran [iii. 20, &amp;c.], <foreign lang="ar">بَشِّرْهُمْ بِعَذَابٍ أَلِيمٍ</foreign>
 [<hi rend="ital">Grieve thou them by the annunciation,</hi> or <hi rend="ital">denunciation, of a painful punishment</hi>]. (S.) You say
 also, of a she-camel, <foreign lang="ar">بَشَّرَتْ بِاللَّقَاحِ</foreign>, meaning (assumed tropical:)  <hi rend="ital">She
 made it known that she had begun to be pregnant.</hi>
@@ -17379,7 +17379,7 @@ to,</hi> the thing, or affair, &amp;c.]. (Msb.)
 [Hence,] <foreign lang="ar">ابشر الأَمْرُ وَجْهَهُ</foreign> <hi rend="ital">The affair made his
 countenance beautiful and bright:</hi> in the K we
 read, <foreign lang="ar">أَبْشَرَ الأَمْرَ حَسَّنَهُ وَ نَضَّرَهُ</foreign>; but this is a mistake.
-(TA.) Agreeably with this explanation, AA renders a reading in the Kur [xlii. 22], <foreign lang="ar">ذٰلِكَ ٱلَّذِى</foreign>
+(TA.) Agreeably with this explanation, AA renders a reading in the Quran [xlii. 22], <foreign lang="ar">ذٰلِكَ ٱلَّذِى</foreign>
 <foreign lang="ar">يُبْشِرُ ٱللّٰهُ عِبَادَهُ</foreign>, meaning <hi rend="ital">That is it with which
 God will make beautiful and bright</hi> the face of
 <hi rend="ital">his servants:</hi> so in the L. (TA.) ― 
@@ -17447,7 +17447,7 @@ being,</hi> and <foreign lang="ar">هِىَ بَشَرٌ</foreign> <hi rend="ita
 <foreign lang="ar">هُمْ بَشَرٌ</foreign> <hi rend="ital">They</hi> (more than two) <hi rend="ital">are human beings,</hi>
 and <foreign lang="ar">هُمَا بَشَرٌ</foreign> <hi rend="ital">They two are human beings:</hi> (TA:)
 but sometimes it has the dual form; (Msb, K;)
-as in the Kur xxiii. 49; (Msb, TA;) though the
+as in the Quran xxiii. 49; (Msb, TA;) though the
 Arabs may have used the dual form in the sense
 of the sing.: (MF:) and sometimes it has a pl.,
 namely, <foreign lang="ar">أَبْشَارٌ</foreign>. (K.) This is a secondary application of the word: (Msb:) i. e., this signification
@@ -17514,7 +17514,7 @@ when expressly restricted thereto by an adjunct:
   </entryFree>
 <entryFree id="n2599" key="يَا بُشْرَاىَ" type="main">
     <form>
-      <orth orig="" extent="full" lang="ar">يَا بُشْرَاىَ</orth></form>, in the Kur [xii. 19, accord. to one reading, (otherwise, as Bd mentions, <foreign lang="ar">بُشْرَاىْ</foreign>, or <foreign lang="ar">بُشْرَىَّ</foreign>,
+      <orth orig="" extent="full" lang="ar">يَا بُشْرَاىَ</orth></form>, in the Quran [xii. 19, accord. to one reading, (otherwise, as Bd mentions, <foreign lang="ar">بُشْرَاىْ</foreign>, or <foreign lang="ar">بُشْرَىَّ</foreign>,
 which is a dial. var. of the same, or <foreign lang="ar">بُشْرَى</foreign>, which,
 as some say, was the name of a man,) meaning
 <hi rend="ital">O my joyful annunciation,</hi> or <hi rend="ital">joyful tidings,</hi> or
@@ -17551,7 +17551,7 @@ either good or evil;</hi> (TA;) but meaning the
 former oftener than the latter: (Msb:) [<hi rend="ital">an announcer of a joyful event,</hi> or <hi rend="ital">joyful events: one
 who rejoices another,</hi> or <hi rend="ital">others, by an annunciation:</hi>] pl. <foreign lang="ar">بُشَرَآءُ</foreign> (A) and <foreign lang="ar">بُشُرٌ</foreign>, (TA in art. <foreign lang="ar">نشر</foreign>,)
 or this is pl. of ↓ <orth type="arrow" lang="ar">بَشُورٌ</orth>. (TA in the present art.)
-It is said in the Kur [vii. 55], <foreign lang="ar">وَ هُوَ ٱلَّذِى يُرْسِلُ</foreign>
+It is said in the Quran [vii. 55], <foreign lang="ar">وَ هُوَ ٱلَّذِى يُرْسِلُ</foreign>
 <foreign lang="ar">ٱلرِّيَاحَ بُشُرًا</foreign>, and <foreign lang="ar">بُشْرًا</foreign>, and ↓ <orth type="arrow" lang="ar">بُشْرَى</orth>, and <foreign lang="ar">بَشْرًا</foreign>;
 [accord. to different readings, meaning (assumed tropical:)  <hi rend="ital">And He
 it is who sendeth the winds announcing coming
@@ -17565,7 +17565,7 @@ commonly followed in this passage is <foreign lang="ar">نُشُرًا</foreign>
 <foreign lang="ar">ن</foreign>: another reading is <foreign lang="ar">نُشْرًا</foreign>: another, <foreign lang="ar">نَشْرًا</foreign>: and
 another, <foreign lang="ar">نَشَرًا</foreign>.]) And ↓ <orth type="arrow" lang="ar">المُبَشِّرَاتُ</orth>, (A,) or <foreign lang="ar">مُبَشِّرَاتُ</foreign>
 <foreign lang="ar">الرِّيَاحِ</foreign>, (S,) signifies (tropical:)  <hi rend="ital">Winds that announce</hi>
-[<hi rend="ital">coming</hi>] <hi rend="ital">rain:</hi> (S, A:) so in the Kur xxx. 45.
+[<hi rend="ital">coming</hi>] <hi rend="ital">rain:</hi> (S, A:) so in the Quran xxx. 45.
 (TA.) ＝   
     <milestone unit="sense" n="1"/>-A2-  Also <hi rend="ital">Goodly; beautiful; elegant in
 form</hi> or <hi rend="ital">features;</hi> (S, K;) applied to a man, and
@@ -18075,7 +18075,7 @@ or <hi rend="ital">knowledge, understanding, intelligence,</hi> or <hi rend="ita
 chastely with <foreign lang="ar">بِ</foreign>, inf. n. [<foreign lang="ar">بَصَارَةٌ</foreign> and] <foreign lang="ar">بَصَرٌ</foreign>; (Msb;)
 and * <foreign lang="ar">ابصرهُ</foreign>; (B;) <hi rend="ital">He perceived it mentally;</hi>
 (B;) <hi rend="ital">he knew it</hi> [or <hi rend="ital">understood it</hi>]. (S, Msb.)
-<foreign lang="ar">بَصُرْتُ بِمَا لَمْ يَبْصُرُوا بِهِ</foreign>, in the Kur [xx. 96],
+<foreign lang="ar">بَصُرْتُ بِمَا لَمْ يَبْصُرُوا بِهِ</foreign>, in the Quran [xx. 96],
 means <hi rend="ital">I knew that which they knew not.</hi> (S.) ＝   
     <milestone unit="sense" n="1"/>-A2- 
 <foreign lang="ar">بَصَرَ الأَدِيمَيْنِ</foreign>, aor. 
@@ -18159,7 +18159,7 @@ or <hi rend="ital">turn thy face towards me.</hi> (Ibn-Buzurj, TA.)
        <milestone unit="sense" n="2"/>-b2-  See also 1. ＝  
     <milestone unit="sense" n="1"/>-A2-  And see 2. ＝  
     <milestone unit="sense" n="1"/>-A3-  <foreign lang="ar">أَبْصِرْ بِهِ وَ أَسْمِعْ</foreign>,
-in the Kur [xviii. 25], means <foreign lang="ar">مَا أَبْصَرَهُ وَ مَا أَسْمَعَهُ</foreign>
+in the Quran [xviii. 25], means <foreign lang="ar">مَا أَبْصَرَهُ وَ مَا أَسْمَعَهُ</foreign>
 (Jel) (tropical:)  <hi rend="ital">How clear is his sight! and how clear his
 hearing!</hi> the pronoun relating to God; (Bd,
 Jel;) and thus used, the phrase is tropical; i. e.,
@@ -18287,7 +18287,7 @@ places.] ―
 places. ― 
        <milestone unit="sense" n="2"/>-b3-  Also The <hi rend="ital">eye;</hi> [and so ↓ <orth type="arrow" lang="ar">بَاصِرَةٌ</orth>;] syn.
 <foreign lang="ar">عَيْنٌ</foreign>; but of the masc. gender: (TA:) pl. as
-above: (Kur ii. 6, &amp;c.:) but the sing. is also
+above: (Quran ii. 6, &amp;c.:) but the sing. is also
 used in a pl. sense [like <foreign lang="ar">سَمْعٌ</foreign>]. (TA in art. <foreign lang="ar">سمع</foreign>.)
 See two exs. voce <foreign lang="ar">بَصِيرةٌ</foreign>.
 
@@ -18451,7 +18451,7 @@ M, Mgh, K:) <hi rend="ital">an observer and a witness.</hi> (A.)
   </entryFree>
 <entryFree id="n2653" key="بَلِ الإِنْسَانُ عَلَى نَفْسِهِ بَصِيرَةٌ" type="main">
     <form>
-      <orth orig="" extent="full" lang="ar">بَلِ الإِنْسَانُ عَلَى نَفْسِهِ بَصِيرَةٌ</orth></form>, in the Kur [lxxv. 14],
+      <orth orig="" extent="full" lang="ar">بَلِ الإِنْسَانُ عَلَى نَفْسِهِ بَصِيرَةٌ</orth></form>, in the Quran [lxxv. 14],
 means (tropical:)  <hi rend="ital">Nay, the man</hi> shall be <hi rend="ital">witness against
 himself:</hi> (S, Mgh:) or it means that his arms,
 or hands, and his legs, or feet, and his tongue,
@@ -18469,7 +18469,7 @@ them.</hi> (Lh, * M, * A.) ―
 one is admonished:</hi> (K:) pl. <foreign lang="ar">بَصَائِرُ</foreign>; which is
 said to be used agreeably with this interpretation
 <pb n="212"/>
-in the Kur xxviii. 43. (TA.) You say, <foreign lang="ar">أَمَا لَكَ</foreign>
+in the Quran xxviii. 43. (TA.) You say, <foreign lang="ar">أَمَا لَكَ</foreign>
 <foreign lang="ar">بَصِيرَةٌ فِيهِ</foreign> (tropical:)  <hi rend="ital">Hast thou not an example whereby
 thou shouldst be admonished in him?</hi> (TA.) ＝   
     <milestone unit="sense" n="1"/>-A2- 
@@ -18574,17 +18574,17 @@ or <hi rend="ital">to have sight:</hi> and hence, <hi rend="ital">giving light; 
 illumining:</hi> and <hi rend="ital">conspicuous; manifest; evident;
 apparent:</hi> also <hi rend="ital">making,</hi> or <hi rend="ital">causing, to have mental
 perception,</hi> or <hi rend="ital">knowledge,</hi> or <hi rend="ital">skill.</hi>] <foreign lang="ar">وَالنَّهَارَ مُبْصِرًا</foreign>,
-in the Kur [x. 68, &amp;c. (in the CK ↓ <orth type="arrow" lang="ar">والنّهارُ مُبْصَرًا</orth>)],
+in the Quran [x. 68, &amp;c. (in the CK ↓ <orth type="arrow" lang="ar">والنّهارُ مُبْصَرًا</orth>)],
 means, <hi rend="ital">And the day</hi> [<hi rend="ital">causing to see;</hi> or] <hi rend="ital">in which
 one sees;</hi> (K;) <hi rend="ital">giving light; shining;</hi> or <hi rend="ital">illumining.</hi>
 (TA.) And <foreign lang="ar">فَلَمَّا جَآءَتْهُمْ آيَاتُنَا مُبْصِرَةً</foreign>, also in the
-Kur [xxvii. 13], (assumed tropical:)  <hi rend="ital">And when our signs came to
+Quran [xxvii. 13], (assumed tropical:)  <hi rend="ital">And when our signs came to
 them, making them to have sight,</hi> or <hi rend="ital">to have
 mental perception,</hi> or <hi rend="ital">knowledge,</hi> or <hi rend="ital">skill;</hi> expl.
 by <foreign lang="ar">تَجْعَلُهُمْ بُصَرَآءَ</foreign>: (Akh, S, K:) or <hi rend="ital">giving light;
 shining;</hi> or <hi rend="ital">illumining:</hi> (S:) or <hi rend="ital">being conspicuous, manifest,</hi> or <hi rend="ital">evident:</hi> or we may read
 ↓ <orth type="arrow" lang="ar">مُبْصَرَةً</orth>, meaning <hi rend="ital">having become manifest,</hi> or <hi rend="ital">evident.</hi> (Zj, M.) And <foreign lang="ar">آتَيْنَا ثَمُودَ النَّاقَةَ مُبْصِرَةً</foreign>, also
-in the Kur [xvii. 61], (assumed tropical:)  <hi rend="ital">And we gave to Thamood
+in the Quran [xvii. 61], (assumed tropical:)  <hi rend="ital">And we gave to Thamood
 the she-camel, by means of which they had sight,</hi>
 or <hi rend="ital">mental perception,</hi> or <hi rend="ital">knowledge,</hi> or <hi rend="ital">skill:</hi>
 (Akh:) or <hi rend="ital">a sign giving light, shining,</hi> or <hi rend="ital">illumining;</hi> (Fr, T;) and this is the right explanation: (T:) or <hi rend="ital">a manifest,</hi> or <hi rend="ital">an evident, sign:</hi>
@@ -18610,7 +18610,7 @@ of cloth</hi> (K, TA) <hi rend="ital">of cotton or other material.</hi>
 a thing plainly</hi> or <hi rend="ital">clearly</hi> [either <hi rend="ital">with the eyes</hi>
 or <hi rend="ital">with the mind</hi>]. (TA, from a trad.) ― 
        <milestone unit="sense" n="2"/>-b2-  <foreign lang="ar">وَكَانُوا</foreign>
-<foreign lang="ar">مُسْتَبْصِرِينَ</foreign>, in the Kur [xxix. 37], means, <hi rend="ital">And
+<foreign lang="ar">مُسْتَبْصِرِينَ</foreign>, in the Quran [xxix. 37], means, <hi rend="ital">And
 they were endowed with perceptive faculties of
 the mind,</hi> or <hi rend="ital">of knowledge,</hi> or <hi rend="ital">of skill:</hi> (Jel:) or
 <hi rend="ital">they clearly perceived,</hi> when they did what they
@@ -19226,9 +19226,9 @@ another n. of number,] it is masc. and fem. without variation: (Mgh, Msb:) you s
 <hi rend="ital">from three to nine</hi> [&amp;c.] <hi rend="ital">women:</hi> (Msb:) and
 <foreign lang="ar">بِضْعُ سِنِينَ</foreign> <hi rend="ital">from three to nine</hi> [&amp;c.] <hi rend="ital">years:</hi> (S:)
 and <foreign lang="ar">فِى بِضْعِ سِنِينَ</foreign> [<hi rend="ital">in from three to nine,</hi> &amp;c.,
-<hi rend="ital">years</hi>]: (Kur xxx. 3:) and <foreign lang="ar">فَلَبِثَ فِى السِّجْنِ بِضْعَ</foreign>
+<hi rend="ital">years</hi>]: (Quran xxx. 3:) and <foreign lang="ar">فَلَبِثَ فِى السِّجْنِ بِضْعَ</foreign>
 <foreign lang="ar">سِنِينَ</foreign> [<hi rend="ital">And he remained in the prison from three
-to nine,</hi> &amp;c., <hi rend="ital">years</hi>]. (Kur xii. 42.) But when
+to nine,</hi> &amp;c., <hi rend="ital">years</hi>]. (Quran xii. 42.) But when
 used to denote a number above ten, (Mgh, Msb,)
 with a masc. n. it is with <foreign lang="ar">ة</foreign>, (↓ <orth type="arrow" lang="ar">بِضْعَة</orth>,) and with a
 fem. n. it is without <foreign lang="ar">ة</foreign>: (ISk, Mgh, Msb, K:)
@@ -19909,7 +19909,7 @@ lower part of the body]. (TA.) ―
 (tropical:)  [<hi rend="ital">Thou exultedst,</hi> or <hi rend="ital">exultedst greatly,</hi> or <hi rend="ital">excessively, and behavedst insolently and unthankfully,</hi>
 or <hi rend="ital">ungratefully,</hi> &amp;c., <hi rend="ital">in thy manner of life,</hi>] is a
 phrase similar to <foreign lang="ar">رَشِدْتَ أَمْرَكَ</foreign>; (S, TA;) and in
-like manner <foreign lang="ar">بَطِرَتْ مَعِيشَتَهَا</foreign>, in the Kur [xxviii. 58];
+like manner <foreign lang="ar">بَطِرَتْ مَعِيشَتَهَا</foreign>, in the Quran [xxviii. 58];
 in which the verb is not trans., but the subst. is
 put in the accus. case because of <foreign lang="ar">فِى</foreign> understood
 before it. (Aboo-Is-hák.) ― 
@@ -20188,7 +20188,7 @@ seized him with violence and assault:</hi> (A, K:) or
 <hi rend="ital">he laid hold upon him</hi> (Mgh, TA) <hi rend="ital">vehemently,</hi>
 (TA,) <hi rend="ital">in making an assault:</hi> (Mgh, TA:) and
 ↓ <orth type="arrow" lang="ar">أَبْطَشَهُ</orth> signifies the same as <foreign lang="ar">بَطَشَ بِهِ</foreign>, (K,) but is
-rare, occurring in the words [of the Kur xliv. 15],
+rare, occurring in the words [of the Quran xliv. 15],
 <foreign lang="ar">يَوْمَ نُبْطِشُ البَطْشَةَ الكُبْرَى</foreign>, accord. to the reading
 of El-Hasan and Ibn-Rejà, [meaning <hi rend="ital">On the day
 when we make the greatest assault:</hi>] or, accord.
@@ -20261,7 +20261,7 @@ travelling-camels walk with slow steps</hi> (<foreign lang="ar">تَزَحَّف
 <entryFree id="n2778" key="بَطْشَةٌ" type="main">
     <form>
       <orth orig="" extent="full" lang="ar">بَطْشَةٌ</orth></form> <hi rend="ital">An assault; a violent seizure.</hi> (S.) <foreign lang="ar">البَطْشَةُ</foreign>
-<foreign lang="ar">الكُبْرَى</foreign> [<hi rend="ital">The greatest assault</hi>], in the Kur xliv. 15,
+<foreign lang="ar">الكُبْرَى</foreign> [<hi rend="ital">The greatest assault</hi>], in the Quran xliv. 15,
 is applied to the day of resurrection, or to the
 battle of Bedr. (Bd.)
 
@@ -20337,7 +20337,7 @@ naught, futile, worthless, useless, unprofitable,</hi>
 account,</hi> (S, Msb, K,) or <hi rend="ital">as a thing that had
 perished</hi> or <hi rend="ital">become lost.</hi> (K.) [It is said of an
 assertion or allegation and the like, and of a deed,
-&amp;c.] Hence the saying in the Kur [vii. 115],
+&amp;c.] Hence the saying in the Quran [vii. 115],
 <foreign lang="ar">وَ بَطَلَ مَا كَانُوا يَعْمَلُونَ</foreign> [<hi rend="ital">And what they were
 doing became vain,</hi> or <hi rend="ital">null;</hi> or <hi rend="ital">went for nothing,
 as a thing of no account</hi>]. (TA.) And <foreign lang="ar">ذَهَبَ</foreign>
@@ -20433,7 +20433,7 @@ nothing, as a thing of no account,</hi> or <hi rend="ital">as a thing
 that had perished</hi> or <hi rend="ital">become lost.</hi> (K.) Hence,
 <foreign lang="ar">ابطل شَهَادَتَهُ</foreign> <hi rend="ital">He annulled his testimony.</hi> (TA in
 art. <foreign lang="ar">زور</foreign>.) And <foreign lang="ar">لِيُحِقَّ الحَقَّ وَ يُيْطِلَ البَاطِلَ</foreign>, in the
-Kur [viii. 8, meaning <hi rend="ital">That He might establish
+Quran [viii. 8, meaning <hi rend="ital">That He might establish
 that which is true, and annul that which is false</hi>].
 (TA.)
 
@@ -20566,7 +20566,7 @@ xlii. 23. (TA.) ―
 [Hence,] <foreign lang="ar">بَاطِلًا</foreign> <hi rend="ital">In play,</hi> or <hi rend="ital">sport; acting unprofitably;</hi> or <hi rend="ital">aiming at no profit.</hi> (Jel in iii. 188
 and xxxviii. 26.) ― 
        <milestone unit="sense" n="2"/>-b4-  <foreign lang="ar">البَاطِلُ</foreign> <hi rend="ital">Iblees:</hi> so in the
-Kur [xxxiv. 48], where it is said, <foreign lang="ar">مَا يُبْدِئُ ٱلْبَاطِلُ</foreign>
+Quran [xxxiv. 48], where it is said, <foreign lang="ar">مَا يُبْدِئُ ٱلْبَاطِلُ</foreign>
 <foreign lang="ar">وَ مَا يُعِيدُ</foreign> [explained in art. <foreign lang="ar">بدأ</foreign>]: (Katádeh, K:)
 and again [xli. 42], where it is said, <foreign lang="ar">لَا يَأْتِيهِ</foreign>
 <foreign lang="ar">ٱلْبَاطِلُ مِنْ بَيْنَ يَدَيْهِ وَ لَا مِنْ خَلْفِهِ</foreign>, [accord. to
@@ -21949,7 +21949,7 @@ And <foreign lang="ar">رَبَّنَا بَاعِدْ</foreign> ↓ <orth type=
 Lord, make to be far-extending the spaces between
 our journeys!</hi> or, <hi rend="ital">put wide distances between our
 journeys!</hi>] accord. to different readings [in the
-Kur xxxiv. 18]: the former of these is the common
+Quran xxxiv. 18]: the former of these is the common
 reading: Yaakoob El-Hadramee read ↓ <orth type="arrow" lang="ar">رَبُّنَا بَاعَدَ</orth>
 <foreign lang="ar">الخ</foreign> [<hi rend="ital">Our Lord, He hath made to be far extending</hi> &amp;c.]. (TA.) ― 
        <milestone unit="sense" n="2"/>-b2-  <foreign lang="ar">أَبْعَدَهُ ٱللّٰهُ</foreign> means <hi rend="ital">May God
@@ -22034,7 +22034,7 @@ does not in this case [always] resemble a particle.
 (TA.) You say, <foreign lang="ar">جَآءَ زَيْدٌ بَعْدَ عَمْرٍو</foreign> <hi rend="ital">Zeyd came
 after 'Amr.</hi> (Msb.) And <foreign lang="ar">رَأَيْتُهُ بَعْدَكَ</foreign> and <foreign lang="ar">مِنْ</foreign>
 <foreign lang="ar">بَعْدِكَ</foreign> [<hi rend="ital">I saw him after thee</hi>]. (L.) The words
-of the Kur [xxx. 3], <foreign lang="ar">ٱللّٰهِ ٱلْأَمْرُ مِنْ قَبْلُ وَ مِنْ بَعْدُ</foreign>,
+of the Quran [xxx. 3], <foreign lang="ar">ٱللّٰهِ ٱلْأَمْرُ مِنْ قَبْلُ وَ مِنْ بَعْدُ</foreign>,
 meaning <hi rend="ital">To God</hi> belonged <hi rend="ital">the command before</hi>
 that the Greeks were overcome <hi rend="ital">and after</hi> that
 they had been overcome, [thus read when the
@@ -22106,7 +22106,7 @@ of the offspring of cows is called</hi> <foreign lang="ar">تبيع</foreign> <h
 yet follows his mother:</hi> occurring in the Mgh
 &amp;c., in art. <foreign lang="ar">تبع</foreign>.] ― 
        <milestone unit="sense" n="2"/>-b4-  It occurs also in the sense
-of <foreign lang="ar">مَعَ</foreign>; as in the words of the Kur [ii. 174 and
+of <foreign lang="ar">مَعَ</foreign>; as in the words of the Quran [ii. 174 and
 v. 95], <foreign lang="ar">فَمَنِ ٱعْتَدَى بَعْدَ ذٰلِكَ</foreign>, i. e., (as some say,
 MF,) <foreign lang="ar">مَعَ ذلك</foreign> [<hi rend="ital">And whoso transgresseth notwithstanding that;</hi> lit., <hi rend="ital">with that</hi>]. (Msb.) ― 
        <milestone unit="sense" n="2"/>-b5-  It has
@@ -22145,7 +22145,7 @@ relationship. (S, K.) ―
        <milestone unit="sense" n="2"/>-b3-  Also
 <hi rend="ital">i. q.</hi> ↓ <orth type="arrow" lang="ar">بُعْدٌ</orth>: (L, K:) this latter (S, L, Msb, K)
 and <foreign lang="ar">بُعْدٌ</foreign>, (L, K,) accord. to most of the leading
-lexicologists, as, for instance, in the Kur xi. 98,
+lexicologists, as, for instance, in the Quran xi. 98,
 (TA, [see <foreign lang="ar">بَعِدَ</foreign>,]) signifying <hi rend="ital">Perdition;</hi> (S, L,
 Msb;) or <hi rend="ital">death.</hi> (K.) ― 
        <milestone unit="sense" n="2"/>-b4-  <hi rend="ital">Judgment and prudence;</hi> as also ↓ <orth type="arrow" lang="ar">بُعْدَةٌ</orth>: so in the phrase, <foreign lang="ar">إِنَّهُ لَذُو</foreign>
@@ -22474,7 +22474,7 @@ of the camel</hi>], mentioned in a trad. of Jábir,
 means the night in which the Prophet purchased
 of him his camel. (TA.) ― 
        <milestone unit="sense" n="2"/>-b2-  Also <hi rend="ital">An ass:</hi> (IKh,
-K:) so in the Kur xii. 72; but this signification
+K:) so in the Quran xii. 72; but this signification
 is of rare occurrence: (IKh:) and <hi rend="ital">anything that
 carries:</hi> (IKh, K:) so in the Hebrew language
 [<H>165</H> (see Gen. xlv. 17)]. (TA.)
@@ -22594,7 +22594,7 @@ beautiful girl, parts of whom resemble other parts</hi>].
 (A.) [And <foreign lang="ar">ضَرَبَ بَعْضُهُمْ بَعْضًا</foreign> <hi rend="ital">Some of them beat
 some;</hi> i. e. <hi rend="ital">they beat one another.</hi>] And <foreign lang="ar">لَبِثْنَا يَوْمًا</foreign>
 <foreign lang="ar">أَوْ بَعْضَ يَوْمٍ</foreign> [<hi rend="ital">We have tarried a day or part of
-a day</hi>]. (Kur xviii. 18.) And one says to a man
+a day</hi>]. (Quran xviii. 18.) And one says to a man
 of a company of men, “ Who did this? ” and he
 answers, <foreign lang="ar">أَحَدُنَا</foreign> or <foreign lang="ar">بَعْضُنَا</foreign> [<hi rend="ital">Some one of us</hi>]; meaning himself. (A.) The article <foreign lang="ar">ال</foreign> should not be
 prefixed to it, (K, * TA,) because it is originally a
@@ -22628,7 +22628,7 @@ word is equivalent to <foreign lang="ar">جُزْءٌ</foreign>, which receives 
 article <foreign lang="ar">ال</foreign>. (MF.) It is related of AO, that he
 assigned also to <foreign lang="ar">بَعْضٌ</foreign> the contr. meaning of <hi rend="ital">All;</hi>
 or the <hi rend="ital">whole:</hi> adducing as a proof thereof the
-words of the Kur [xl. 29], <foreign lang="ar">يُصِبْكُمْ بَعْضُ ٱلَّذِى</foreign>
+words of the Quran [xl. 29], <foreign lang="ar">يُصِبْكُمْ بَعْضُ ٱلَّذِى</foreign>
 <foreign lang="ar">يَعِدُكُمْ</foreign> as meaning <hi rend="ital">All of that with which he
 threateneth you will befall you:</hi> and the saying
 of Lebeed.
@@ -22919,7 +22919,7 @@ of Ilyás,</hi> (S, K,) who is said to be the same as
 Idrees, the grandfather, or an ancestor, of Noah, or
 to have been a grandson of Aaron, (Bd in vi. 85,)
 or the son of the brother of Aaron: (Jel ibid.:)
-it is mentioned in the Kur xxxvii. 123: accord.
+it is mentioned in the Quran xxxvii. 123: accord.
 to one copy of the K, <hi rend="ital">it belonged to the people of
 Jonas;</hi> and so in the Kitáb el-Mujarrad of Kr:
 accord. to Mujáhid, it means <hi rend="ital">a deity that is not
@@ -22997,14 +22997,14 @@ does not dress,</hi> or <hi rend="ital">wear clothes, well,</hi> (K, TA,)
 and <foreign lang="ar">بَغَتَةٌ</foreign> (K) and <foreign lang="ar">بَغَتَّةٌ</foreign>, with teshdeed to the <foreign lang="ar">ت</foreign>,
 of the same measure as <foreign lang="ar">جَرَبَّةٌ</foreign>, accord. to AA's
 <pb n="229"/>
-reading of the Kur in a passage which will be
+reading of the Quran in a passage which will be
 found below, without a parallel among inf. ns.,
 (Z,) [and said by some to have an intensive signification,] <hi rend="ital">He,</hi> or <hi rend="ital">it, came upon him,</hi> or <hi rend="ital">happened to him, suddenly, unexpectedly, without his
 being aware of it,</hi> or <hi rend="ital">without any previous cause;
 surprised him; took him by surprise,</hi> or <hi rend="ital">unawares;</hi>
 (S, A, Msb, K;) as also ↓ <orth type="arrow" lang="ar">باغتهُ</orth>, (A, Msb,) inf. n.
 <foreign lang="ar">مُبَاغَتَةٌ</foreign> (S, K) and <foreign lang="ar">بِغَاتٌ</foreign>. (TA.) It is said in the
-Kur vi. 31, accord. to the reading mentioned
+Quran vi. 31, accord. to the reading mentioned
 above, <foreign lang="ar">إِذَا جَآءَتْهُمُ ٱلسَّاعَةُ بَغَتَّةً</foreign> [<hi rend="ital">When the hour</hi> of
 the resurrection <hi rend="ital">shall come upon them suddenly,
 unexpectedly,</hi> &amp;c.]. (Z.) And you say, <foreign lang="ar">جَآءَهُ بَغْتَةً</foreign>
@@ -23309,7 +23309,7 @@ two is reciprocal hatred,</hi> or <hi rend="ital">vehement hatred</hi>].
 ↓ <orth type="arrow" lang="ar">بَغَضَهُ</orth> is not allowable: (Msb:) or <foreign lang="ar">يَبْغُضُنِى</foreign> is a
 bad form; (AHát, K;) used by the lower class;
 and sanctioned by Th only; for he explains <foreign lang="ar">قَالِينَ</foreign>,
-as occurring in the Kur [xxvi. 168], by <foreign lang="ar">بَاغِضِينَ</foreign>,
+as occurring in the Quran [xxvi. 168], by <foreign lang="ar">بَاغِضِينَ</foreign>,
 which shows that he held <foreign lang="ar">بَغَضَ</foreign> to be a dial. var.;
 for otherwise he would have said <foreign lang="ar">مُبْغِضِينَ</foreign>: (AHát:)
 but the epithet <foreign lang="ar">بَغُوضٌ</foreign> affords a strong evidence in
@@ -23693,7 +23693,7 @@ you say, <foreign lang="ar">اِبْغِنِى كَذَا</foreign> or <foreign 
 <hi rend="ital">assisted, him to seek the thing:</hi> (Ks, K:) or
 <foreign lang="ar">أَبْغِنِى</foreign> ↓ <orth type="arrow" lang="ar">كَذَا</orth> signifies <hi rend="ital">Seek thou for me such a
 thing;</hi> and also <hi rend="ital">Aid thou me to seek such a thing.</hi>
-(JK.) It is said in the Kur [ix. 47], <foreign lang="ar">يَبْغُونَكُمُ</foreign>
+(JK.) It is said in the Quran [ix. 47], <foreign lang="ar">يَبْغُونَكُمُ</foreign>
 <foreign lang="ar">الفِتْنَةَ</foreign> <hi rend="ital">They seek,</hi> or <hi rend="ital">desire, for you discord,</hi> or
 <hi rend="ital">dissension;</hi> or <hi rend="ital">they seeking,</hi> &amp;c.: and in the same
 [iii. 94], <foreign lang="ar">تَبْغُونَهَا عِوَجًا</foreign> <hi rend="ital">Ye seek,</hi> or <hi rend="ital">desire, for it,</hi>
@@ -23789,7 +23789,7 @@ she who does so transgresses her proper bounds;
 <foreign lang="ar">بِغَآءٌ</foreign> (IKh, K) and <foreign lang="ar">مُبَاغَاةٌ</foreign>, (K,) said of a female
 slave: (Msb:) or <foreign lang="ar">مباغاة</foreign> signifies the <hi rend="ital">committing
 fornication,</hi> or <hi rend="ital">adultery, with another.</hi> (KL.)
-It is said in the Kur [xxiv. 33], <foreign lang="ar">وَلَا تُكْرِهُو فَتَيَاتِكُمْ</foreign>
+It is said in the Quran [xxiv. 33], <foreign lang="ar">وَلَا تُكْرِهُو فَتَيَاتِكُمْ</foreign>
 <foreign lang="ar">عَلَى البِغَآءِ</foreign> [<hi rend="ital">And compel not ye your young women
 to prostitute themselves</hi>]. (Mgh.) And you say,
 ↓ <orth type="arrow" lang="ar">خَرَجَتِ المَرْأَةُ تُبَاغِى</orth> [<hi rend="ital">The woman went forth</hi> for
@@ -23815,7 +23815,7 @@ also signifies <hi rend="ital">He lied; said what was untrue.</hi> (K.)
   </entryFree>
 <entryFree id="n2959" key="مَا نَبْغِى" type="main">
     <form>
-      <orth orig="" extent="full" lang="ar">مَا نَبْغِى</orth></form>, in the Kur [xii. 65], is said to mean <hi rend="ital">We
+      <orth orig="" extent="full" lang="ar">مَا نَبْغِى</orth></form>, in the Quran [xii. 65], is said to mean <hi rend="ital">We
 do not lie:</hi> and <hi rend="ital">we do not act wrongfully:</hi> or it
 may mean <hi rend="ital">what do we seek,</hi> or <hi rend="ital">desire?</hi> (TA.) ― 
        <milestone unit="sense" n="2"/>-b2- 
@@ -23913,7 +23913,7 @@ Ks is related to have heard, from the Arabs, the
 phrase, <foreign lang="ar">مَا يَنْبَغِى أَنْ يَكُونَ كَذَا</foreign>, meaning <hi rend="ital">It is
 not right that it should be so,</hi> or <hi rend="ital">that such a thing
 should be:</hi> or <hi rend="ital">it is not good</hi> &amp;c. (Msb.) It is
-said in the Kur [xxxvi. 69], <foreign lang="ar">وَمَا عَلَّمْنَاهُ الشِّعْرَ وَمَا</foreign>
+said in the Quran [xxxvi. 69], <foreign lang="ar">وَمَا عَلَّمْنَاهُ الشِّعْرَ وَمَا</foreign>
 <foreign lang="ar">يَنْبَغِى لَهُ</foreign>, i. e. [<hi rend="ital">And we have not taught him
 poetry,</hi> or <hi rend="ital">versification</hi>], <hi rend="ital">nor is it right, proper,
 fit,</hi> or <hi rend="ital">meet, for him:</hi> (Bd:) or <hi rend="ital">nor is it easy to
@@ -24048,7 +24048,7 @@ camels, seekers</hi>] <hi rend="ital">to scatter themselves in search
 thereof.</hi> (S.) ― 
        <milestone unit="sense" n="2"/>-b2-  <hi rend="ital">Acting wrongfully, injuriously,</hi>
 or <hi rend="ital">tyrannically,</hi> [&amp;c.,] towards others: pl. <foreign lang="ar">بُغَاةٌ</foreign>.
-(Msb. [See 1.]) <foreign lang="ar">غَيْرَ بَاغٍ</foreign>, in the Kur ii. 168,
+(Msb. [See 1.]) <foreign lang="ar">غَيْرَ بَاغٍ</foreign>, in the Quran ii. 168,
 [&amp;c.,] means <hi rend="ital">Not being a revolter from the Muslims,</hi> (Jel,) or, <hi rend="ital">against the Imám:</hi> (TA:) or it
 means <hi rend="ital">not desiring to eat for the sake of enjoyment:</hi> or <hi rend="ital">not seeking to exceed the limit of his
 want:</hi> (Az, TA:) or <hi rend="ital">not seeking what he should
@@ -25445,7 +25445,7 @@ the former]. (Meyd.) And it is said, in a trad.,
 of the fire [of Hell], <foreign lang="ar">لَا تُبْقِى عَلَى مَنْ تَضَرَّعَ إِلَيْهَا</foreign>,
 i. e. <hi rend="ital">It will not pity</hi> [<hi rend="ital">him who abases himself to
 it:</hi> or rather <hi rend="ital">it will not spare &amp;c.:</hi> and in like
-manner, <foreign lang="ar">لَا تُبْقِى وَلَا تَذَرُ</foreign>, in the Kur lxxiv. 28, is
+manner, <foreign lang="ar">لَا تُبْقِى وَلَا تَذَرُ</foreign>, in the Quran 74. 28, is
 generally understood as meaning <hi rend="ital">It</hi> (namely,
 Hell,) <hi rend="ital">will not spare, nor leave</hi> unburned]. (TA.)
 
@@ -25572,7 +25572,7 @@ excellent of his people,</hi> or <hi rend="ital">family.</hi> (Ham p. 78.)
 And <foreign lang="ar">فُلَانٌ بَقِيَّةُ القَوْمِ</foreign> <hi rend="ital">Such a one is the best of the
 people,</hi> or <hi rend="ital">company of men:</hi> pl. <foreign lang="ar">بَقَايَا</foreign>. (Kull
 p. 96.) ― 
-       <milestone unit="sense" n="2"/>-b3-  <foreign lang="ar">أُولُو بَقِيَّةٍ</foreign>, in the Kur xi. 118, hence
+       <milestone unit="sense" n="2"/>-b3-  <foreign lang="ar">أُولُو بَقِيَّةٍ</foreign>, in the Quran xi. 118, hence
 means <hi rend="ital">Persons possessed of excellence:</hi> [see a
 phrase mentioned voce <foreign lang="ar">بَلَلٌ</foreign>:] or <hi rend="ital">possessing a relic
 of judgment and intelligence:</hi> (Bd:) or <hi rend="ital">persons
@@ -25592,7 +25592,7 @@ places. <foreign lang="ar">بَقِيَّةٌ</foreign> is also a subst. from <f
 of unity,</hi> or <hi rend="ital">of amity, subsisting between two persons,</hi> or <hi rend="ital">parties:</hi> and such may be its meaning in
 the phrase above-mentioned (<foreign lang="ar">اولوا بقيّة</foreign>)]. (K.) ― 
        <milestone unit="sense" n="2"/>-b4- 
-<foreign lang="ar">بَقِيَّةُ ٱللّٰهِ</foreign>, in the Kur xi. 87, [after the command,
+<foreign lang="ar">بَقِيَّةُ ٱللّٰهِ</foreign>, in the Quran xi. 87, [after the command,
 in the next preceding verse, to give full measure
 and weight,] means <hi rend="ital">God's sustenance that remains
 for you</hi> after your giving full measure [and
@@ -25630,7 +25630,7 @@ like.</hi> (Lth, JK, TA.)
     <form>
       <orth orig="" extent="full" lang="ar">بَاقِيَةٌ</orth></form>: see <foreign lang="ar">بَقِيَّةٌ</foreign>, first sentence. ― 
        <milestone unit="sense" n="2"/>-b2-  <foreign lang="ar">البَاقِيَاتُ الصَّالِحَاتُ</foreign>
-[in the Kur xviii. 44, and xix. 79,] means <hi rend="ital">Any
+[in the Quran xviii. 44, and xix. 79,] means <hi rend="ital">Any
 righteous,</hi> or <hi rend="ital">good, work,</hi> (K, TA,) <hi rend="ital">of which the
 recompense remains:</hi> (TA:) or <hi rend="ital">acts of obedience,</hi>
 <pb n="239"/>
@@ -25650,7 +25650,7 @@ of God:</hi> see also <foreign lang="ar">بَقِيَّةٌ</foreign>, last expl
        <milestone unit="sense" n="2"/>-b3-  <foreign lang="ar">بَاقِيَةٌ</foreign> is sometimes put in the place of an
 inf. n.; (S, K;) or it is an inf. n.; (Msb;) <hi rend="ital">syn.
 with</hi> <foreign lang="ar">بَقَآءٌ</foreign>; (S, Msb, TA;) with which ↓ <orth type="arrow" lang="ar">بَقِيَّةٌ</orth>, also,
-is syn. (TA in art. <foreign lang="ar">سرع</foreign>.) So in the Kur [lxix. 8],
+is syn. (TA in art. <foreign lang="ar">سرع</foreign>.) So in the Quran [lxix. 8],
 <foreign lang="ar">فَهَلْ تَرَى لَهُمْ مِنْ بَاقِيَةٍ</foreign> [<hi rend="ital">And dost thou see them to
 have any continuance?</hi>]; (S, TA;) so says Fr:
 (TA:) or, as some say, the meaning is, <foreign lang="ar">بَقِيَّةٍ</foreign> [i. e.
@@ -25788,7 +25788,7 @@ did so severely;</hi> (S, * TA;) <hi rend="ital">and threatened him;</hi>
 <hi rend="ital">as when one says,</hi> “ <hi rend="ital">O wicked man! wast thou
 not ashamed? didst thou not fear God?</hi> ” (TA:)
 and sometimes this is done <hi rend="ital">by using an enunciative phrase, such as the saying of Abraham,</hi>
-[mentioned in the Kur xxi. 64,] “ <hi rend="ital">Nay, the chief
+[mentioned in the Quran xxi. 64,] “ <hi rend="ital">Nay, the chief
 of them, this, did it;</hi> ” for thus he said to reprove
 their worship of idols; (Msb;) and it may be
 <hi rend="ital">by means of the hand,</hi> and <hi rend="ital">a staff</hi> or <hi rend="ital">stick,</hi> and
@@ -26399,7 +26399,7 @@ to express what he would say; unable to reply:</hi>
 (IAth, TA:) fem. <foreign lang="ar">بَكْمَآءُ</foreign>: (TA:) pl. <foreign lang="ar">بُكْمٌ</foreign> (Msb,
 K) and <foreign lang="ar">بُكْمَانٌ</foreign>, (K,) both pls. of <foreign lang="ar">أَبْكَمُ</foreign>, like as
 <foreign lang="ar">صُمٌّ</foreign> and <foreign lang="ar">صُمَّانٌ</foreign> are pls. of <foreign lang="ar">أَصَمُّ</foreign>; and the pl. of
-↓ <orth type="arrow" lang="ar">بَكِيمٌ</orth> is <foreign lang="ar">أَبْكَامٌ</foreign>. (TA.) In the Kur ii. 166, <foreign lang="ar">بُكْمٌ</foreign>
+↓ <orth type="arrow" lang="ar">بَكِيمٌ</orth> is <foreign lang="ar">أَبْكَامٌ</foreign>. (TA.) In the Quran ii. 166, <foreign lang="ar">بُكْمٌ</foreign>
 means persons <hi rend="ital">in the condition of him who has
 been born dumb:</hi> or, as some say, <hi rend="ital">deprived of
 their intellects:</hi> (Zj, TA:) or <hi rend="ital">ignorant and ignoble;</hi> because not profiting much by the faculty
@@ -26829,12 +26829,12 @@ in <foreign lang="ar">وَقَالُوا ٱتَّخَذَ ٱلرَّحْمٰنُ
 [<hi rend="ital">And they said, “ The Compassionate hath gotten
 offspring: ” extolled be his freedom from that which
 is derogatory from his glory! nay,</hi> or <hi rend="ital">nay rather,</hi> or
-<hi rend="ital">nay but,</hi> they are <hi rend="ital">honoured servants</hi> (Kur xxi. 26)],
+<hi rend="ital">nay but,</hi> they are <hi rend="ital">honoured servants</hi> (Quran xxi. 26)],
 or transition from one object of discourse to another, as in <foreign lang="ar">قَدْ أَفْلَحَ مَنْ تَزَكَّى وَ ذَكَرَ ٱسْمَ رَبِّهِ فَصَلَّى</foreign>
 <foreign lang="ar">بَلْ تُؤْثِرُونَ ٱلْحَيَاةَ ٱلدُّنْيَا</foreign> [<hi rend="ital">He hath attained felicity
 who hath purified himself, and celebrated the
 name of his Lord, and prayed: but ye prefer the
-present life</hi> (Kur lxxxvii. 14–16)]: (Mughnee,
+present life</hi> (Quran 87. 14–16)]: (Mughnee,
 K: *) and in all such cases it is an inceptive particle; not a conjunctive. (Mughnee.) When it
 is followed by a single word, it is a conjunction,
 (S, * Msb, * Mughnee, K,) and requires that word
@@ -26887,7 +26887,7 @@ K. *) ―
        <milestone unit="sense" n="2"/>-b2-  Sometimes it is used to denote the passing
 from one subject to another without cancelling
 [what precedes it], and is <hi rend="ital">syn. with</hi> <foreign lang="ar">وَ</foreign>, as in the
-saying in the Kur [lxxxv. 20 and 21], <foreign lang="ar">وَٱللّٰهُ مِنْ</foreign>,
+saying in the Quran [lxxxv. 20 and 21], <foreign lang="ar">وَٱللّٰهُ مِنْ</foreign>,
 <foreign lang="ar">وَ رَائِهِمْ مُحِيطٌ بَلْ هُوَ قُرْآنٌ مَجِيدٌ</foreign> [<hi rend="ital">And God from
 behind them is encompassing: and it is a glorious
 Kur-án:</hi> or here it may mean <foreign lang="ar">إِنَّ</foreign>, as in an ex.
@@ -26896,7 +26896,7 @@ in the saying, <foreign lang="ar">لَهُ عَلَىَّ دِينَارٌ بَ�
 a deenár and a dirhem</hi>]. (Msb.) ― 
        <milestone unit="sense" n="2"/>-b3-  In the fol-
 <pb n="244"/>
-lowing saying in the Kur [xxxviii. 1],<foreign lang="ar">وَٱلْقُرْآنِ ذِى</foreign>
+lowing saying in the Quran [xxxviii. 1],<foreign lang="ar">وَٱلْقُرْآنِ ذِى</foreign>
 <foreign lang="ar">ٱلذِّكْرِبَلِ ٱلَّذِينَ كَفَرُوا فِى عِزَّةٍ وَشِقَاقٍ</foreign>, it is said
 to signify <foreign lang="ar">إِنَّ</foreign>; [so that the meaning is, <hi rend="ital">By the
 Kur-án possessed of eminence, verily they who
@@ -27072,7 +27072,7 @@ people,</hi> or <hi rend="ital">company of men, turned away,</hi> or <hi rend="i
 having some good,</hi> or <hi rend="ital">somewhat good, remaining,
 in them,</hi> or <hi rend="ital">among them;</hi> expl. by <foreign lang="ar">وَفِيهِمْ بَقِيَّةٌ</foreign> [in
 which the last word generally implies something
-good; as, for instance, in the Kur xi. 118]: (M,
+good; as, for instance, in the Quran xi. 118]: (M,
 K:) or, <hi rend="ital">in a good state,</hi> or <hi rend="ital">condition:</hi> (K:) or
 this latter is meant when one says, <foreign lang="ar">بِبُلُلَتِهِمْ</foreign>. (T.)
 ― 
@@ -27798,7 +27798,7 @@ as also ↓ <orth type="arrow" lang="ar">أَبْلَدَ</orth>. (TA.) ―
 <foreign lang="ar">بَلَادَة</foreign> [i. e. <hi rend="ital">stupidity, dulness, want of intelligence,</hi> &amp;c.]. (S.) ― 
        <milestone unit="sense" n="2"/>-b7-  (assumed tropical:)  <hi rend="ital">He turned his hands over,</hi>
 or <hi rend="ital">upside-down:</hi> (K:) [thus one does in sorrow,
-or regret, or in perplexity: see Kur xviii. 40:]
+or regret, or in perplexity: see Quran xviii. 40:]
 or the meaning is that which here next follows:
 (TA:) (assumed tropical:)  <hi rend="ital">he clapped his hands;</hi> or <hi rend="ital">smote palm
 upon palm;</hi> syn. <foreign lang="ar">صَفَّقَ</foreign> (M, K) <foreign lang="ar">بِالكَفِّ</foreign>. (TA.)
@@ -28535,7 +28535,7 @@ Mansions of the Moon;</hi> (S, K;) [namely, <hi rend="ital">the
 Twenty-third;</hi>] which rose [aurorally], (S, K,)
 <pb n="250"/>
 as they assert, (S,) when God said, <foreign lang="ar">يَا أَرْضُ ٱبْلضعِى</foreign>
-<foreign lang="ar">مَآءَكِ</foreign> [Kur xi. 46]; (S, K;) <hi rend="ital">consisting of two
+<foreign lang="ar">مَآءَكِ</foreign> [Quran xi. 46]; (S, K;) <hi rend="ital">consisting of two
 stars near together;</hi> (S;) or <hi rend="ital">two stars, straight</hi>
 (<foreign lang="ar">مُسْتَوِيَانِ</foreign>) <hi rend="ital">in course,</hi> (IKt, K,) or <hi rend="ital">near together
 and oblique;</hi> (TA;) <hi rend="ital">one of them dim, and the
@@ -28755,18 +28755,18 @@ arrived at,</hi> or <hi rend="ital">came to,</hi> (S, Msb, K,) <hi rend="ital">t
 (S, K,) and <hi rend="ital">the place of abode:</hi> (Msb:) and (so in
 the S, but in the K “ or, ”) <hi rend="ital">he was, or became,
 at the point of reaching it, attaining it,</hi> &amp;c. (S,
-K.) <foreign lang="ar">فَبَلَغْنَ أَجَلَهُنَ</foreign>, in the Kur [ii. 232], means
+K.) <foreign lang="ar">فَبَلَغْنَ أَجَلَهُنَ</foreign>, in the Quran [ii. 232], means
 <hi rend="ital">And they have fully attained,</hi> or <hi rend="ital">ended, their
 term.</hi> (Msb.) But <foreign lang="ar">فَإِذَا بَلَغْنَ أَجَلَهُنَّ</foreign>, in the same
 [lxv. 2], means <hi rend="ital">And when they are near to attaining,</hi> or <hi rend="ital">ending, their term:</hi> (S, TA:) or <hi rend="ital">are
 at the point of accomplishing their term.</hi> (Msb,
 TA.) It has the first of the meanings explained
-above in the phrase, <foreign lang="ar">بَلَغَ أَشُدَّهُ</foreign> [Kur xii. 22 &amp;c.,
+above in the phrase, <foreign lang="ar">بَلَغَ أَشُدَّهُ</foreign> [Quran xii. 22 &amp;c.,
 <hi rend="ital">He attained his manly vigour,</hi> or <hi rend="ital">full maturity,</hi>
-&amp;c.]. (TA.) And in <foreign lang="ar">بَلَغَأَرْبَعِينَ سَنَةً</foreign> [Kur xlvii. 14,
+&amp;c.]. (TA.) And in <foreign lang="ar">بَلَغَأَرْبَعِينَ سَنَةً</foreign> [Quran xlvii. 14,
 <hi rend="ital">He attained </hi>the age of <hi rend="ital">forty years</hi>]. (TA.) And
-in <foreign lang="ar">بَلَغَ مَعَهُ السَّعْىَ</foreign> [Kur xxxvii. 100, <hi rend="ital">He attained
-to working with him</hi>]. (TA.) In the Kur [iii. 35],
+in <foreign lang="ar">بَلَغَ مَعَهُ السَّعْىَ</foreign> [Quran xxxvii. 100, <hi rend="ital">He attained
+to working with him</hi>]. (TA.) In the Quran [iii. 35],
 occurs the phrase, <foreign lang="ar">وَقَدْ بَلَغَنِىَ الكِبَرُ</foreign> [<hi rend="ital">When old age
 hath come to me,</hi> or <hi rend="ital">overtaken me</hi>]: and in another
 place [xix. 9], <foreign lang="ar">وَ قَدْ بَلَغْتُ مِنَ الكِبَرِ عُتِيًّا</foreign> [<hi rend="ital">And I
@@ -29041,7 +29041,7 @@ Msb, K,) meaning <hi rend="ital">a thing that suffices,</hi> or <hi rend="ital">
 <foreign lang="ar">فِى هٰذَا بُلْغَةٌ</foreign>, and ↓ <orth type="arrow" lang="ar">بَلَاغٌ</orth>, and ↓ <orth type="arrow" lang="ar">تَبَلُّغٌ</orth>, <hi rend="ital">In this is a
 sufficiency,</hi> or <hi rend="ital">enough.</hi> (Msb, TA.) And it is
 <pb n="252"/>
-said in the Kur [xxi. 106], <foreign lang="ar">إِنَّ فِى هٰذَا لَبَلَاغًا</foreign> ↓ <orth type="arrow" lang="ar">لِقَوْمٍ</orth>
+said in the Quran [xxi. 106], <foreign lang="ar">إِنَّ فِى هٰذَا لَبَلَاغًا</foreign> ↓ <orth type="arrow" lang="ar">لِقَوْمٍ</orth>
 <foreign lang="ar">عَابِدِينَ</foreign> <hi rend="ital">Verily in this is a sufficiency</hi> [<hi rend="ital">for a people
 serving</hi> God]: (Bd, TA:) or <hi rend="ital">a means of attaining
 the object sought after,</hi> or <hi rend="ital">desired.</hi> (Bd.)
@@ -29085,7 +29085,7 @@ reviling him, and annoying him,</hi> or <hi rend="ital">molesting him.</hi>
     <form>
       <orth orig="" extent="full" lang="ar">بَلَاغٌ</orth></form> is a subst. from <foreign lang="ar">تَبْلِيغٌ</foreign> and <foreign lang="ar">إِبْلَاغٌ</foreign>, meaning
 The <hi rend="ital">bringing, conveyance, delivery,</hi> or <hi rend="ital">communication,</hi> (S, K, &amp;c.,) of a message [&amp;c.]. (Jel in
-iii. 19, &amp;c.) [It often occurs in the Kur as meaning The <hi rend="ital">communication,</hi> or <hi rend="ital">announcement,</hi> of
+iii. 19, &amp;c.) [It often occurs in the Quran as meaning The <hi rend="ital">communication,</hi> or <hi rend="ital">announcement,</hi> of
 what is revealed.] ― 
        <milestone unit="sense" n="2"/>-b2-  In a trad., in which it is
 said, <foreign lang="ar">كُلُّ رَافِعَةٍ رَفَعَتْ إِلَيْنَا مِنَ البَلَاغِ</foreign>, [in the CK
@@ -29102,7 +29102,7 @@ meaning <foreign lang="ar">مِنَ المُبَالِغِينَ فِى التّ
 who do their utmost in communicating,</hi> or <hi rend="ital">announcing.</hi> (Hr, K.) [See this trad. cited and
 explained more fully in the first paragraph of art.
 <foreign lang="ar">رفع</foreign>.] ― 
-       <milestone unit="sense" n="2"/>-b3-  <foreign lang="ar">هٰذَا بَلَاغٌ لِلنَّاسِ</foreign>, in the Kur [xiv. last
+       <milestone unit="sense" n="2"/>-b3-  <foreign lang="ar">هٰذَا بَلَاغٌ لِلنَّاسِ</foreign>, in the Quran [xiv. last
 verse], means <hi rend="ital">This</hi> Kur-án contains <hi rend="ital">a sufficient
 exposition,</hi> or <hi rend="ital">demonstration, for men.</hi> (TA.) ― 
        <milestone unit="sense" n="2"/>-b4- 
@@ -29167,13 +29167,13 @@ say also, ↓ <orth type="arrow" lang="ar">جَيْشٌ بَلْغٌ</orth>, mea
 reaching,</hi> or <hi rend="ital">arriving at, its appointed place</hi>].
 (K, TA.) And ↓ <orth type="arrow" lang="ar">أَمْرُ ٱللّٰهِ بَلْغٌ</orth>, i. e. <foreign lang="ar">بَالِغٌ</foreign>, (S, K,)
 meaning [<hi rend="ital">The decree of God</hi>] <hi rend="ital">reacheth,</hi> or <hi rend="ital">attaineth, its intended object:</hi> (K:) from the saying
-in the Kur [lxv. 3], <foreign lang="ar">إِنَّ ٱللّٰهَ بَالِغٌ أَمْرَهُ</foreign> (S) <hi rend="ital">Verily
+in the Quran [lxv. 3], <foreign lang="ar">إِنَّ ٱللّٰهَ بَالِغٌ أَمْرَهُ</foreign> (S) <hi rend="ital">Verily
 God attaineth his purpose.</hi> (Bd, Jel.) And
 <foreign lang="ar">بَالِغٌ فِى الحُمْقِ</foreign> <hi rend="ital">Reaching the utmost point,</hi> or
 <hi rend="ital">degree, in stupidity,</hi> or <hi rend="ital">foolishness.</hi> (TA.) And
 <foreign lang="ar">لَزِمَهُ ذٰلِكَ بَالِغًا مَا بَلَغَ</foreign>: see 1: and see the sentence
 there next following it. (Msb.) <foreign lang="ar">أَيْمَانٌ بَالِغَةٌ</foreign>, in
-the Kur lxviii. 39, means <hi rend="ital">Firm covenants:</hi> (Jel:)
+the Quran lxviii. 39, means <hi rend="ital">Firm covenants:</hi> (Jel:)
 or <hi rend="ital">covenants confirmed by oaths in the utmost
 degree:</hi> (Bd:) or <hi rend="ital">rendered obligatory for ever;
 sworn to, that they shall be constantly observed:</hi>
@@ -29633,7 +29633,7 @@ prefixed to a noun in the gen. case; so that
 you say, <foreign lang="ar">بَلْهَ زَيْدٍ</foreign>, i. e. <foreign lang="ar">تَرْكَ زَيْدٍ</foreign> [which is virtually
 the same as <foreign lang="ar">بَلْهَ زَيْدًا</foreign> explained above; for <foreign lang="ar">تَرْكَ زَيْدٍ</foreign>
 is originally <foreign lang="ar">اُتْرُكْ زَيْدًا تَرْكًا</foreign>, like as <foreign lang="ar">فَضَرْبَ الرِّقَابِ</foreign>
-in the Kur xlvii. 4 is originally <foreign lang="ar">فٱضْرِبُوا الرِّقَابَ</foreign>
+in the Quran xlvii. 4 is originally <foreign lang="ar">فٱضْرِبُوا الرِّقَابَ</foreign>
 <foreign lang="ar">ضَرْبًا</foreign>]; (IAth, TA;) for in this case it cannot be
 regarded as a verbal noun, since verbal nouns
 are not prefixed to other nouns, governed by
@@ -29873,7 +29873,7 @@ being sometimes meant, and sometimes only one
 of them, as when God is the agent, in which case
 only the latter is meant: (Er-Rághib, TA:) and
 ↓ <orth type="arrow" lang="ar">التَّبَالِى</orth>, also, signifies <hi rend="ital">the act of trying, proving,</hi>
-or <hi rend="ital">testing.</hi> (S.) It is said in the Kur [xxi. 36],
+or <hi rend="ital">testing.</hi> (S.) It is said in the Quran [xxi. 36],
 <foreign lang="ar">وَنَبْلُوكُمْ بِٱلشَّرِ وَٱلخَيْرِ فِتْنَةً</foreign> [<hi rend="ital">And we try you by,</hi>
 or <hi rend="ital">with, evil and good, by way of probation</hi>].
 (TA.) And in the same [ii. 118], ↓ <orth type="arrow" lang="ar">وَإِذَ ٱبْتَلَى</orth>
@@ -30052,7 +30052,7 @@ syn. <foreign lang="ar">تُفَاخِرُ</foreign>: (Ham p. 31:) and accord. t
        <milestone unit="sense" n="2"/>-b2- 
 [Hence,] <foreign lang="ar">ابلاهُ ٱللّٰهُ إِبْلَآءً حَسَنًا</foreign>, (T,) or <foreign lang="ar">بَلَآءَ حَسَنًا</foreign>,
 (S,) <hi rend="ital">God did to him a good deed.</hi> (T.) [And
-hence,] it is said in the Kur [viii. 17], <foreign lang="ar">وَلِيُبْلِىَ</foreign>
+hence,] it is said in the Quran [viii. 17], <foreign lang="ar">وَلِيُبْلِىَ</foreign>
 <foreign lang="ar">المُؤْمِنِينَ مِنْهُ بَلَآءً حَسَنُا</foreign> (TA) <hi rend="ital">And that He might
 confer upon the believers a great benefit,</hi> or <hi rend="ital">favour,</hi>
 or <hi rend="ital">blessing:</hi> (Bd:) or <hi rend="ital">a good gift;</hi> meaning spoil.
@@ -30461,13 +30461,13 @@ and he replies, <foreign lang="ar">بَلَى</foreign> [meaning <hi rend="ital"
 I did], (T,) or as when one says, <foreign lang="ar">أَلَيْسَ زَيْدٌ بِقَائِمٍ</foreign>
 [<hi rend="ital">Is not Zeyd standing?</hi>], and you reply, <foreign lang="ar">بَلَى</foreign>
 [<hi rend="ital">Yes,</hi> he is]; or be meant to convey reproof,
-(Mughnee,) as in the Kur [lxxv. 3 and 4],
+(Mughnee,) as in the Quran [lxxv. 3 and 4],
 <foreign lang="ar">أَيَحْسَبُ الإِنْسَانُ أَنْ لَنْ نَجْمَعَ عِظَامَهُ بَلَى</foreign> [<hi rend="ital">Doth
 man think that we will not collect his bones?
 Yes</hi>], (Msb, Mughnee,) i. e., we will collect
 them; (Msb;) or be meant to make a person
 confess, or acknowledge, a thing, (Mughnee,)
-as in the Kur [vii. 171], <foreign lang="ar">أَلَسْتُ بِرَبِّكُمْ قَالُوا بَلَى</foreign>
+as in the Quran [vii. 171], <foreign lang="ar">أَلَسْتُ بِرَبِّكُمْ قَالُوا بَلَى</foreign>
 [<hi rend="ital">Am I not your Lord? They said, Yea</hi>]. (M,
 Mughnee.) It is also a reply to a simple negation, (Msb, Mughnee,) as when I say, <foreign lang="ar">مَا قَامَ</foreign>
 <foreign lang="ar">زَيْدٌ</foreign> [<hi rend="ital">Zeyd did not stand,</hi> or <hi rend="ital">has not stood</hi>], and
@@ -30684,16 +30684,16 @@ hand, or those of the foot also, [i. e. the <hi rend="ital">toes,</hi>] is
 disputed: (TA:) or the <hi rend="ital">ends,</hi> or <hi rend="ital">extremities,
 thereof:</hi> (S, M, Msb, K:) said to be so called
 because by their means are ordered those circumstances whereby man continues in existence; from
-<foreign lang="ar">أَبَنَّ بِالْمَكَانِ</foreign>: (Msb:) mentioned in the Kur viii. 12
+<foreign lang="ar">أَبَنَّ بِالْمَكَانِ</foreign>: (Msb:) mentioned in the Quran viii. 12
 because therewith one fights, and defends himself:
 (Er-Rághib, TA:) or it there signifies all the
 <hi rend="ital">limbs,</hi> or <hi rend="ital">members, of the body:</hi> (Aboo-Is-hák,
 M:) or the <hi rend="ital">fingers,</hi> or <hi rend="ital">toes, and any other parts
 of all the limbs,</hi> or <hi rend="ital">members:</hi> (Zj, TA:) or it
-means in the Kur the <foreign lang="ar">شَوَى</foreign>; (Lth, T, TA;) so in
+means in the Quran the <foreign lang="ar">شَوَى</foreign>; (Lth, T, TA;) so in
 lxxv. 4; (M;) i. e. the <hi rend="ital">arms</hi> or <hi rend="ital">hands</hi> and the
 <hi rend="ital">legs</hi> or <hi rend="ital">feet:</hi> (Lth, T, TA:) accord. to El-Fárisee
-the meaning of the words in the Kur lxxv. 4 is,
+the meaning of the words in the Quran 75. 4 is,
 we are able to make their extremities like those
 of the camel, so that they should not profit by
 them in handicraft: (M, TA:) the n. un. is with
@@ -31404,7 +31404,7 @@ being likened to the building of burnt bricks and
 of clay and of gypsum. (M.) [See also <foreign lang="ar">بَنِيَّةٌ</foreign>.]
 ― 
        <milestone unit="sense" n="2"/>-b2-  Also The <hi rend="ital">roof,</hi> or <hi rend="ital">ceiling,</hi> of a house or
-chamber or the like; as in the Kur [ii. 20],
+chamber or the like; as in the Quran [ii. 20],
 <foreign lang="ar">الَّذِى جَعَلَ لَكُمُ الأَرْضَ فِراشًا وَ السَّمَآءَ بِنَآءً</foreign> [<hi rend="ital">Who hath
 made for you the earth as a bed, and the heaven
 as a roof,</hi> or <hi rend="ital">ceiling</hi>]: (S, [but wanting in some
@@ -31935,7 +31935,7 @@ short,</hi> (<foreign lang="ar">انْقَطَعَ</foreign>, K, TA,) <hi rend="
 right course:</hi> (TA:) <hi rend="ital">he</hi> (an adversary in a dispute or litigation) <hi rend="ital">was overcome by an argument,
 an allegation,</hi> or <hi rend="ital">a plea.</hi> (L.) All these forms
 occur in different readings of the saying in the
-Kur [ii. 260], <foreign lang="ar">فَبُهِتَ ٱلَّذِى كَفَرَ</foreign> and <foreign lang="ar">فَبَهِتَ</foreign> &amp;c.,
+Quran [ii. 260], <foreign lang="ar">فَبُهِتَ ٱلَّذِى كَفَرَ</foreign> and <foreign lang="ar">فَبَهِتَ</foreign> &amp;c.,
 (IJ, TA,) explained in the Wá'ee as meaning,
 <hi rend="ital">And he who disbelieved remained in confusion,</hi> or
 <hi rend="ital">perplexity, not seeing his right course, looking as
@@ -31953,7 +31953,7 @@ caused him to become confounded, perplexed,</hi> or
 this meaning to ↓ <orth type="arrow" lang="ar">بهّتهُ</orth>:]) or <hi rend="ital">took him unawares,</hi>
 or <hi rend="ital">by surprise,</hi> or <hi rend="ital">unexpectedly,</hi> or <hi rend="ital">suddenly.</hi> (S,
 K.) Zj cites as an ex. of the former meaning the
-saying in the Kur [xxi. 41], <foreign lang="ar">تَأْتِيهِمْ بَغْتَةً فَتَبْهَتُهُمْ</foreign>,
+saying in the Quran [xxi. 41], <foreign lang="ar">تَأْتِيهِمْ بَغْتَةً فَتَبْهَتُهُمْ</foreign>,
 i. e., <hi rend="ital">It shall come upon them suddenly,</hi> or <hi rend="ital">unawares, and cause them to become confounded,</hi>
 &amp;c.: (TA: and so Bd and Jel explain it:) or,
 <hi rend="ital">and shall overcome them:</hi> (Bd:) J cites the same
@@ -31999,7 +31999,7 @@ question occurs. (MF.) IB says that <foreign lang="ar">ابهتى</foreign> may
 be here rendered trans. by means of <foreign lang="ar">على</foreign> because
 it is syn. with <foreign lang="ar">اِفْتَرِى</foreign>, which is so rendered trans.,
 in like manner as is done in other instances, of
-which he gives an ex. from the Kur [xxiv. 63],
+which he gives an ex. from the Quran [xxiv. 63],
 <foreign lang="ar">يُخَالِفُونَ عَنْ أَمْرِهِ</foreign>, meaning <foreign lang="ar">يَخْرُجُونَ عن امره</foreign>: he
 adds that, accord. to J, <foreign lang="ar">عن</foreign> in this ex. should
 be considered redundant; but that <foreign lang="ar">عن</foreign> and <foreign lang="ar">على</foreign>
@@ -32074,7 +32074,7 @@ accusation of adultery</hi> against a woman; and <hi rend="ital">a
 forgery of a lie</hi> against her: (Msb:) and ↓ the
 latter, [and the former also, simply,] <hi rend="ital">a lying,</hi> or
 <hi rend="ital">lie,</hi> or <hi rend="ital">falsehood;</hi> (K;) and so ↓ <orth type="arrow" lang="ar">بُهْتٌ</orth> (K) and
-↓ <orth type="arrow" lang="ar">بَهْتٌ</orth>. (TA.) <foreign lang="ar">بُهْتَانًا وَإِثْمًا مُبِينًا</foreign>, in the Kur iv. 24,
+↓ <orth type="arrow" lang="ar">بَهْتٌ</orth>. (TA.) <foreign lang="ar">بُهْتَانًا وَإِثْمًا مُبِينًا</foreign>, in the Quran iv. 24,
 is said to mean <hi rend="ital">Falsely accusing of adultery, and
 acting in a manifestly sinful</hi> or <hi rend="ital">criminal manner:</hi>
 (Bd:) or it means <hi rend="ital">acting wrongfully</hi> &amp;c. (Bd,
@@ -32310,7 +32310,7 @@ of the forehead:</hi> or <hi rend="ital">characterized by the appearance of joy,
 joyful, glad,</hi> or <hi rend="ital">happy, aspect</hi> or <hi rend="ital">appearance:</hi>
 (L:) the fem. epithet is ↓ <orth type="arrow" lang="ar">مِبْهَاجٌ</orth>. (A, K, TA: [in
 the CK <foreign lang="ar">مَبْهاجٌ</foreign>.]) It is applied to a plant, or
-herbage, (S, A,) in the Kur xxii. 5 and l. 7. (S.)
+herbage, (S, A,) in the Quran xxii. 5 and l. 7. (S.)
 And ↓ <orth type="arrow" lang="ar">مِبْهَاجٌ</orth> is applied to a woman, as meaning
 One <hi rend="ital">in whom beauty,</hi> or <hi rend="ital">goodliness,</hi> &amp;c., <hi rend="ital">predominates;</hi> (L, TA;) as also ↓ <orth type="arrow" lang="ar">بَهْجَةٌ</orth>; (TA;) pl. of
 the former, <foreign lang="ar">مَبَاهِيجُ</foreign>: (A, TA:) and to a camel's
@@ -32957,7 +32957,7 @@ as is the wrongdoer!</hi>]. (Mgh.) <foreign lang="ar">باهل بَعْضُهُ�
 cursed one another:</hi> (K:) [or] <hi rend="ital">they joined in
 imprecating a curse upon such of them as was
 the wrongdoer:</hi> (TA:) and ↓ <orth type="arrow" lang="ar">ابتهلوا</orth> signifies the
-like: whence, <foreign lang="ar">ثُمَّ نَبْتَهِلْ</foreign>, in the Kur [iii. 54],
+like: whence, <foreign lang="ar">ثُمَّ نَبْتَهِلْ</foreign>, in the Quran [iii. 54],
 (Bd, TA,) as some explain it, (TA,) meaning
 ↓ <orth type="arrow" lang="ar">ثُمَّ نَتَبَاهَلْ</orth>, i. e., <hi rend="ital">Then let us imprecate a curse
 upon such of us as is the liar.</hi> (Bd. [But see
@@ -33001,7 +33001,7 @@ K;) <hi rend="ital">and was sincere,</hi> or <hi rend="ital">without hypocrisy, 
 or <hi rend="ital">energy, like that of the</hi> <foreign lang="ar">مُبْتَهِلُونَ</foreign> [properly so
 called, i. e., <hi rend="ital">persons who join in imprecating a
 curse upon such of them as is the wrongdoer</hi>].
-(TA.) It is said that <foreign lang="ar">ثُمَّ نَبْتَهِلْ</foreign>, in the Kur [iii. 54,
+(TA.) It is said that <foreign lang="ar">ثُمَّ نَبْتَهِلْ</foreign>, in the Quran [iii. 54,
 of which one explanation has been given above,
 (see 3,)] means (tropical:)  <hi rend="ital">Then let us be sincere,</hi> or <hi rend="ital">without hypocrisy, in prayer,</hi> or <hi rend="ital">supplication;</hi> (S,
 TA;) <hi rend="ital">and let us strive,</hi> or <hi rend="ital">be earnest,</hi> or <hi rend="ital">energetic:</hi>
@@ -33835,7 +33835,7 @@ kind] according to the exigency of that case; as
 is said in the Nh, and expressly stated by Z and
 Er-Rághib: (TA:) or <hi rend="ital">he acknowledged it,</hi> or
 <hi rend="ital">confessed it.</hi> (M, K.) <foreign lang="ar">إِنِّى أُرِيدُ أَنْ تَبُوْءَ بِإِثْمِى</foreign>
-<foreign lang="ar">وَ إِثْمِكَ</foreign>, in the Kur v. 35, means <hi rend="ital">Verily I desire
+<foreign lang="ar">وَ إِثْمِكَ</foreign>, in the Quran v. 35, means <hi rend="ital">Verily I desire
 that thou return</hi> [laden] <hi rend="ital">with the sin committed
 against me</hi> in slaying me, <hi rend="ital">and thy sin</hi> which thou
 hast committed previously: (Jel:) or <hi rend="ital">I desire
@@ -33856,7 +33856,7 @@ of the punishment of the disobedient is allowable:
 have determined upon slaying me, the sin will be
 in thee, not in me. (M.) <foreign lang="ar">فَبَاؤُوا بِغَضَبٍ عَلَى غَضَبٍ</foreign>
 <pb n="271"/>
-[in the Kur ii. 84] is explained by Aboo-Is-hák
+[in the Quran ii. 84] is explained by Aboo-Is-hák
 as meaning <hi rend="ital">So they bore the burden of anger
 upon anger;</hi> syn. <foreign lang="ar">اِحْتَمَلُوا</foreign>; this being said by him
 to be the proper signification of the verb: or, as
@@ -33937,7 +33937,7 @@ him an abode,</hi> (S, Mgh,) <hi rend="ital">and assigned,</hi> or <hi rend="ita
 him a place therein:</hi> (S:) and <foreign lang="ar">بَوَّأْتُهُ دارًا</foreign> and <foreign lang="ar">بوّاتُ</foreign>
 <foreign lang="ar">لَهُ دارًا</foreign> <hi rend="ital">I lodged him in a house:</hi> (Msb:) and
 <foreign lang="ar">بَوَّأْتُكَ بَيْتًا</foreign> <hi rend="ital">I took for thee a house:</hi> and ↓ <orth type="arrow" lang="ar">تَبَوَّآ</orth>
-<foreign lang="ar">لِقَوْمِكُمَا بِمِصْرَ بُيُوتًا</foreign> [in the Kur x. 87] means <hi rend="ital">take
+<foreign lang="ar">لِقَوْمِكُمَا بِمِصْرَ بُيُوتًا</foreign> [in the Quran x. 87] means <hi rend="ital">take
 ye two, for your people, in Egypt, houses:</hi> (Akh,
 T:) or ↓ <orth type="arrow" lang="ar">تَبَوُّؤٌ</orth> [or <foreign lang="ar">تَبَوُّؤُ مَكَانٍ</foreign>] signifies a man's
 <hi rend="ital">putting a mark upon a place, when it pleases him,
@@ -33957,7 +33957,7 @@ alighted in the place, and stayed,</hi> or <hi rend="ital">dwelt, in it:</hi>
 (Sh, T, K:) or <foreign lang="ar">ابآء</foreign> ↓ <orth type="arrow" lang="ar">به</orth> <hi rend="ital">he stayed,</hi> or <hi rend="ital">dwelt, in it,</hi>
 i. e., a place: (Akh, T:) and <foreign lang="ar">تبوّأ</foreign> ↓ <orth type="arrow" lang="ar">المَكَانَ</orth> <hi rend="ital">he
 alighted and abode in the place:</hi> (M:) [whence,
-in the Kur lix. 9,] <foreign lang="ar">وَٱلَّذِينَ تَبَوَّؤُوا</foreign> ↓ <orth type="arrow" lang="ar">ٱلدَّارَوَ ٱلْإِيمَانَ</orth>
+in the Quran lix. 9,] <foreign lang="ar">وَٱلَّذِينَ تَبَوَّؤُوا</foreign> ↓ <orth type="arrow" lang="ar">ٱلدَّارَوَ ٱلْإِيمَانَ</orth>
 [<hi rend="ital">and they who have made their abode in the City</hi>
 of the Prophet <hi rend="ital">and in the faith</hi>]; the faith being
 likened to a place of abode; or the meaning may
@@ -34690,7 +34690,7 @@ or <hi rend="ital">corrupt, state, and uncultivated;</hi> (K, * TA;)
 <hi rend="ital">was unsown.</hi> (A.) ― 
        <milestone unit="sense" n="2"/>-b3-  And <foreign lang="ar">بَارَ عَمَلُهُ</foreign> (assumed tropical:)  <hi rend="ital">His work
 was,</hi> or <hi rend="ital">proved, vain,</hi> or <hi rend="ital">ineffectual:</hi> such is the
-signification of the verb in the Kur xxxv. 11. (S,
+signification of the verb in the Quran xxxv. 11. (S,
 K.) ― 
        <milestone unit="sense" n="2"/>-b4-  And <foreign lang="ar">بَارَ</foreign>, (T, S, &amp;c.,) aor. as above, inf. n.
 <foreign lang="ar">بَوَارٌ</foreign>, (Msb,) (tropical:)  <hi rend="ital">It</hi> (a thing, Msb, or commodity,
@@ -35466,14 +35466,14 @@ p. 94:) and <foreign lang="ar">البَالُ</foreign> signifies also <foreign 
 <hi rend="ital">care,</hi> or <hi rend="ital">concern;</hi> and hence is [said to be]
 derived <foreign lang="ar">بَالَيْتُ</foreign>, having for its inf. n. <foreign lang="ar">بَالَةٌ</foreign>. (T.)
 One says, <foreign lang="ar">مَا بَالُكَ</foreign> <hi rend="ital">What is thy state,</hi> or <hi rend="ital">condition,</hi>
-or <hi rend="ital">case?</hi> (S.) [See the Kur xii. 50 and xx. 53:
+or <hi rend="ital">case?</hi> (S.) [See the Quran xii. 50 and xx. 53:
 and see an ex. in a verse cited in this Lex. voce
 <foreign lang="ar">إِيهِ</foreign>.] When it was said to a man, in former times,
 “ How hast thou entered upon the morning? ” he
 used to reply, <foreign lang="ar">بِخَيْرٍ أَصْلَحَ ٱللّٰهُ بَالَكُمْ</foreign> [<hi rend="ital">With good
 fortune: may God make good your state,</hi> or
 <hi rend="ital">condition</hi>]. (Ham p. 77.) <foreign lang="ar">وَ يُصْلِحُ بَالَهُمْ</foreign>, in the
-Kur [xlvii. 6], means <hi rend="ital">And He will make good
+Quran [xlvii. 6], means <hi rend="ital">And He will make good
 their state,</hi> or <hi rend="ital">condition, in the present world:</hi>
 (I'Ab, T:) or <hi rend="ital">their means of subsistence in the
 present world, together with their recompense in
@@ -36053,7 +36053,7 @@ El-Marzookee, they say of a thing that is not
 done deliberately, and with good consideration of
 its issue or result, <foreign lang="ar">هٰذَا أَمْرٌ قُدِّرَ بِلَيْلٍ</foreign>; [in the text
 from which this is taken, without the syll. signs;]
-and hence the saying in the Kur [iv. 83], <foreign lang="ar">بَيَّتَ</foreign>
+and hence the saying in the Quran [iv. 83], <foreign lang="ar">بَيَّتَ</foreign>
 <foreign lang="ar">طَائِفَةٌ مِنْهُمْ غَيْرِ ٱلَّذِى تَقُولُ</foreign> [<hi rend="ital">A part of them meditateth by night upon doing otherwise than that
 which thou sayest;</hi> as is indicated in the M,
 where this is cited; and in like manner, <foreign lang="ar">يُبَيِّتُونَ</foreign>,
@@ -36064,7 +36064,7 @@ night in order that one may apply himself to it
 with strong purpose, and not be diverted by other
 things, so that it may be done with more firmness;
 and he cites the same passage of the Kur. (Ham
-p. 130.) And hence, in the Kur [iv. 108], <foreign lang="ar">إِذْ</foreign>
+p. 130.) And hence, in the Quran [iv. 108], <foreign lang="ar">إِذْ</foreign>
 <foreign lang="ar">يُبَيِّتُونَ مَا لَا يَرْضَى مِنَ القَوْلِ</foreign> <hi rend="ital">When they meditate,</hi>
 &amp;c., (S, M, Bd, Jel,) <hi rend="ital">by night,</hi> (S, M,) [<hi rend="ital">what He
 will not approve, of speech,</hi>] <hi rend="ital">and prepare it</hi> [<hi rend="ital">in
@@ -36221,7 +36221,7 @@ other things that they required.</hi> (T.) And <foreign lang="ar">أَهْلُ</
 means <hi rend="ital">the Prophet's wives and his daughter and
 'Alee:</hi> and so <foreign lang="ar">أَهْلَ ٱلْبَيْتِ</foreign> [i. e. <foreign lang="ar">يَخُصُّ أَهْلَ البَيْتِ</foreign>
 <hi rend="ital">He means particularly,</hi> or <hi rend="ital">peculiarly, the people
-of the house</hi>], in the Kur xxxiii. 33: <foreign lang="ar">بَنُو</foreign> and <foreign lang="ar">مَعْشَر</foreign>
+of the house</hi>], in the Quran xxxiii. 33: <foreign lang="ar">بَنُو</foreign> and <foreign lang="ar">مَعْشَر</foreign>
 and <foreign lang="ar">أَهْل</foreign> and <foreign lang="ar">آل</foreign>, as prefixed nouns, being, as Sb
 says, the nouns most frequently occurring in the
 accus. case [for the reason indicated above, or,
@@ -36233,7 +36233,7 @@ as the Arabian grammarians express it,] <foreign lang="ar">عَلَى</foreign>
 the announcement of</hi>] <hi rend="ital">a pavilion</hi> (<foreign lang="ar">قصر</foreign>) <hi rend="ital">of hollow
 pearls,</hi> (T, TA,) or <hi rend="ital">of emerald.</hi> (TA. [See also art.
 <foreign lang="ar">قصب</foreign>.]) <foreign lang="ar">بُيُوتًا غَيْرَ مَسْكُونَةٍ</foreign> [<hi rend="ital">Uninhabited houses</hi>],
-in the Kur xxiv. 29, means <hi rend="ital">buildings for the
+in the Quran xxiv. 29, means <hi rend="ital">buildings for the
 reception of travellers, or for merchants and
 their goods, and the shops of the merchants and
 places in which things are sold, the entering of
@@ -37600,7 +37600,7 @@ became apparent,</hi> &amp;c.; or <hi rend="ital">known</hi>]; as also ↓ <orth
 <hi rend="ital">The dawn has become apparent to him who has
 two eyes:</hi> a prov.: (S, M:) applied to a thing
 that becomes altogether apparent, or manifest.
-(Har p. 542.) And it is said in the Kur [ii. 257],
+(Har p. 542.) And it is said in the Quran [ii. 257],
 <foreign lang="ar">قَدْ تَبَيَّنَ</foreign> ↓ <orth type="arrow" lang="ar">الرُّشْدُ مِنَ الغَىِّ</orth> [<hi rend="ital">The right belief hath
 become distinguished from error</hi>]. (TA.) And
 the lawyers, correctly, use the phrase, <foreign lang="ar">كَصَوْتٍ لَا</foreign>
@@ -37687,7 +37687,7 @@ external signs thereof.</hi> (T.) A poet says,
 of drinking, and molestation, made manifest,</hi> or
 <hi rend="ital">plainly showed, by a deep-red</hi> (<hi rend="ital">sun</hi>), <hi rend="ital">that I was
 separated from the tribe:</hi> see <foreign lang="ar">قَانِئٌ</foreign>]. (M.) And
-it is said in the Kur [xvi. 91], <foreign lang="ar">وَأَنْزَلْنَا عَلَيْكَ الكِتَابَ</foreign>
+it is said in the Quran [xvi. 91], <foreign lang="ar">وَأَنْزَلْنَا عَلَيْكَ الكِتَابَ</foreign>
 <foreign lang="ar">تِبْيَانًا لِكُلِّ شَىْءٍ</foreign> [<hi rend="ital">And we have sent down to thee
 the Scripture to make manifest everything</hi>];
 meaning, we make manifest to thee in the Scripture everything that thou and thy people require
@@ -37706,7 +37706,7 @@ and evil. (M in art. <foreign lang="ar">بصر</foreign>.) [See also 5, below.]
   </entryFree>
 <entryFree id="n3660" key="سَبِيلَ المُجْرِمِينَ" type="main">
     <form>
-      <orth orig="" extent="full" lang="ar">سَبِيلَ المُجْرِمِينَ</orth></form> ↓ <orth type="arrow" lang="ar">وَلِتَسْتَبِينَ</orth>, in the Kur [vi. 55],
+      <orth orig="" extent="full" lang="ar">سَبِيلَ المُجْرِمِينَ</orth></form> ↓ <orth type="arrow" lang="ar">وَلِتَسْتَبِينَ</orth>, in the Quran [vi. 55],
 means <hi rend="ital">And that thou mayest</hi> the more <hi rend="ital">consider,</hi>
 or <hi rend="ital">examine, repeatedly, in order that it may
 become manifest to thee, the way of the sinners,</hi>
@@ -37793,7 +37793,7 @@ sought,</hi> or <hi rend="ital">endeavoured, to make the affair,</hi> or
 was not hasty therein:</hi> (Idem in iv. 96:) or <hi rend="ital">he
 acted,</hi> or <hi rend="ital">proceeded, deliberately,</hi> or <hi rend="ital">leisurely, in
 the affair,</hi> or <hi rend="ital">case; not hastily:</hi> (Ks, TA:) or it
-has a signification like this: in the Kur ch. iv. v. 96
+has a signification like this: in the Quran ch. iv. v. 96
 and ch. xlix. v. 6, some read <foreign lang="ar">فَتَبَيَّنُوا</foreign>, and others
 <foreign lang="ar">فَتَثَبَّتُوا</foreign>; and the meanings are nearly the same:
 <foreign lang="ar">التَّبَيُّنُ</foreign> was said by Mohammad to be from God,
@@ -37964,7 +37964,7 @@ among them became bad,</hi> or <hi rend="ital">marred,</hi> or <hi rend="ital">d
 (S and K in art. <foreign lang="ar">ميط</foreign>:) and <foreign lang="ar">بَيْنَ الأَيَّامِ</foreign> (M and K
 in art. <foreign lang="ar">ندر</foreign>) and <foreign lang="ar">فِيمَا بَيْنَ الأَيَّامِ</foreign> (S and Msb in
 that art.) [<hi rend="ital">In,</hi> or <hi rend="ital">during, the space of</hi> (<hi rend="ital">several</hi>)
-<hi rend="ital">days</hi>]: and <foreign lang="ar">عَوَانٌ بَيْنَ ذٰلِكَ</foreign>, in the Kur [ii. 63], is
+<hi rend="ital">days</hi>]: and <foreign lang="ar">عَوَانٌ بَيْنَ ذٰلِكَ</foreign>, in the Quran [ii. 63], is
 an ex. of its being prefixed to a single word supplying the place of more than one; (Mgh, Msb;)
 the meaning being, <hi rend="ital">Of middle age, between that</hi>
 which has been mentioned; namely, the <foreign lang="ar">فَارِض</foreign>
@@ -37988,7 +37988,7 @@ lxxxvi. 7, <foreign lang="ar">يَخْرُجُ مِنْ بَيْنِ الصُّ�
 breast-bones:</hi> and in xxxvi. 8 of the same, <foreign lang="ar">وَجَعَلْنَا</foreign>
 <foreign lang="ar">مِنْ بَيْنِ أَيْديهِمْ سَدًّا</foreign> <hi rend="ital">And we have placed before
 them</hi> (lit. <hi rend="ital">between their hands</hi>) <hi rend="ital">a barrier.</hi>] It is
-said in the Kur [vi. 94], <foreign lang="ar">لَقَدْ تَقَطَّعَ بَيْنُكُمْ</foreign>, as some
+said in the Quran [vi. 94], <foreign lang="ar">لَقَدْ تَقَطَّعَ بَيْنُكُمْ</foreign>, as some
 read; or <foreign lang="ar">بَيْنَكُمْ</foreign>, as others: (T, S, M:) the former
 means <hi rend="ital">Verily your union hath become dissevered:</hi>
 (AA, T, S, M:) the latter, <hi rend="ital">that which was between
@@ -38203,7 +38203,7 @@ expression, and the latter concerns the meaning.
 (Kull.) It is said in a trad., <foreign lang="ar">إِنَّ مِنَ البَيَانِ سِحْرًا</foreign>
 (S) or <foreign lang="ar">لَسِحْرًا</foreign> (TA) [<hi rend="ital">Verily there is a kind of
 eloquence that is enchantment:</hi> see this explained
-in art. <foreign lang="ar">سحر</foreign>]. The saying in the Kur [lv. 2 and
+in art. <foreign lang="ar">سحر</foreign>]. The saying in the Quran [lv. 2 and
 3], <foreign lang="ar">خَلَقَ ٱلْإِنْسَانَ عَلَّمَهُ ٱلْبَيَانَ</foreign> means <hi rend="ital">He hath
 created the Prophet: He hath taught him the
 Kur-án wherein is the manifestation of everything</hi>
