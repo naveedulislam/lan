@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI.2><text><body><div1 part="N" n="s" org="uniform" sample="complete" type="alphabetical letter">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="tei.css"?>
+<TEI.2><text><body><div1 part="N" n="s" org="uniform" sample="complete" type="alphabetical letter">
 <head lang="ar">س</head>
 
  <div2 part="N" n="s" org="uniform" sample="complete" type="alphabetical letter">

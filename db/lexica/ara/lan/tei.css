@@ -349,8 +349,8 @@ foreign {
   font-weight: normal;
 }
 foreign[lang="ar"] {
-  font-family: "Arabic Typesetting", "Traditional Arabic", "Times New Roman", "Geeza Pro", serif;
-  font-size: 1.0em;
+  font-family: "Arabic Typesetting", "Times New Roman", "Segoe UI";
+  font-size: 1.1em;
   font-style: normal;
   font-weight: normal;
   direction: rtl;
