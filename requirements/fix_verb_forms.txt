@@ -1,0 +1,96 @@
+Next big improvement:
+Create Verb Form
+
+Summary: Most of the time Lane left the Verb Forms blank since he provided the verb forms in, "I. Table of the Conjugations of Arabic Verbs" within PREFACE in the Book 1 Part 1.
+
+Issue: Almost all the verb form in digitized version of Lane's Lexicon are either incorrect or absent. We want to replace the incorrect ones and create new ones if none exists.
+
+"Arabic Conjugator.csv" file provides, excel formulas that can be used to create logical python code to create all the Arabic Verb Forms
+Refernce: references\Arabic Conjugator.csv
+
+Regex to find Verb Forms: <itype>\d+</itype> \n\s+<orth lang="ar">[^a-zA-Z]+</orth></form>
+Note: I am not an expert in Regex so please do your own due diligince.
+
+Examples: 
+
+      <itype>2</itype> 
+      <orth lang="ar">بَتَّكَ</orth></form>
+
+      <itype>5</itype> 
+      <orth lang="ar">تَبَتَّكَ</orth></form>      
+
+      <itype>8</itype> 
+      <orth lang="ar">اِبْتَأَرَ</orth></form>       
+
+I think that the logic for this code should be similar to: scripts\fix_aorists.py    
+
+Each of the verb form will be created based on the Arabic root it is for.
+
+According to my research there can many verb forms and 12 are shown in the csv file.
+
+The current file shows 149 verb forms that need corretion in ub0.xml file.
+And a search at the folder level shows that there are a total of 2972 verb form in this folder: db\lexica\ara\lan
+
+Verb Form table from Lane's Lexicon Preface:
+
+I. Table of the Conjugations of Arabic Verbs
+1. (1st variety) فَعَلَ, يَفْعُلُ: (2 nd) فَعَلَ, يَفْعِلُ: (3rd) فَعَلَ, يَفْعَلُ: (4th) فَعِلَ, يَفْعَلُ: (5th) فَعُلَ, يَفْعُلُ: (6th) فَعِلَ, يَفْعِلُ.
+
+2. فَعَّلَ: variations قَصَّى (for قَصَّصَ) and the like.
+
+3.: فَاعَلَ.
+
+4.: أَفْعَلَ.
+
+5. تَفَعَّلَ: variations اِفَّعَّلَ, in cases of verbs of which the ف is ت, ث, ج, د, ذ, ز, س, ش, ص, ض, ط or ظ: also تَظَنَّى (for تَظَنَّنَ) and the like: تَفَعَّلُ &c. (for تَتَفَعَّلُ &c.)
+
+6. تَفَاعَلَ: variations اِفَّاعَلَ, in cases like those in which تَفَعَّلَ sometimes becomes اِفَّعَّلَ: also تَفَاعَلُ &c. (for تَتَفَاعَلُ &c.)
+
+7. اِنْفَعَلَ: variations اِنَّصَرَ (for اِنْنَصَرَ) and the like; and اِمَّلَسَ (for اِنْمَلَسَ) and the like.
+
+8. اِفْتَعَلَ: variations فِعِّلَ , فِعَّلَ , فَعَّلَ or فَعِّلَ , or , in the cases of verbs of which the ع is ت , ث , ج , د , ذ , ز , س , ش , ص , ض , ط , or ظ: also such as اِتَّبَعَ (for اِتْتَبَعَ), اِتَّغَرَ and اِثَّغَرَ and اِدَّغَرَ (for اِثْتَغَرَ), اِجْدَمَعَ (for اِجْتَمَعَ), اِدَّرَكَ (for اِدْتَرَكَ), اِدَّكَرَ and اِذَّكَرَ and اِذْدَكَرَ (for اِذْتَكَرَ), اِزْدَادَ (for اِزْتَادَ), اِصْطَبَرَ and اِصَّبَرَ (for اِصْتَبَرَ), اِضْطَرَبَ and اِضَّرَبَ (for اِضْتَرَبَ), اِضْطَرَدَ (for اِطْتَرَدَ), اِطَّبَعَ (for اِطْتَبَعَ), اِطَّلَمَ and اِظْطَلَمَ and اِظَّلَمَ (for اِظْتَلَمَ), اِتَّقَى (for اِوْتَقَى), اِتَّسَرَ (for اِيتَسَرَ): اِعَذَّرَ and اِعِذِّرَ (for اِعْتَذَرَ).
+
+9. اِفْعَلَّ: variations اِفْعَلَلَ, in the case of a verb of which the ل is unsound; as اِرْعَوَى: and اِفْعَلَلَّ as اِبْيَضَضَّ.
+
+10. اِسْتَفْعَلَ: variations اِسْطَاعَ and اِسْتَاعَ (for اِسْتَطَاعَ).
+
+11. اِفْعَالَّ: variation اِفْعَالَلَ, in the case of a verb of which the ل is unsound; as اِحْوَاوَى.
+
+12. اِفْعَوْعَلَ.
+
+13. اِفْعَوَّلَ.
+
+Q.1.: فَعْلَلَ.
+
+Q.2.: تَفَعْلَلَ.
+
+Q.3.: اِفْعَنْلَلَ.
+
+Q.4.: اِفْعَلَلَّ.
+
+R.: Q. 1. Verbs of the classes of بَلْبَلَ (in which the first and third radical letters are the same, and the second and fourth,) and جَلْبَبَ (in which the third and fourth radical letters are the same).
+
+R.: Q. 2. Verbs of the classes of تَبَلْبَلَ and تَجَلْبَبَ.
+
+R.: Q. 3. Verbs of the classes of اِقْعَنْسَسَ.
+
+R.: Q. 4. Verbs of the classes of اِبْيَضَضَّ, mentioned above, (see 9,) as variations of اِفْعَلَّ, may be classed under this head.
+
+Q.: Q. 1. فَعْلَسَ; فَعْلَمَ; فَعْلَنَ (as عَلْوَنَ according to some, and عَشْرَنَ); فَعْلَى; فَعْأَلَ; فَعْمَلَ; فَعْنَلَ; فَعْهَلَ; فَعْوَلَ; فَعْيَلَ; فَأْعَلَ; فَتْعَلَ; فَنْعَلَ; فَهْعَلَ; فَوْعَلَ; فَيْعَلَ; تَفْعَلَ; سَفْعَل; مَفْعَلَ; نَفْعَلَ; هَفْعَلَ; يَفْعَلَ.
+
+Q.: Q. 2. تَفَعْلَتَ; تَفَعْلى; تَفَعْنَلَ; تَفَعْوَلَ; تَفَعْيَلَ; تَفَوْعَلَ; تَفَيْعَلَ; تَمَفْعَلَ.
+
+Q.: Q. 3. اِفْعَنْللأَ; اِفْعَنْلَى; اِفْعَأْلَلَ; اِفْعَلَّلَ; اِفْعَوْلَلَ; اِفْعَيَّلَ; اِفْتَعْأَلَ; اِفْوَنْعَلَ.
+
+Q.: Q. 4. اِفْعَأَلَّ; اِفْعَهَلَّ; اِفْلَعَلَّ; اِفْمَعَلَّ; اِفْوَعَلَّ; اِنْفَعَلَّ.
+
+Beside these, there are some other forms of Q. Q. verbs, not to be classed with any of the foregoing. And probably there are some other varieties of Q. Q. 2; each quasi-passive of Q. Q. 1.
+
+Important Note: We have already handled Form 1 - 6 varieties through script: scripts\fix_aorists.py
+
+1. Create a python script uing above informaion to handle verb forms
+2. The script should create a preview file with nme verb_form_preview_ba.tx (_ba is the suffix to be used with file ub0.xml and similar files with be created for all the files to track changes) in references directcory
+3. After randomly verifying teh new verb forms created by python script and making sure that it is working we can proceed with the actual changes to ub0.xml through python  script.
+4. Do not create any files in db\lexica\ara\lan
+5. All the xml files in db\lexica\ara\lan folder are tracked in git repo and also saved in OneDrive
+6. Do ot use any emojis in any scripts or files.

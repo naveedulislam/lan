@@ -1,0 +1,2442 @@
+GENERIC AORIST CORRECTION PREVIEW REPORT
+==================================================
+
+Input file: ..\db\lexica\ara\lan\ub0.xml
+Total entries to be corrected: 265
+Generated on: 2025-09-05 07:51:21
+Script: fix_aorists.py
+
+REGEX PATTERNS CORRECTED:
+1. aor. \n\s+<form n="infl">\n\s+<orth orig="\w+" lang="ar">([^<]+)</orth></form>
+2. aor. \n\s+<form n="infl">\n\s+<orth orig="" [^>]*lang="ar">([^<]+)</orth></form>
+
+CORRECTION METHOD:
+- Analyzes existing diacritics to preserve intended conjugation variety
+- Uses Harry Diakoff's diacritics to determine correct Lane variety
+- Respects the original linguistic choices
+
+LANE'S 6 VARIETIES:
+1. فَعَلَ -> يَفْعُلُ
+2. فَعَلَ -> يَفْعِلُ
+3. فَعَلَ -> يَفْعَلُ
+4. فَعِلَ -> يَفْعَلُ
+5. فَعُلَ -> يَفْعُلُ
+6. فَعِلَ -> يَفْعِلُ
+
+FORMAT:
+Root: [Arabic root] ([clean root letters])
+  Pattern: [intended variety pattern]
+  Current: [incorrect aorist]
+  Correct: [corrected aorist]
+  Action:  REPLACE
+
+--------------------------------------------------
+
+=== يَفْعُلُ (VARIETIES 1,5) PATTERN ===
+Entries using this pattern: 111
+
+  1. Root: بتر (بتر)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَتُرَ
+     Correct: يَبْتُرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+  2. Root: بثق (بثق)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَثُقَ
+     Correct: يَبْثُقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+  3. Root: بثق (بثق)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَثُقَ
+     Correct: يَبْثُقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+  4. Root: بثق (بثق)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَثُقَ
+     Correct: يَبْثُقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+  5. Root: بجد (بجد)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَجُدَ
+     Correct: يَبْجُدُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+  6. Root: بجس (بجس)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَجُسَ
+     Correct: يَبْجُسُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+  7. Root: بجس (بجس)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَجُسَ
+     Correct: يَبْجُسُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+  8. Root: بجل (بجل)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَجُلَ
+     Correct: يَبْجُلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+  9. Root: بجل (بجل)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَجُلَ
+     Correct: يَبْجُلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 10. Root: بحت (بحت)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَحُتَ
+     Correct: يَبْحُتُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 11. Root: بحر (بحر)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَحُرَ
+     Correct: يَبْحُرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 12. Root: بخر (بخر)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَخُرَ
+     Correct: يَبْخُرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 13. Root: بخق (بخق)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَخُقَ
+     Correct: يَبْخُقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 14. Root: بخل (بخل)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَخُلَ
+     Correct: يَبْخُلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 15. Root: بدر (بدر)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَدُرَ
+     Correct: يَبْدُرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 16. Root: بدر (بدر)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَدُرَ
+     Correct: يَبْدُرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 17. Root: بدر (بدر)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَدُرَ
+     Correct: يَبْدُرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 18. Root: بدر (بدر)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَدُرَ
+     Correct: يَبْدُرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 19. Root: بدع (بدع)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَدُعَ
+     Correct: يَبْدُعُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 20. Root: بدل (بدل)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَدُلَ
+     Correct: يَبْدُلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 21. Root: بدن (بدن)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَدُنَ
+     Correct: يَبْدُنُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 22. Root: بدن (بدن)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَدُنَ
+     Correct: يَبْدُنُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 23. Root: بذأ (بذأ)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَذُاَ
+     Correct: يَبْذُأُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 24. Root: بذر (بذر)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَذُرَ
+     Correct: يَبْذُرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 25. Root: بذر (بذر)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَذُرَ
+     Correct: يَبْذُرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 26. Root: بذل (بذل)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَذُلَ
+     Correct: يَبْذُلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 27. Root: بذل (بذل)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَذُلَ
+     Correct: يَبْذُلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 28. Root: بذو (بذو)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَذُوَ
+     Correct: يَبْذُوُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 29. Root: برأ (برأ)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُاَ
+     Correct: يَبْرُأُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 30. Root: برأ (برأ)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُاَ
+     Correct: يَبْرُأُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 31. Root: برأ (برأ)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُاَ
+     Correct: يَبْرُأُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 32. Root: برأ (برأ)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُاَ
+     Correct: يَبْرُأُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 33. Root: برح (برح)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُحَ
+     Correct: يَبْرُحُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 34. Root: برد (برد)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُدَ
+     Correct: يَبْرُدُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 35. Root: برد (برد)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُدَ
+     Correct: يَبْرُدُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 36. Root: برد (برد)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُدَ
+     Correct: يَبْرُدُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 37. Root: برد (برد)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُدَ
+     Correct: يَبْرُدُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 38. Root: برد (برد)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُدَ
+     Correct: يَبْرُدُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 39. Root: برد (برد)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُدَ
+     Correct: يَبْرُدُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 40. Root: برز (برز)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُزَ
+     Correct: يَبْرُزُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 41. Root: برع (برع)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُعَ
+     Correct: يَبْرُعُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 42. Root: برق (برق)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُقَ
+     Correct: يَبْرُقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 43. Root: برق (برق)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُقَ
+     Correct: يَبْرُقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 44. Root: برق (برق)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُقَ
+     Correct: يَبْرُقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 45. Root: برق (برق)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُقَ
+     Correct: يَبْرُقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 46. Root: برك (برك)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُكَ
+     Correct: يَبْرُكُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 47. Root: برم (برم)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُمَ
+     Correct: يَبْرُمُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 48. Root: برم (برم)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُمَ
+     Correct: يَبْرُمُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 49. Root: برو (برو)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُوَ
+     Correct: يَبْرُوُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 50. Root: برو (برو)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُوَ
+     Correct: يَبْرُوُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 51. Root: برو (برو)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُوَ
+     Correct: يَبْرُوُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 52. Root: برى (برى)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَرُىَ
+     Correct: يَبْرُىُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 53. Root: بزر (بزر)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَزُرَ
+     Correct: يَبْزُرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 54. Root: بزغ (بزغ)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَزُغَ
+     Correct: يَبْزُغُ
+     Action:  REPLACE
+     XML Context: ...aor.
+    <form n="infl">
+      <orth orig="Bu" lan...
+
+ 55. Root: بزغ (بزغ)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَزُغَ
+     Correct: يَبْزُغُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 56. Root: بزغ (بزغ)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَزُغَ
+     Correct: يَبْزُغُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 57. Root: بزق (بزق)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَزُقَ
+     Correct: يَبْزُقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 58. Root: بزل (بزل)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَزُلَ
+     Correct: يَبْزُلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 59. Root: بزل (بزل)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَزُلَ
+     Correct: يَبْزُلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 60. Root: بزو (بزو)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَزُوَ
+     Correct: يَبْزُوُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 61. Root: بسر (بسر)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَسُرَ
+     Correct: يَبْسُرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 62. Root: بسر (بسر)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَسُرَ
+     Correct: يَبْسُرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 63. Root: بسر (بسر)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَسُرَ
+     Correct: يَبْسُرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 64. Root: بسط (بسط)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَسُطَ
+     Correct: يَبْسُطُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 65. Root: بسط (بسط)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَسُطَ
+     Correct: يَبْسُطُ
+     Action:  REPLACE
+     XML Context: ...aor.
+    <form n="infl">
+      <orth orig="Bu" lan...
+
+ 66. Root: بسق (بسق)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَسُقَ
+     Correct: يَبْسُقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 67. Root: بسق (بسق)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَسُقَ
+     Correct: يَبْسُقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 68. Root: بسل (بسل)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَسُلَ
+     Correct: يَبْسُلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 69. Root: بسل (بسل)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَسُلَ
+     Correct: يَبْسُلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 70. Root: بشر (بشر)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَشُرَ
+     Correct: يَبْشُرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 71. Root: بشر (بشر)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَشُرَ
+     Correct: يَبْشُرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 72. Root: بشر (بشر)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَشُرَ
+     Correct: يَبْشُرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 73. Root: بصر (بصر)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَصُرَ
+     Correct: يَبْصُرُ
+     Action:  REPLACE
+     XML Context: ...aor.
+    <form n="infl">
+      <orth orig="Bu" lan...
+
+ 74. Root: بصر (بصر)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَصُرَ
+     Correct: يَبْصُرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 75. Root: بصق (بصق)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَصُقَ
+     Correct: يَبْصُقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 76. Root: بطأ (بطأ)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَطُاَ
+     Correct: يَبْطُأُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 77. Root: بطر (بطر)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَطُرَ
+     Correct: يَبْطُرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 78. Root: بطل (بطل)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَطُلَ
+     Correct: يَبْطُلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 79. Root: بطل (بطل)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَطُلَ
+     Correct: يَبْطُلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 80. Root: بطل (بطل)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَطُلَ
+     Correct: يَبْطُلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 81. Root: بطل (بطل)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَطُلَ
+     Correct: يَبْطُلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 82. Root: بطن (بطن)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَطُنَ
+     Correct: يَبْطُنُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 83. Root: بطن (بطن)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَطُنَ
+     Correct: يَبْطُنُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 84. Root: بطن (بطن)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَطُنَ
+     Correct: يَبْطُنُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 85. Root: بطن (بطن)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَطُنَ
+     Correct: يَبْطُنُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 86. Root: بطن (بطن)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَطُنَ
+     Correct: يَبْطُنُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 87. Root: بعد (بعد)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَعُدَ
+     Correct: يَبْعُدُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 88. Root: بعد (بعد)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَعُدَ
+     Correct: يَبْعُدُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 89. Root: بغل (بغل)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَغُلَ
+     Correct: يَبْغُلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 90. Root: بقر (بقر)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَقُرَ
+     Correct: يَبْقُرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 91. Root: بقو (بقو)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَقُوَ
+     Correct: يَبْقُوُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 92. Root: بكأ (بكأ)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَكُاَ
+     Correct: يَبْكُأُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 93. Root: بكت (بكت)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَكُتَ
+     Correct: يَبْكُتُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 94. Root: بكر (بكر)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَكُرَ
+     Correct: يَبْكُرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 95. Root: بكم (بكم)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَكُمَ
+     Correct: يَبْكُمُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 96. Root: بلج (بلج)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَلُجَ
+     Correct: يَبْلُجُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 97. Root: بلد (بلد)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَلُدَ
+     Correct: يَبْلُدُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 98. Root: بلد (بلد)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَلُدَ
+     Correct: يَبْلُدُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+ 99. Root: بلد (بلد)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَلُدَ
+     Correct: يَبْلُدُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+100. Root: بلغ (بلغ)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَلُغَ
+     Correct: يَبْلُغُ
+     Action:  REPLACE
+     XML Context: ...aor.
+    <form n="infl">
+      <orth orig="Bu" lan...
+
+101. Root: بلغ (بلغ)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَلُغَ
+     Correct: يَبْلُغُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+102. Root: بلغ (بلغ)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَلُغَ
+     Correct: يَبْلُغُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+103. Root: بلق (بلق)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَلُقَ
+     Correct: يَبْلُقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+104. Root: بلق (بلق)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَلُقَ
+     Correct: يَبْلُقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+105. Root: بلو (بلو)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَلُوَ
+     Correct: يَبْلُوُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+106. Root: بنق (بنق)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَنُقَ
+     Correct: يَبْنُقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+107. Root: بنو (بنو)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَنُوَ
+     Correct: يَبْنُوُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+108. Root: بهأ (بهأ)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَهُاَ
+     Correct: يَبْهُأُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+109. Root: بهت (بهت)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَهُتَ
+     Correct: يَبْهُتُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+110. Root: بهت (بهت)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَهُتَ
+     Correct: يَبْهُتُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+111. Root: بهج (بهج)
+     Pattern: يَفْعُلُ (varieties 1,5)
+     Current: بَهُجَ
+     Correct: يَبْهُجُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+
+=== يَفْعَلُ (VARIETIES 3,4) PATTERN ===
+Entries using this pattern: 130
+
+112. Root: بتر (بتر)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَتَرَ
+     Correct: يَبْتَرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+113. Root: بتع (بتع)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَتَعَ
+     Correct: يَبْتَعُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+114. Root: بتل (بتل)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَتَلَ
+     Correct: يَبْتَلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+115. Root: بَثِرَ (بثر)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بََُثَ
+     Correct: يَبْثَرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+116. Root: بَثِرَ (بثر)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بََُثَ
+     Correct: يَبْثَرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+117. Root: بثق (بثق)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَثَقَ
+     Correct: يَبْثَقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+118. Root: بجح (بجح)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَجَحَ
+     Correct: يَبْجَحُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+119. Root: بجح (بجح)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَجَحَ
+     Correct: يَبْجَحُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+120. Root: بجر (بجر)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَجَرَ
+     Correct: يَبْجَرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+121. Root: بجل (بجل)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَجَلَ
+     Correct: يَبْجَلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+122. Root: بحث (بحث)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَحَثَ
+     Correct: يَبْحَثُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+123. Root: بحر (بحر)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَحَرَ
+     Correct: يَبْحَرُ
+     Action:  REPLACE
+     XML Context: ...aor.
+    <form n="infl">
+      <orth orig="Ba" lan...
+
+124. Root: بحر (بحر)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَحَرَ
+     Correct: يَبْحَرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+125. Root: بخر (بخر)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَخَرَ
+     Correct: يَبْخَرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+126. Root: بخس (بخس)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَخَسَ
+     Correct: يَبْخَسُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+127. Root: بخص (بخص)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَخَصَ
+     Correct: يَبْخَصُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+128. Root: بخع (بخع)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَخَعَ
+     Correct: يَبْخَعُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+129. Root: بخع (بخع)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَخَعَ
+     Correct: يَبْخَعُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+130. Root: بخع (بخع)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَخَعَ
+     Correct: يَبْخَعُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+131. Root: بخع (بخع)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَخَعَ
+     Correct: يَبْخَعُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+132. Root: بخق (بخق)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَخَقَ
+     Correct: يَبْخَقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+133. Root: بخق (بخق)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَخَقَ
+     Correct: يَبْخَقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+134. Root: بخل (بخل)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَخَلَ
+     Correct: يَبْخَلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+135. Root: بدأ (بدأ)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَدَاَ
+     Correct: يَبْدَأُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+136. Root: بدع (بدع)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَدَعَ
+     Correct: يَبْدَعُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+137. Root: بدع (بدع)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَدَعَ
+     Correct: يَبْدَعُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+138. Root: بده (بده)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَدَهَ
+     Correct: يَبْدَهُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+139. Root: بذأ (بذأ)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَذَاَ
+     Correct: يَبْذَأُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+140. Root: بذأ (بذأ)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَذَاَ
+     Correct: يَبْذَأُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+141. Root: بذخ (بذخ)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَذَخَ
+     Correct: يَبْذَخُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+142. Root: بذخ (بذخ)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَذَخَ
+     Correct: يَبْذَخُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+143. Root: بذخ (بذخ)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَذَخَ
+     Correct: يَبْذَخُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+144. Root: بذخ (بذخ)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَذَخَ
+     Correct: يَبْذَخُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+145. Root: بذخ (بذخ)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَذَخَ
+     Correct: يَبْذَخُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+146. Root: بذخ (بذخ)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَذَخَ
+     Correct: يَبْذَخُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+147. Root: بذر (بذر)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَذَرَ
+     Correct: يَبْذَرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+148. Root: برأ (برأ)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَاَ
+     Correct: يَبْرَأُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+149. Root: برأ (برأ)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَاَ
+     Correct: يَبْرَأُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+150. Root: برأ (برأ)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَاَ
+     Correct: يَبْرَأُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+151. Root: برأ (برأ)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَاَ
+     Correct: يَبْرَأُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+152. Root: برأ (برأ)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَاَ
+     Correct: يَبْرَأُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+153. Root: برأ (برأ)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَاَ
+     Correct: يَبْرَأُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+154. Root: برأ (برأ)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَاَ
+     Correct: يَبْرَأُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+155. Root: برأ (برأ)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَاَ
+     Correct: يَبْرَأُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+156. Root: برأ (برأ)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَاَ
+     Correct: يَبْرَأُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+157. Root: برج (برج)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَجَ
+     Correct: يَبْرَجُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+158. Root: برج (برج)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَجَ
+     Correct: يَبْرَجُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+159. Root: برح (برح)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَحَ
+     Correct: يَبْرَحُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+160. Root: برح (برح)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَحَ
+     Correct: يَبْرَحُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+161. Root: برح (برح)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَحَ
+     Correct: يَبْرَحُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+162. Root: برش (برش)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَشَ
+     Correct: يَبْرَشُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+163. Root: برش (برش)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَشَ
+     Correct: يَبْرَشُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+164. Root: برص (برص)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَصَ
+     Correct: يَبْرَصُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+165. Root: برع (برع)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَعَ
+     Correct: يَبْرَعُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+166. Root: برع (برع)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَعَ
+     Correct: يَبْرَعُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+167. Root: برق (برق)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَقَ
+     Correct: يَبْرَقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+168. Root: برق (برق)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَقَ
+     Correct: يَبْرَقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+169. Root: برق (برق)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَقَ
+     Correct: يَبْرَقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+170. Root: برك (برك)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَكَ
+     Correct: يَبْرَكُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+171. Root: برم (برم)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَمَ
+     Correct: يَبْرَمُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+172. Root: برم (برم)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَمَ
+     Correct: يَبْرَمُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+173. Root: بره (بره)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَرَهَ
+     Correct: يَبْرَهُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+174. Root: بزخ (بزخ)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَزَخَ
+     Correct: يَبْزَخُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+175. Root: بزو (بزو)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَزَوَ
+     Correct: يَبْزَوُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+176. Root: بسأ (بسأ)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَسَاَ
+     Correct: يَبْسَأُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+177. Root: بشر (بشر)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَشَرَ
+     Correct: يَبْشَرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+178. Root: بشع (بشع)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَشَعَ
+     Correct: يَبْشَعُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+179. Root: بشع (بشع)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَشَعَ
+     Correct: يَبْشَعُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+180. Root: بشع (بشع)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَشَعَ
+     Correct: يَبْشَعُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+181. Root: بشق (بشق)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَشَقَ
+     Correct: يَبْشَقُ
+     Action:  REPLACE
+     XML Context: ...aor.
+    <form n="infl">
+      <orth orig="Ba" lan...
+
+182. Root: بشم (بشم)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَشَمَ
+     Correct: يَبْشَمُ
+     Action:  REPLACE
+     XML Context: ...aor.
+    <form n="infl">
+      <orth orig="Ba" lan...
+
+183. Root: بصر (بصر)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَصَرَ
+     Correct: يَبْصَرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+184. Root: بصع (بصع)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَصَعَ
+     Correct: يَبْصَعُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+185. Root: بضع (بضع)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَضَعَ
+     Correct: يَبْضَعُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+186. Root: بضع (بضع)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَضَعَ
+     Correct: يَبْضَعُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+187. Root: بطح (بطح)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَطَحَ
+     Correct: يَبْطَحُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+188. Root: بطر (بطر)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَطَرَ
+     Correct: يَبْطَرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+189. Root: بطل (بطل)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَطَلَ
+     Correct: يَبْطَلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+190. Root: بطن (بطن)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَطَنَ
+     Correct: يَبْطَنُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+191. Root: بظر (بظر)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَظَرَ
+     Correct: يَبْظَرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+192. Root: بعث (بعث)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَعَثَ
+     Correct: يَبْعَثُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+193. Root: بعث (بعث)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَعَثَ
+     Correct: يَبْعَثُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+194. Root: بعج (بعج)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَعَجَ
+     Correct: يَبْعَجُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+195. Root: بعد (بعد)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَعَدَ
+     Correct: يَبْعَدُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+196. Root: بعد (بعد)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَعَدَ
+     Correct: يَبْعَدُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+197. Root: بعر (بعر)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَعَرَ
+     Correct: يَبْعَرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+198. Root: بعر (بعر)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَعَرَ
+     Correct: يَبْعَرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+199. Root: بعض (بعض)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَعَضَ
+     Correct: يَبْعَضُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+200. Root: بعق (بعق)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَعَقَ
+     Correct: يَبْعَقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+201. Root: بعل (بعل)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَعَلَ
+     Correct: يَبْعَلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+202. Root: بعل (بعل)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَعَلَ
+     Correct: يَبْعَلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+203. Root: بغت (بغت)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَغَتَ
+     Correct: يَبْغَتُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+204. Root: بغث (بغث)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَغَثَ
+     Correct: يَبْغَثُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+205. Root: بغش (بغش)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَغَشَ
+     Correct: يَبْغَشُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+206. Root: بغض (بغض)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَغَضَ
+     Correct: يَبْغَضُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+207. Root: بغل (بغل)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَغَلَ
+     Correct: يَبْغَلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+208. Root: بغى (بغى)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَغَىَ
+     Correct: يَبْغَىُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+209. Root: بقر (بقر)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَقَرَ
+     Correct: يَبْقَرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+210. Root: بقع (بقع)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَقَعَ
+     Correct: يَبْقَعُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+211. Root: بَقَلَ (بقل)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بََُقَ
+     Correct: يَبْقَلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bu" la...
+
+212. Root: بكأ (بكأ)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَكَاَ
+     Correct: يَبْكَأُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+213. Root: بكر (بكر)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَكَرَ
+     Correct: يَبْكَرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+214. Root: بكم (بكم)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَكَمَ
+     Correct: يَبْكَمُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+215. Root: بلج (بلج)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَلَجَ
+     Correct: يَبْلَجُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+216. Root: بلد (بلد)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَلَدَ
+     Correct: يَبْلَدُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+217. Root: بلد (بلد)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَلَدَ
+     Correct: يَبْلَدُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+218. Root: بلد (بلد)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَلَدَ
+     Correct: يَبْلَدُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+219. Root: بلع (بلع)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَلَعَ
+     Correct: يَبْلَعُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+220. Root: بلع (بلع)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَلَعَ
+     Correct: يَبْلَعُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+221. Root: بلق (بلق)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَلَقَ
+     Correct: يَبْلَقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+222. Root: بله (بله)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَلَهَ
+     Correct: يَبْلَهُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+223. Root: بلو (بلو)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَلَوَ
+     Correct: يَبْلَوُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+224. Root: بهأ (بهأ)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَهَاَ
+     Correct: يَبْهَأُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+225. Root: بهت (بهت)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَهَتَ
+     Correct: يَبْهَتُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+226. Root: بهت (بهت)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَهَتَ
+     Correct: يَبْهَتُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+227. Root: بهت (بهت)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَهَتَ
+     Correct: يَبْهَتُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+228. Root: بهت (بهت)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَهَتَ
+     Correct: يَبْهَتُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+229. Root: بهج (بهج)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَهَجَ
+     Correct: يَبْهَجُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+230. Root: بهج (بهج)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَهَجَ
+     Correct: يَبْهَجُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+231. Root: بهر (بهر)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَهَرَ
+     Correct: يَبْهَرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+232. Root: بهر (بهر)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَهَرَ
+     Correct: يَبْهَرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+233. Root: بهر (بهر)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَهَرَ
+     Correct: يَبْهَرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+234. Root: بهر (بهر)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَهَرَ
+     Correct: يَبْهَرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+235. Root: بهظ (بهظ)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَهَظَ
+     Correct: يَبْهَظُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+236. Root: بهق (بهق)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَهَقَ
+     Correct: يَبْهَقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+237. Root: بهل (بهل)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَهَلَ
+     Correct: يَبْهَلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+238. Root: بهل (بهل)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَهَلَ
+     Correct: يَبْهَلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+239. Root: بهل (بهل)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَهَلَ
+     Correct: يَبْهَلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+240. Root: بهل (بهل)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَهَلَ
+     Correct: يَبْهَلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+241. Root: بهو (بهو)
+     Pattern: يَفْعَلُ (varieties 3,4)
+     Current: بَهَوَ
+     Correct: يَبْهَوُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Ba" la...
+
+
+=== يَفْعِلُ (VARIETIES 2,6) PATTERN ===
+Entries using this pattern: 24
+
+242. Root: بتع (بتع)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَتِعَ
+     Correct: يَبْتِعُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+243. Root: بتك (بتك)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَتِكَ
+     Correct: يَبْتِكُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+244. Root: بتل (بتل)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَتِلَ
+     Correct: يَبْتِلُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+245. Root: بثق (بثق)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَثِقَ
+     Correct: يَبْثِقُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+246. Root: بجح (بجح)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَجِحَ
+     Correct: يَبْجِحُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+247. Root: برك (برك)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَرِكَ
+     Correct: يَبْرِكُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+248. Root: برى (برى)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَرِىَ
+     Correct: يَبْرِىُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+249. Root: برى (برى)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَرِىَ
+     Correct: يَبْرِىُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+250. Root: برى (برى)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَرِىَ
+     Correct: يَبْرِىُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+251. Root: بسم (بسم)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَسِمَ
+     Correct: يَبْسِمُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+252. Root: بشر (بشر)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَشِرَ
+     Correct: يَبْشِرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+253. Root: بشر (بشر)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَشِرَ
+     Correct: يَبْشِرُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+254. Root: بطش (بطش)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَطِشَ
+     Correct: يَبْطِشُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+255. Root: بغم (بغم)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَغِمَ
+     Correct: يَبْغِمُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+256. Root: بغى (بغى)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَغِىَ
+     Correct: يَبْغِىُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+257. Root: بغى (بغى)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَغِىَ
+     Correct: يَبْغِىُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+258. Root: بغى (بغى)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَغِىَ
+     Correct: يَبْغِىُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+259. Root: بغى (بغى)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَغِىَ
+     Correct: يَبْغِىُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+260. Root: بغى (بغى)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَغِىَ
+     Correct: يَبْغِىُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+261. Root: بكى (بكى)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَكِىَ
+     Correct: يَبْكِىُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+262. Root: بلج (بلج)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَلِجَ
+     Correct: يَبْلِجُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+263. Root: بلد (بلد)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَلِدَ
+     Correct: يَبْلِدُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+264. Root: بنى (بنى)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَنِىَ
+     Correct: يَبْنِىُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+265. Root: بنى (بنى)
+     Pattern: يَفْعِلُ (varieties 2,6)
+     Current: بَنِىَ
+     Correct: يَبْنِىُ
+     Action:  REPLACE
+     XML Context: ...aor. 
+    <form n="infl">
+      <orth orig="Bi" la...
+
+
+--------------------------------------------------
+SUMMARY: 265 aorist forms need correction
+Estimated time saved: 265 minutes = 4.4 hours
+
+PATTERN DISTRIBUTION:
+  يَفْعُلُ (varieties 1,5): 111 (41.9%)
+  يَفْعَلُ (varieties 3,4): 130 (49.1%)
+  يَفْعِلُ (varieties 2,6): 24 (9.1%)
+
+To apply these fixes, run the script with --apply flag:
+python fix_aorists.py ub0.xml --apply

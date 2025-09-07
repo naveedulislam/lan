@@ -1,0 +1,115 @@
+﻿1. The xml tags for all Persian words were changed from <foreign lang="ar"> to <foreign lang="fa">.
+
+2. Missing diacritics in text not in my standard Arabic keyboard:
+The diacritic  ٰ
+The diacritic  ٓ 
+The diacritic ٱ
+
+3. Original Commit by Bridget from where I forked
+654e1061ae1e3c8bbd0fc9da930e9d392b5b4063 
+
+4. Change made in the root tag to preserve the line breaks through the document:
+<text><body><div1 part="N" n="A" org="uniform" sample="complete" type="alphabetical letter">
+<text><body><div1 part="N" n="A" org="uniform" sample="complete" type="alphabetical letter" xml:space="preserve">
+
+5. Examples of invalid entries removed: n934 and n1092
+
+6. Examples when the line ends with an abbreviation and the next line starts with an Arabic word:
+If there is an abbreviation such as, aor. or art. or inf. n. or syn. or i. e. or pl. etc. at the end of the line  AND the next line starts with and Arabic word THEN (in all examples that I have seen so far the) a new entry starts (with a new entry number).
+Example: Line 27427, page 112: The line ended with "[The pl.]" the new line started with the Arabic word, "إِنَاثٌ".
+Example when the above rule was not followed: Line 30899 and 30900
+
+7. Sometimes, even though there i zs a verb form already existing but system inserts another verb form making it a duplicate. See root انث line 27345.
+
+8. entryFree id xml tag missing for root: Edited root انث to remove the word, اَنڤثَ which is extra and cannot be found in the original text. This root does not have an entryFree id, xml tag.
+In the below case, there is no entry number and no <entryFree> tag as well:
+<div2 type="root" org="uniform" sample="complete" part="N"><head><foreign lang="ar">ايب</foreign></head>
+For words which might be supposed to be properly mentioned under this head, see art. <foreign lang="ar">اوب</foreign>.
+
+ </div2>
+
+9. If verb form is inserted by the system then there is is no entry number in the xml / text:
+Example: verb form 8 for root انف.
+
+10. Example when the words or phrases are not in order other than accross the arrow-head. In these cases instead of an arrow there may be a period and a round brace as .) which results in the same impact as a down-arrow. Please note that there may be other characters accross the arrow-head and all these similar characters have same impact.
+Incorrect
+affairs.</hi> (TA in art. <foreign lang="ar">نطس</foreign>.) <foreign lang="ar">تأنّق فِيهِ</foreign>
+Correct
+affairs.</hi> (TA in art. <foreign lang="ar">تأنّق فِيهِ</foreign> (.<foreign lang="ar">نطس </foreign>
+
+11. Regex to flip the Arabic text before and after down-arrow:
+Search for (The regex makes sure that no English language characters are within the start and end tags for Arabic):
+[<][^>]*[>]([^a-zA-Z]+)[<][^>]*[>] ↓ [<][^>]*[>]([^a-zA-Z]+)[<][^>]*[>]
+Replace With:
+<foreign lang="ar">$2</foreign> ↓ <orth type="arrow" lang="ar">$1</orth>
+Note: This change has already been applied through the whole lexicons or all xmls.
+
+12. What is Down-Arrow (from Lane's Lexicon Preface)?
+"In order to facilitate the reference, an arrow-head (↓) is inserted to render conspicuous a word explained in a paragraph headed by another word"
+It means is that an arrow-head is just an indiaction that the word next to it is a reference and it does not necessarily mean that the referrence is downwards. This is what I used to think before I tried to understand the above from Preface.
+
+13. n1613, إِيَالٌ, page 137:
+There is a technical issue in this entry. The <form> and <orth tags are not in original order. This issue arised from correction of the order of words. I am not sure but it might need a revision.
+
+14. There are 94 occurences which do not have an entry id. These have the xml tag as <entryFree> instead of and xml tag such as below:
+<entryFree id="n3" key="اِسْتَأَبَّهُ" type="main">
+
+15. Examples when the line does not end with abbreviations and the next line does not start with Arabic word. In all these instances the text is currently a part of another entry while it should be a separate entry:
+1. xml	<foreign lang="ar">أُمَّانٌ</foreign>: see <foreign lang="ar">أُمِّىٌّ</foreign> [Page 92]
+html	<A>A^um~aAnN</A>: see <A>A^um~iY~N</A>
+2. xml	<foreign lang="ar">أُمَّهَةٌ</foreign>: see <foreign lang="ar">أُمٌّ</foreign>	[Page 92]
+html	<A>A^um~ahadN</A>: see <A>A^um~N</A>.
+3. xml	<foreign lang="ar">مُؤمٌّ</foreign>: see <foreign lang="ar">أَمَمٌ</foreign>
+html	<A>muw^m~N</A>: see <A>A^amamN</A>.
+4. xml	<foreign lang="ar">مُؤَامٌّ</foreign>: see <foreign lang="ar">أَمَمٌ</foreign>	[Page 92]
+html	<A>muw^aAm~N</A>: see <A>A^amamN</A>
+5. xml	<foreign lang="ar">مؤْتَمٌّ</foreign> act. part. n. of <foreign lang="ar">	[Page 92]
+html	<A>mw^otam~N</A> act. part. n. of <A>Ay^otam~a bihi</A>
+6. xml	<foreign lang="ar">أَنَا</foreign>, signifying <hi rend="ital">I:</hi>
+html	<A>A^anaA</A>, signifying <I>I:</I> see <A>A^ano</A>
+7. xml	<foreign lang="ar">أَنَسِىٌّ</foreign>: see <foreign lang="ar">إِنْسٌ</foreign>
+html	<A>A^anasiY~N</A>: see <A>A_inosN</A>
+8. xml	<foreign lang="ar">آيِنَةٌ</foreign>: see <foreign lang="ar">أَوَانٌ</foreign>
+html	<A>A=yinapN</A>: see <A>A^awaAnN</A>
+In the above examples, the typists added only <A> instead of <P><A>
+
+16. Rules to check for orthographic signs:
+1. No tashdid immediately after sukun
+([\u0600-\u06FF])\u0652([\u0600-\u06FF])\u0651
+2. Concurrence of two quiscents is not allowed as a rule but there are exceptions and as far as I have noticed Lane mentions quiscents if intentional:
+([\u0600-\u06FF])\u0652([\u0600-\u06FF])\u0652
+
+
+(([\u0600-\u06FF]+\s)+)([\u0600-\u06FF]+)\n\↓\s(([\u0600-\u06FF]+\s)+) with ↓ $1$4
+
+(([\u0600-\u06FF]+\s+)+)\↓\s(([\u0600-\u06FF]+\s)+) with $3 ↓ $1
+
+([[ء-ي]+.*)\s\↓\s([ء-ي]+.*) with $2 ↓ $1
+
+(?<=>)[^}]*(?=<)
+
+ 
+
+(?<=>): Look Ahead of >
+
+[^}]: Include everything except for } character
+
+(?=<): Look behind <
+
+ 
+
+\>([^<]*)\<
+
+Select > and < and everything between these two characters
+
+ 
+
+\<(.*?)\>(?<=>)[^<]*(?=<)
+
+ 
+
+\<(.*?)\>: Select everything in between < and > characters
+
+And
+
+Select everything between > and < characters

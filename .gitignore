@@ -1,6 +1,7 @@
 settings.json
 images/
-scripts/
-references/
-requirements/
-db/lexica/ara/lan/ub0.xml
+# scripts/
+# references/
+# requirements/
+# lexicon/
+# lexicon.sqlite

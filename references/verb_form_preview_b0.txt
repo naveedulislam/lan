@@ -1,0 +1,653 @@
+ARABIC VERB FORM CORRECTION PREVIEW REPORT
+==================================================
+
+Input file: ..\db\lexica\ara\lan\ub0.xml
+Total verb forms to be corrected: 68
+Generated on: 2025-09-05 14:07:32
+Script: fix_verb_forms.py
+
+BASED ON LANE'S CONJUGATION TABLE:
+Forms 2-13 from 'Table of the Conjugations of Arabic Verbs'
+Form 1 (6 varieties) handled by fix_aorists.py
+
+REGEX PATTERN CORRECTED:
+<itype>\d+</itype>\s*\n\s*<orth lang="ar">[^<]+</orth></form>
+
+VERB FORMS COVERED:
+ 2. فَعَّلَ - Form II - Intensification/Causative
+ 3. فَاعَلَ - Form III - Reciprocal/Associative
+ 4. أَفْعَلَ - Form IV - Causative
+ 5. تَفَعَّلَ - Form V - Reflexive of Form II
+ 6. تَفَاعَلَ - Form VI - Reflexive of Form III
+ 7. اِنْفَعَلَ - Form VII - Passive
+ 8. اِفْتَعَلَ - Form VIII - Middle Voice
+ 9. اِفْعَلَّ - Form IX - Colors/Physical Defects
+10. اِسْتَفْعَلَ - Form X - Seeking/Requesting
+11. اِفْعَالَّ - Form XI - Rare pattern
+12. اِفْعَوْعَلَ - Form XII - Rare pattern
+13. اِفْعَوَّلَ - Form XIII - Rare pattern
+
+--------------------------------------------------
+
+=== FORM 3: فَاعَلَ ===
+Pattern: فَاعَلَ
+Description: Form III - Reciprocal/Associative
+Entries to correct: 9
+
+  1. Root: بحث (بحث)
+     Form: 3 (فَاعَلَ)
+     Current: بَاْحَثَ
+     Correct: بَاحَثَ
+     Action:  REPLACE
+     Context: <itype>3</itype> 
+      <orth lang="ar">بَاْحَثَ</orth></for...
+
+  2. Root: بده (بده)
+     Form: 3 (فَاعَلَ)
+     Current: بَاْدَهَ
+     Correct: بَادَهَ
+     Action:  REPLACE
+     Context: <itype>3</itype> 
+      <orth lang="ar">بَاْدَهَ</orth></for...
+
+  3. Root: بذر (بذر)
+     Form: 3 (فَاعَلَ)
+     Current: بَاْذَرَ
+     Correct: بَاذَرَ
+     Action:  REPLACE
+     Context: <itype>3</itype> 
+      <orth lang="ar">بَاْذَرَ</orth></for...
+
+  4. Root: بضع (بضع)
+     Form: 3 (فَاعَلَ)
+     Current: بَاْضَعَ
+     Correct: بَاضَعَ
+     Action:  REPLACE
+     Context: <itype>3</itype> 
+      <orth lang="ar">بَاْضَعَ</orth></for...
+
+  5. Root: بغت (بغت)
+     Form: 3 (فَاعَلَ)
+     Current: بَاْغَتَ
+     Correct: بَاغَتَ
+     Action:  REPLACE
+     Context: <itype>3</itype> 
+      <orth lang="ar">بَاْغَتَ</orth></for...
+
+  6. Root: بغم (بغم)
+     Form: 3 (فَاعَلَ)
+     Current: بَاْغَمَ
+     Correct: بَاغَمَ
+     Action:  REPLACE
+     Context: <itype>3</itype> 
+      <orth lang="ar">بَاْغَمَ</orth></for...
+
+  7. Root: بغى (بغى)
+     Form: 3 (فَاعَلَ)
+     Current: بَاْغَىَ
+     Correct: بَاغَىَ
+     Action:  REPLACE
+     Context: <itype>3</itype> 
+      <orth lang="ar">بَاْغَىَ</orth></for...
+
+  8. Root: بكر (بكر)
+     Form: 3 (فَاعَلَ)
+     Current: بَاْكَرَ
+     Correct: بَاكَرَ
+     Action:  REPLACE
+     Context: <itype>3</itype> 
+      <orth lang="ar">بَاْكَرَ</orth></for...
+
+  9. Root: بهر (بهر)
+     Form: 3 (فَاعَلَ)
+     Current: بَاْهَرَ
+     Correct: بَاهَرَ
+     Action:  REPLACE
+     Context: <itype>3</itype> 
+      <orth lang="ar">بَاْهَرَ</orth></for...
+
+
+=== FORM 4: أَفْعَلَ ===
+Pattern: أَفْعَلَ
+Description: Form IV - Causative
+Entries to correct: 2
+
+ 10. Root: بأس (بأس)
+     Form: 4 (أَفْعَلَ)
+     Current: أبْأَسَ
+     Correct: أَبْأَسَ
+     Action:  REPLACE
+     Context: <itype>4</itype> 
+      <orth lang="ar">أبْأَسَ</orth></form...
+
+ 11. Root: بطأ (بطأ)
+     Form: 4 (أَفْعَلَ)
+     Current: أَبْطَاَ
+     Correct: أَبْطَأَ
+     Action:  REPLACE
+     Context: <itype>4</itype> 
+      <orth lang="ar">أَبْطَاَ</orth></for...
+
+
+=== FORM 5: تَفَعَّلَ ===
+Pattern: تَفَعَّلَ
+Description: Form V - Reflexive of Form II
+Entries to correct: 4
+
+ 12. Root: بأس (بأس)
+     Form: 5 (تَفَعَّلَ)
+     Current: تبَأَّسَ
+     Correct: تَبَأَّسَ
+     Action:  REPLACE
+     Context: <itype>5</itype> 
+      <orth lang="ar">تبَأَّسَ</orth></for...
+
+ 13. Root: بَثِرَ (بثر)
+     Form: 5 (تَفَعَّلَ)
+     Current: تَبَََّثَ
+     Correct: تَبَثَّرَ
+     Action:  REPLACE
+     Context: <itype>5</itype> 
+      <orth lang="ar">تَبَََّثَ</orth></fo...
+
+ 14. Root: برأ (برأ)
+     Form: 5 (تَفَعَّلَ)
+     Current: تَبَرَّاَ
+     Correct: تَبَرَّأَ
+     Action:  REPLACE
+     Context: <itype>5</itype> 
+      <orth lang="ar">تَبَرَّاَ</orth></fo...
+
+ 15. Root: بوأ (بوأ)
+     Form: 5 (تَفَعَّلَ)
+     Current: تَبَوَّاَ
+     Correct: تَبَوَّأَ
+     Action:  REPLACE
+     Context: <itype>5</itype> 
+      <orth lang="ar">تَبَوَّاَ</orth></fo...
+
+
+=== FORM 6: تَفَاعَلَ ===
+Pattern: تَفَاعَلَ
+Description: Form VI - Reflexive of Form III
+Entries to correct: 7
+
+ 16. Root: بدل (بدل)
+     Form: 6 (تَفَاعَلَ)
+     Current: تَبَاْدَلَ
+     Correct: تَبَادَلَ
+     Action:  REPLACE
+     Context: <itype>6</itype> 
+      <orth lang="ar">تَبَاْدَلَ</orth></f...
+
+ 17. Root: بعل (بعل)
+     Form: 6 (تَفَاعَلَ)
+     Current: تَبَاْعَلَ
+     Correct: تَبَاعَلَ
+     Action:  REPLACE
+     Context: <itype>6</itype> 
+      <orth lang="ar">تَبَاْعَلَ</orth></f...
+
+ 18. Root: بغم (بغم)
+     Form: 6 (تَفَاعَلَ)
+     Current: تَبَاْغَمَ
+     Correct: تَبَاغَمَ
+     Action:  REPLACE
+     Context: <itype>6</itype> 
+      <orth lang="ar">تَبَاْغَمَ</orth></f...
+
+ 19. Root: بلط (بلط)
+     Form: 6 (تَفَاعَلَ)
+     Current: تَبَاْلَطَ
+     Correct: تَبَالَطَ
+     Action:  REPLACE
+     Context: <itype>6</itype> 
+      <orth lang="ar">تَبَاْلَطَ</orth></f...
+
+ 20. Root: بهت (بهت)
+     Form: 6 (تَفَاعَلَ)
+     Current: تَبَاْهَتَ
+     Correct: تَبَاهَتَ
+     Action:  REPLACE
+     Context: <itype>6</itype> 
+      <orth lang="ar">تَبَاْهَتَ</orth></f...
+
+ 21. Root: بهل (بهل)
+     Form: 6 (تَفَاعَلَ)
+     Current: تَبَاْهَلَ
+     Correct: تَبَاهَلَ
+     Action:  REPLACE
+     Context: <itype>6</itype> 
+      <orth lang="ar">تَبَاْهَلَ</orth></f...
+
+ 22. Root: بيع (بيع)
+     Form: 6 (تَفَاعَلَ)
+     Current: تَبَاْيَعَ
+     Correct: تَبَايَعَ
+     Action:  REPLACE
+     Context: <itype>6</itype> 
+      <orth lang="ar">تَبَاْيَعَ</orth></f...
+
+
+=== FORM 7: اِنْفَعَلَ ===
+Pattern: اِنْفَعَلَ
+Description: Form VII - Passive
+Entries to correct: 7
+
+ 23. Root: بزخ (بزخ)
+     Form: 7 (اِنْفَعَلَ)
+     Current: إِنْبَزَخَ
+     Correct: اِنْبَزَخَ
+     Action:  REPLACE
+     Context: <itype>7</itype> 
+      <orth lang="ar">إِنْبَزَخَ</orth></f...
+
+ 24. Root: بزل (بزل)
+     Form: 7 (اِنْفَعَلَ)
+     Current: إِنْبَزَلَ
+     Correct: اِنْبَزَلَ
+     Action:  REPLACE
+     Context: <itype>7</itype> 
+      <orth lang="ar">إِنْبَزَلَ</orth></f...
+
+ 25. Root: بقر (بقر)
+     Form: 7 (اِنْفَعَلَ)
+     Current: إِنْبَقَرَ
+     Correct: اِنْبَقَرَ
+     Action:  REPLACE
+     Context: <itype>7</itype> 
+      <orth lang="ar">إِنْبَقَرَ</orth></f...
+
+ 26. Root: بلج (بلج)
+     Form: 7 (اِنْفَعَلَ)
+     Current: إِنْبَلَجَ
+     Correct: اِنْبَلَجَ
+     Action:  REPLACE
+     Context: <itype>7</itype> 
+      <orth lang="ar">إِنْبَلَجَ</orth></f...
+
+ 27. Root: بهم (بهم)
+     Form: 7 (اِنْفَعَلَ)
+     Current: إِنْبَهَمَ
+     Correct: اِنْبَهَمَ
+     Action:  REPLACE
+     Context: <itype>7</itype> 
+      <orth lang="ar">إِنْبَهَمَ</orth></f...
+
+ 28. Root: بوق (بوق)
+     Form: 7 (اِنْفَعَلَ)
+     Current: إِنْبَوَقَ
+     Correct: اِنْبَوَقَ
+     Action:  REPLACE
+     Context: <itype>7</itype> 
+      <orth lang="ar">إِنْبَوَقَ</orth></f...
+
+ 29. Root: بيع (بيع)
+     Form: 7 (اِنْفَعَلَ)
+     Current: إِنْبَيَعَ
+     Correct: اِنْبَيَعَ
+     Action:  REPLACE
+     Context: <itype>7</itype> 
+      <orth lang="ar">إِنْبَيَعَ</orth></f...
+
+
+=== FORM 8: اِفْتَعَلَ ===
+Pattern: اِفْتَعَلَ
+Description: Form VIII - Middle Voice
+Entries to correct: 24
+
+ 30. Root: بتل (بتل)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَتَلَ
+     Correct: اِبْتَتَلَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَتَلَ</orth></f...
+
+ 31. Root: بجح (بجح)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَجَحَ
+     Correct: اِبْتَجَحَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَجَحَ</orth></f...
+
+ 32. Root: بحث (بحث)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَحَثَ
+     Correct: اِبْتَحَثَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَحَثَ</orth></f...
+
+ 33. Root: بدأ (بدأ)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَدَاَ
+     Correct: اِبْتَدَأَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَدَاَ</orth></f...
+
+ 34. Root: بدر (بدر)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَدَرَ
+     Correct: اِبْتَدَرَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَدَرَ</orth></f...
+
+ 35. Root: بدع (بدع)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَدَعَ
+     Correct: اِبْتَدَعَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَدَعَ</orth></f...
+
+ 36. Root: برى (برى)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَرَىَ
+     Correct: اِبْتَرَىَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَرَىَ</orth></f...
+
+ 37. Root: بزغ (بزغ)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَزَغَ
+     Correct: اِبْتَزَغَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَزَغَ</orth></f...
+
+ 38. Root: بزل (بزل)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَزَلَ
+     Correct: اِبْتَزَلَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَزَلَ</orth></f...
+
+ 39. Root: بسم (بسم)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَسَمَ
+     Correct: اِبْتَسَمَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَسَمَ</orth></f...
+
+ 40. Root: بعث (بعث)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَعَثَ
+     Correct: اِبْتَعَثَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَعَثَ</orth></f...
+
+ 41. Root: بعد (بعد)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَعَدَ
+     Correct: اِبْتَعَدَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَعَدَ</orth></f...
+
+ 42. Root: بعق (بعق)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَعَقَ
+     Correct: اِبْتَعَقَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَعَقَ</orth></f...
+
+ 43. Root: بعل (بعل)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَعَلَ
+     Correct: اِبْتَعَلَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَعَلَ</orth></f...
+
+ 44. Root: بغى (بغى)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَغَىَ
+     Correct: اِبْتَغَىَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَغَىَ</orth></f...
+
+ 45. Root: بقر (بقر)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَقَرَ
+     Correct: اِبْتَقَرَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَقَرَ</orth></f...
+
+ 46. Root: بلج (بلج)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَلَجَ
+     Correct: اِبْتَلَجَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَلَجَ</orth></f...
+
+ 47. Root: بلع (بلع)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَلَعَ
+     Correct: اِبْتَلَعَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَلَعَ</orth></f...
+
+ 48. Root: بله (بله)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَلَهَ
+     Correct: اِبْتَلَهَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَلَهَ</orth></f...
+
+ 49. Root: بهأ (بهأ)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَهَاَ
+     Correct: اِبْتَهَأَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَهَاَ</orth></f...
+
+ 50. Root: بهج (بهج)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَهَجَ
+     Correct: اِبْتَهَجَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَهَجَ</orth></f...
+
+ 51. Root: بهل (بهل)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَهَلَ
+     Correct: اِبْتَهَلَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَهَلَ</orth></f...
+
+ 52. Root: بور (بور)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَوَرَ
+     Correct: اِبْتَوَرَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَوَرَ</orth></f...
+
+ 53. Root: بيع (بيع)
+     Form: 8 (اِفْتَعَلَ)
+     Current: إِبْتَيَعَ
+     Correct: اِبْتَيَعَ
+     Action:  REPLACE
+     Context: <itype>8</itype> 
+      <orth lang="ar">إِبْتَيَعَ</orth></f...
+
+
+=== FORM 9: اِفْعَلَّ ===
+Pattern: اِفْعَلَّ
+Description: Form IX - Colors/Physical Defects
+Entries to correct: 1
+
+ 54. Root: بلج (بلج)
+     Form: 9 (اِفْعَلَّ)
+     Current: إِبْلَجَّ
+     Correct: اِبْلَجَّ
+     Action:  REPLACE
+     Context: <itype>9</itype> 
+      <orth lang="ar">إِبْلَجَّ</orth></fo...
+
+
+=== FORM 10: اِسْتَفْعَلَ ===
+Pattern: اِسْتَفْعَلَ
+Description: Form X - Seeking/Requesting
+Entries to correct: 9
+
+ 55. Root: بتل (بتل)
+     Form: 10 (اِسْتَفْعَلَ)
+     Current: إِسْتَبْتَلَ
+     Correct: اِسْتَبْتَلَ
+     Action:  REPLACE
+     Context: <itype>10</itype> 
+      <orth lang="ar">إِسْتَبْتَلَ</orth>...
+
+ 56. Root: بحث (بحث)
+     Form: 10 (اِسْتَفْعَلَ)
+     Current: إِسْتَبْحَثَ
+     Correct: اِسْتَبْحَثَ
+     Action:  REPLACE
+     Context: <itype>10</itype> 
+      <orth lang="ar">إِسْتَبْحَثَ</orth>...
+
+ 57. Root: برز (برز)
+     Form: 10 (اِسْتَفْعَلَ)
+     Current: إِسْتَبْرَزَ
+     Correct: اِسْتَبْرَزَ
+     Action:  REPLACE
+     Context: <itype>10</itype> 
+      <orth lang="ar">إِسْتَبْرَزَ</orth>...
+
+ 58. Root: بسل (بسل)
+     Form: 10 (اِسْتَفْعَلَ)
+     Current: إِسْتَبْسَلَ
+     Correct: اِسْتَبْسَلَ
+     Action:  REPLACE
+     Context: <itype>10</itype> 
+      <orth lang="ar">إِسْتَبْسَلَ</orth>...
+
+ 59. Root: بطح (بطح)
+     Form: 10 (اِسْتَفْعَلَ)
+     Current: إِسْتَبْطَحَ
+     Correct: اِسْتَبْطَحَ
+     Action:  REPLACE
+     Context: <itype>10</itype> 
+      <orth lang="ar">إِسْتَبْطَحَ</orth>...
+
+ 60. Root: بغى (بغى)
+     Form: 10 (اِسْتَفْعَلَ)
+     Current: إِسْتَبْغَىَ
+     Correct: اِسْتَبْغَىَ
+     Action:  REPLACE
+     Context: <itype>10</itype> 
+      <orth lang="ar">إِسْتَبْغَىَ</orth>...
+
+ 61. Root: بقى (بقى)
+     Form: 10 (اِسْتَفْعَلَ)
+     Current: إِسْتَبْقَىَ
+     Correct: اِسْتَبْقَىَ
+     Action:  REPLACE
+     Context: <itype>10</itype> 
+      <orth lang="ar">إِسْتَبْقَىَ</orth>...
+
+ 62. Root: بهم (بهم)
+     Form: 10 (اِسْتَفْعَلَ)
+     Current: إِسْتَبْهَمَ
+     Correct: اِسْتَبْهَمَ
+     Action:  REPLACE
+     Context: <itype>10</itype> 
+      <orth lang="ar">إِسْتَبْهَمَ</orth>...
+
+ 63. Root: بيت (بيت)
+     Form: 10 (اِسْتَفْعَلَ)
+     Current: إِسْتَبْيَتَ
+     Correct: اِسْتَبْيَتَ
+     Action:  REPLACE
+     Context: <itype>10</itype> 
+      <orth lang="ar">إِسْتَبْيَتَ</orth>...
+
+
+=== FORM 11: اِفْعَالَّ ===
+Pattern: اِفْعَالَّ
+Description: Form XI - Rare pattern
+Entries to correct: 3
+
+ 64. Root: بلج (بلج)
+     Form: 11 (اِفْعَالَّ)
+     Current: إِبْلَاْجَّ
+     Correct: اِبْلَاجَّ
+     Action:  REPLACE
+     Context: <itype>11</itype> 
+      <orth lang="ar">إِبْلَاْجَّ</orth><...
+
+ 65. Root: بلق (بلق)
+     Form: 11 (اِفْعَالَّ)
+     Current: إِبْلَاْقَّ
+     Correct: اِبْلَاقَّ
+     Action:  REPLACE
+     Context: <itype>11</itype> 
+      <orth lang="ar">إِبْلَاْقَّ</orth><...
+
+ 66. Root: بيض (بيض)
+     Form: 11 (اِفْعَالَّ)
+     Current: إِبْيَاْضَّ
+     Correct: اِبْيَاضَّ
+     Action:  REPLACE
+     Context: <itype>11</itype> 
+      <orth lang="ar">إِبْيَاْضَّ</orth><...
+
+
+=== FORM 12: اِفْعَوْعَلَ ===
+Pattern: اِفْعَوْعَلَ
+Description: Form XII - Rare pattern
+Entries to correct: 2
+
+ 67. Root: بلج (بلج)
+     Form: 12 (اِفْعَوْعَلَ)
+     Current: إِبْلَوْلَجَ
+     Correct: اِبْلَوْلَجَ
+     Action:  REPLACE
+     Context: <itype>12</itype> 
+      <orth lang="ar">إِبْلَوْلَجَ</orth>...
+
+ 68. Root: بلق (بلق)
+     Form: 12 (اِفْعَوْعَلَ)
+     Current: إِبْلَوْلَقَ
+     Correct: اِبْلَوْلَقَ
+     Action:  REPLACE
+     Context: <itype>12</itype> 
+      <orth lang="ar">إِبْلَوْلَقَ</orth>...
+
+
+--------------------------------------------------
+SUMMARY: 68 verb forms need correction
+Estimated time saved: 68 minutes
+
+FORM DISTRIBUTION:
+  Form  3:   9 ( 13.2%)
+  Form  4:   2 (  2.9%)
+  Form  5:   4 (  5.9%)
+  Form  6:   7 ( 10.3%)
+  Form  7:   7 ( 10.3%)
+  Form  8:  24 ( 35.3%)
+  Form  9:   1 (  1.5%)
+  Form 10:   9 ( 13.2%)
+  Form 11:   3 (  4.4%)
+  Form 12:   2 (  2.9%)
+
+To apply these fixes, run:
+python fix_verb_forms.py ub0.xml --apply
