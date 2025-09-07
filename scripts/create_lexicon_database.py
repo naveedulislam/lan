@@ -3,12 +3,10 @@
 Script to create lexicon.sqlite database from XML files in db/lexica/ara/lan
 """
 
+import re
+from pathlib import Path
 import sqlite3
 import xml.etree.ElementTree as ET
-import os
-import sys
-from pathlib import Path
-import re
 
 
 def load_reference_mappings(reference_file):
@@ -65,12 +63,13 @@ def create_database(db_path):
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             root TEXT,
             word TEXT,
+            bword TEXT,                   
             itype TEXT,
             nodeid TEXT,
             xml TEXT,
             file TEXT,
             page INTEGER,
-            bword TEXT
+            supplement INTEGER DEFAULT 0
         )
     ''')
     
@@ -295,11 +294,14 @@ def process_xml_file(xml_file, conn, file_mappings):
             # Get file abbreviation (remove .xml extension)
             file_abbrev = filename.replace('.xml', '')
             
+            # Determine supplement value based on filename ending
+            supplement_value = 1 if file_abbrev.endswith('1') else 0
+            
             # Insert into database
             cursor.execute('''
-                INSERT INTO entry (root, word, itype, nodeid, xml, file, page, bword)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-            ''', (root_value, word_value, itype, nodeid, xml_string, file_abbrev, page, bword_value))
+                INSERT INTO entry (root, word, bword, itype, nodeid, xml, file, page, supplement)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ''', (root_value, word_value, bword_value, itype, nodeid, xml_string, file_abbrev, page, supplement_value))
         
         conn.commit()
         print(f"Processed {len(entries)} entries from {filename}")
