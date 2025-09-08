@@ -17,12 +17,12 @@ def load_reference_mappings(reference_file):
             for line in f:
                 if '|' in line and 'Pages:' in line and 'File:' in line:
                     parts = line.strip().split('|')
-                    if len(parts) >= 3:
-                        pages_part = parts[1].strip()
-                        file_part = parts[2].strip()
+                    if len(parts) >= 4:  # Changed from 3 to 4 since there are 4 parts
+                        pages_part = parts[2].strip()  # Changed from 1 to 2
+                        file_part = parts[3].strip()   # Changed from 2 to 3
                         
-                        # Extract page range
-                        page_match = re.search(r'Pages:\s*(\d+)–(\d+)', pages_part)
+                        # Extract page range - handle both en-dash and regular dash
+                        page_match = re.search(r'Pages:\s*(\d+)[–-](\d+)', pages_part)
                         if page_match:
                             start_page = int(page_match.group(1))
                             end_page = int(page_match.group(2))
@@ -57,12 +57,17 @@ def create_database(db_path):
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     
+    # Drop existing tables if they exist
+    cursor.execute('DROP TABLE IF EXISTS entry')
+    cursor.execute('DROP TABLE IF EXISTS lexicon')
+    
     # Create entry table
     cursor.execute('''
         CREATE TABLE entry (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             root TEXT,
             word TEXT,
+            headword TEXT,
             bword TEXT,                   
             itype TEXT,
             nodeid TEXT,
@@ -171,6 +176,182 @@ def remove_diacritics(text):
     return result
 
 
+def generate_arabic_verb_forms(root):
+    """Generate Arabic verb forms for a given root (3 letters)"""
+    if not root or len(root) < 3:
+        return []
+    
+    # Extract root letters (first 3 characters)
+    r1, r2, r3 = root[0], root[1], root[2]
+    
+    # Arabic verb form patterns (with diacritics)
+    forms = []
+    
+    # Form I: فعل
+    forms.append(f"{r1}َ{r2}َ{r3}َ")     # فتح
+    forms.append(f"{r1}َ{r2}ِ{r3}َ")     # فكسر  
+    forms.append(f"{r1}َ{r2}ُ{r3}َ")     # فضم
+    forms.append(f"يَ{r1}ْ{r2}ُ{r3}ُ")   # imperfect
+    forms.append(f"يَ{r1}ْ{r2}ِ{r3}ُ")   # imperfect
+    forms.append(f"يَ{r1}ْ{r2}َ{r3}ُ")   # imperfect
+    
+    # Form II: فعّل
+    forms.append(f"{r1}َ{r2}َّ{r3}َ")
+    forms.append(f"يُ{r1}َ{r2}ِّ{r3}ُ")
+    
+    # Form III: فاعل
+    forms.append(f"{r1}َا{r2}َ{r3}َ")
+    forms.append(f"يُ{r1}َا{r2}ِ{r3}ُ")
+    
+    # Form IV: أفعل
+    forms.append(f"أَ{r1}ْ{r2}َ{r3}َ")
+    forms.append(f"يُ{r1}ْ{r2}ِ{r3}ُ")
+    
+    # Form V: تفعّل
+    forms.append(f"تَ{r1}َ{r2}َّ{r3}َ")
+    forms.append(f"يَتَ{r1}َ{r2}َّ{r3}ُ")
+    
+    # Form VI: تفاعل
+    forms.append(f"تَ{r1}َا{r2}َ{r3}َ")
+    forms.append(f"يَتَ{r1}َا{r2}َ{r3}ُ")
+    
+    # Form VII: انفعل
+    forms.append(f"اِ{r1}ْ{r2}َ{r3}َ")
+    forms.append(f"يَ{r1}ْ{r2}َ{r3}ُ")
+    
+    # Form VIII: افتعل
+    forms.append(f"اِ{r1}ْتَ{r2}َ{r3}َ")
+    forms.append(f"يَ{r1}ْتَ{r2}ِ{r3}ُ")
+    
+    # Form IX: افعلّ (rare)
+    forms.append(f"اِ{r1}ْ{r2}َ{r3}َّ")
+    
+    # Form X: استفعل
+    forms.append(f"اِسْتَ{r1}ْ{r2}َ{r3}َ")
+    forms.append(f"يَسْتَ{r1}ْ{r2}ِ{r3}ُ")
+    
+    return forms
+
+
+def contains_root_letters(word, root):
+    """Check if word contains root letters in sequence"""
+    if not word or not root:
+        return False
+    
+    # Normalize Arabic letters
+    def normalize_arabic(text):
+        text = remove_diacritics(text)
+        # Normalize different forms of alif
+        text = text.replace('إ', 'ا').replace('أ', 'ا').replace('آ', 'ا').replace('ؤ', 'ا')
+        # Normalize different forms of ya
+        text = text.replace('ى', 'ي')
+        # Normalize different forms of ta marbuta
+        text = text.replace('ة', 'ه')
+        return text
+    
+    word_clean = normalize_arabic(word)
+    root_clean = normalize_arabic(root)
+    
+    # Simple subsequence check: find all root letters in order (allowing gaps)
+    root_index = 0
+    for char in word_clean:
+        if root_index < len(root_clean) and char == root_clean[root_index]:
+            root_index += 1
+            if root_index == len(root_clean):
+                return True
+    
+    return False
+
+
+def extract_headword_from_phrase(phrase, root):
+    """Extract headword from phrase using root-based logic"""
+    if not phrase or not root:
+        return phrase  # fallback to original
+    
+    words = phrase.split()
+    if len(words) == 1:
+        return phrase  # single word, return as is
+    
+    # PRIORITY 1: Find words that contain root letters in sequence (MOST IMPORTANT)
+    # Prefer words with morphological patterns (prefixes/suffixes) over simple words
+    root_containing_words = []
+    for word in words:
+        # Skip common particles but NOT definite articles for subjects
+        if word in ['لَا', 'لا', 'مَا', 'ما', 'عَلَى', 'على', 'عَلَيْهِ', 'عليه', 'فِى', 'في', 'مِنْ', 'من', 'إِلَى', 'الى']:
+            continue
+        if contains_root_letters(word, root):
+            root_containing_words.append(word)
+    
+    if root_containing_words:
+        # Score words based on morphological complexity and derivation patterns
+        def get_word_score(word):
+            score = 0
+            word_clean = remove_diacritics(word)
+            
+            # Length bonus: longer words are often more derived
+            score += len(word_clean)
+            
+            # Prefix patterns (common Arabic morphological prefixes)
+            prefixes = ['م', 'ت', 'أ', 'ي', 'ن', 'ا']
+            for prefix in prefixes:
+                if word_clean.startswith(prefix):
+                    score += 5
+                    break
+            
+            # Multiple prefix bonus for compound prefixes
+            compound_prefixes = ['مست', 'مؤ', 'مأ', 'مئ']
+            for prefix in compound_prefixes:
+                if word_clean.startswith(prefix):
+                    score += 10
+                    break
+            
+            # Suffix patterns (common Arabic morphological suffixes)
+            suffixes = ['ة', 'ات', 'ان', 'ين', 'ون', 'ي', 'ه']
+            for suffix in suffixes:
+                if word_clean.endswith(suffix):
+                    score += 3
+                    break
+            
+            # Bonus for patterns that indicate derived forms
+            if any(pattern in word_clean for pattern in ['تفع', 'افع', 'استف', 'انف']):
+                score += 15
+            
+            return score
+        
+        # Sort by score (highest first) and return the best candidate
+        scored_words = [(word, get_word_score(word)) for word in root_containing_words]
+        scored_words.sort(key=lambda x: x[1], reverse=True)
+        return scored_words[0][0]
+    
+    # PRIORITY 2: Generate verb forms and check for exact matches
+    verb_forms = generate_arabic_verb_forms(root)
+    
+    # Check with diacritics
+    for word in words:
+        if word in ['لَا', 'لا', 'مَا', 'ما', 'عَلَى', 'على', 'عَلَيْهِ', 'عليه', 'فِى', 'في', 'مِنْ', 'من', 'إِلَى', 'الى']:
+            continue
+        for form in verb_forms:
+            if word == form:
+                return word
+    
+    # Check without diacritics
+    verb_forms_clean = [remove_diacritics(form) for form in verb_forms]
+    for word in words:
+        if remove_diacritics(word) in ['لا', 'ما', 'على', 'عليه', 'في', 'من', 'الى']:
+            continue
+        word_clean = remove_diacritics(word)
+        for form_clean in verb_forms_clean:
+            if word_clean == form_clean:
+                return word
+    
+    # PRIORITY 3: Fallback - return first non-particle word
+    for word in words:
+        if word not in ['لَا', 'لا', 'مَا', 'ما', 'عَلَى', 'على', 'عَلَيْهِ', 'عليه']:
+            return word
+    
+    return words[0]  # ultimate fallback
+
+
 def extract_page_from_pb(pb_element):
     """Extract page number from pb element"""
     if pb_element is not None and 'n' in pb_element.attrib:
@@ -244,10 +425,13 @@ def process_xml_file(xml_file, conn, file_mappings):
     cursor = conn.cursor()
     filename = xml_file.name
     
+    # Skip excluded files
+    if filename in ['u_0.xml', 'uq2.xml']:
+        print(f"Skipping excluded file: {filename}")
+        return
+    
     # Get file mapping
     file_mapping = file_mappings.get(filename, {})
-    
-    print(f"Processing {filename}...")
     
     try:
         tree = ET.parse(xml_file)
@@ -268,6 +452,7 @@ def process_xml_file(xml_file, conn, file_mappings):
             # Determine root and word
             root_value = ''
             word_value = key  # Start with key if it exists
+            headword_value = ''  # Initialize headword
             
             # If no key attribute, try to extract word from orth element
             if not word_value:
@@ -278,9 +463,18 @@ def process_xml_file(xml_file, conn, file_mappings):
             if itype == 'alphabetical letter':
                 root_value = key if key else word_value
                 word_value = key if key else word_value  # Fix: alphabetical letters should have word = key (same as root)
+                headword_value = word_value  # For alphabetical letters, headword is same as word
             else:
                 # Look for root in parent div2 elements
                 root_value = find_root_in_ancestors(entry, root)
+                
+                # Apply headword extraction logic for non-alphabetical entries
+                if root_value and word_value:
+                    # Extract the correct headword from phrase using the tested logic
+                    headword_value = extract_headword_from_phrase(word_value, root_value)
+                else:
+                    # Fallback: headword is same as word if no root or word
+                    headword_value = word_value
             
             # Get current page
             page = get_current_page(entry, file_mapping, root)
@@ -299,9 +493,11 @@ def process_xml_file(xml_file, conn, file_mappings):
             
             # Insert into database
             cursor.execute('''
-                INSERT INTO entry (root, word, bword, itype, nodeid, xml, file, page, supplement)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-            ''', (root_value, word_value, bword_value, itype, nodeid, xml_string, file_abbrev, page, supplement_value))
+                INSERT INTO entry (root, word, headword, bword, itype, nodeid, xml, file, page, supplement)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ''', (root_value, word_value, headword_value, bword_value, itype, nodeid, xml_string, file_abbrev, page, supplement_value))
+        
+        conn.commit()
         
         conn.commit()
         print(f"Processed {len(entries)} entries from {filename}")
@@ -326,39 +522,34 @@ def create_lexicon_database(xml_dir, db_path, reference_file):
     # Populate lexicon table
     populate_lexicon_table(conn, reference_file)
     
-    # Process XML files in the order specified in the reference file
-    if file_mappings:
-        # Process files in reference order
-        processed_files = set()
-        with open(reference_file, 'r', encoding='utf-8') as f:
-            for line in f:
-                if '|' in line and 'File:' in line:
-                    parts = line.strip().split('|')
-                    if len(parts) >= 3:
-                        file_part = parts[2].strip()
-                        file_match = re.search(r'File:\s*(\S+)', file_part)
-                        if file_match:
-                            filename = file_match.group(1)
-                            xml_file = xml_dir / filename
-                            if xml_file.exists() and filename not in processed_files:
-                                process_xml_file(xml_file, conn, file_mappings)
-                                processed_files.add(filename)
-        
-        # Process any remaining XML files not in reference
+    # Load file order from CSV file
+    script_dir = Path(__file__).parent
+    project_root = script_dir.parent
+    csv_file = project_root / 'references' / 'xml_files.csv'
+    
+    file_order = []
+    try:
+        with open(csv_file, 'r', encoding='utf-8') as f:
+            file_order = [line.strip() for line in f if line.strip()]
+        print(f"Loaded file order from CSV: {len(file_order)} files")
+    except Exception as e:
+        print(f"Warning: Could not load CSV file order: {e}")
+        # Fallback to alphabetical order
         xml_files = sorted(xml_dir.glob('*.xml'))
-        xml_files = [f for f in xml_files if not f.name.startswith('__')]  # Skip __contents__.xml
-        
-        for xml_file in xml_files:
-            if xml_file.name not in processed_files:
-                print(f"Processing additional file: {xml_file.name}")
-                process_xml_file(xml_file, conn, file_mappings)
-    else:
-        # Fallback: process all XML files
-        xml_files = sorted(xml_dir.glob('*.xml'))
-        xml_files = [f for f in xml_files if not f.name.startswith('__')]  # Skip __contents__.xml
-        
-        for xml_file in xml_files:
+        file_order = [f.name for f in xml_files if not f.name.startswith('__')]
+    
+    # Process XML files in the specified order
+    processed_files = set()
+    for filename in file_order:
+        xml_file = xml_dir / filename
+        if xml_file.exists() and filename not in processed_files:
+            print(f"Processing {filename}...")
             process_xml_file(xml_file, conn, file_mappings)
+            processed_files.add(filename)
+        elif not xml_file.exists():
+            print(f"Warning: File {filename} not found, skipping...")
+    
+    # Note: Only process files from CSV list, no additional files
     
     # Get total count
     cursor = conn.cursor()
