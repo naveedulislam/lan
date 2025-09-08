@@ -1,38 +1,36 @@
-Arabic Letter: ا | Pages: 1–141 | File: u_A0.xml
-Arabic Letter: ب | Pages: 141–291 | File: ub0.xml
-Arabic Letter: ت | Pages: 291–327 | File: ut0.xml
-Arabic Letter: ث | Pages: 327–369 | File: uv0.xml
-Arabic Letter: ج | Pages: 369–495 | File: uj0.xml
-Arabic Letter: ح | Pages: 495–691 | File: u_H0.xml
-Arabic Letter: خ | Pages: 691–839 | File: ux0.xml
-Arabic Letter: د | Pages: 839–947 | File: ud0.xml
-Arabic Letter: ذ | Pages: 947–993 | File: u_0.xml
-Arabic Letter: ذ | Pages: 947–993 | File: ua0.xml
-Arabic Letter: ر | Pages: 993–1207 | File: ur0.xml
-Arabic Letter: ز | Pages: 1207–1281 | File: uz0.xml
-Arabic Letter: س | Pages: 1281–1489 | File: us0.xml
-Arabic Letter: ش | Pages: 1489–1637 | File: u$0.xml
-Arabic Letter: ص | Pages: 1637–1759 | File: u_S0.xml
-Arabic Letter: ض | Pages: 1759–1819 | File: u_D0.xml
-Arabic Letter: ط | Pages: 1819–1907 | File: u_T0.xml
-Arabic Letter: ظ | Pages: 1907–1931 | File: u_Z0.xml
-Arabic Letter: ع | Pages: 1931–2221 | File: u_E0.xml
-Arabic Letter: غ | Pages: 2221–2321 | File: ug0.xml
-Arabic Letter: ف | Pages: 2321–2477 | File: uf0.xml
-Arabic Letter: ق | Pages: 2477–2581 | File: uq0.xml
-Arabic Letter: ق | Pages: 2983–2998 | File: uq1.xml | Supplement
-Arabic Letter: ق | Pages: 2983–3006 | File: uq2.xml | Supplement | Note: Duplicate of uq1.xml
-Arabic Letter: ك | Pages: 2581–2641 | File: uk0.xml
-Arabic Letter: ك | Pages: 2998–3006 | File: uk1.xml | Supplement
-Arabic Letter: ل | Pages: 2641–2687 | File: ul0.xml
-Arabic Letter: ل | Pages: 3006–3016 | File: ul1.xml | Supplement
-Arabic Letter: م | Pages: 2687–2751 | File: um0.xml
-Arabic Letter: م | Pages: 3016–3027 | File: um1.xml | Supplement
-Arabic Letter: ن | Pages: 2751–2873 | File: un0.xml
-Arabic Letter: ن | Pages: 3027–3041 | File: un1.xml | Supplement
-Arabic Letter: ه | Pages: 2873–2913 | File: uh0.xml
-Arabic Letter: ه | Pages: 3041–3048 | File: uh1.xml | Supplement
-Arabic Letter: و | Pages: 2913–2973 | File: uw0.xml
-Arabic Letter: و | Pages: 3048–3063 | File: uw1.xml | Supplement
-Arabic Letter: ي | Pages: 2973–2983 | File: u_Y0.xml
-Arabic Letter: ي | Pages: 3063–3064 | File: u_Y1.xml | Supplement
+Book 1 part 1 | Arabic Letter: ا | Pages: 1–141 | File: u_A0.xml
+Book 1 part 1 | Arabic Letter: ب | Pages: 141–291 | File: ub0.xml
+Book 1 part 1 | Arabic Letter: ت | Pages: 291–327 | File: ut0.xml
+Book 1 part 1 | Arabic Letter: ث | Pages: 327–369 | File: uv0.xml
+Book 1 part 2 | Arabic Letter: ج | Pages: 369–495 | File: uj0.xml
+Book 1 part 2 | Arabic Letter: ح | Pages: 495–691 | File: u_H0.xml
+Book 1 part 2 | Arabic Letter: خ | Pages: 691–839 | File: ux0.xml
+Book 1 part 3 | Arabic Letter: د | Pages: 839–947 | File: ud0.xml
+Book 1 part 3 | Arabic Letter: ذ | Pages: 947–993 | File: ua0.xml
+Book 1 part 3 | Arabic Letter: ر | Pages: 993–1207 | File: ur0.xml
+Book 1 part 3 | Arabic Letter: ز | Pages: 1207–1281 | File: uz0.xml
+Book 1 part 4 | Arabic Letter: س | Pages: 1281–1489 | File: us0.xml
+Book 1 part 4 | Arabic Letter: ش | Pages: 1489–1637 | File: u$0.xml
+Book 1 part 4 | Arabic Letter: ص | Pages: 1637–1759 | File: u_S0.xml
+Book 1 part 5 | Arabic Letter: ض | Pages: 1759–1819 | File: u_D0.xml
+Book 1 part 5 | Arabic Letter: ط | Pages: 1819–1907 | File: u_T0.xml
+Book 1 part 5 | Arabic Letter: ظ | Pages: 1907–1931 | File: u_Z0.xml
+Book 1 part 5 | Arabic Letter: ع | Pages: 1931–2221 | File: u_E0.xml
+Book 1 part 6 | Arabic Letter: غ | Pages: 2221–2321 | File: ug0.xml
+Book 1 part 6 | Arabic Letter: ف | Pages: 2321–2477 | File: uf0.xml
+Book 1 part 7 | Arabic Letter: ق | Pages: 2477–2580 | File: uq0.xml
+Book 1 part 8 | Arabic Letter: ق | Pages: 2983–2997 | File: uq1.xml | Supplement
+Book 1 part 7 | Arabic Letter: ك | Pages: 2581–2641 | File: uk0.xml
+Book 1 part 8 | Arabic Letter: ك | Pages: 2998–3006 | File: uk1.xml | Supplement
+Book 1 part 7 | Arabic Letter: ل | Pages: 2641–2687 | File: ul0.xml
+Book 1 part 8 | Arabic Letter: ل | Pages: 3006–3016 | File: ul1.xml | Supplement
+Book 1 part 7 | Arabic Letter: م | Pages: 2687–2751 | File: um0.xml
+Book 1 part 8 | Arabic Letter: م | Pages: 3016–3027 | File: um1.xml | Supplement
+Book 1 part 8 | Arabic Letter: ن | Pages: 2751–2873 | File: un0.xml
+Book 1 part 8 | Arabic Letter: ن | Pages: 3027–3041 | File: un1.xml | Supplement
+Book 1 part 8 | Arabic Letter: ه | Pages: 2873–2913 | File: uh0.xml
+Book 1 part 8 | Arabic Letter: ه | Pages: 3041–3048 | File: uh1.xml | Supplement
+Book 1 part 8 | Arabic Letter: و | Pages: 2913–2973 | File: uw0.xml
+Book 1 part 8 | Arabic Letter: و | Pages: 3048–3063 | File: uw1.xml | Supplement
+Book 1 part 8 | Arabic Letter: ي | Pages: 2973–2980 | File: u_Y0.xml
+Book 1 part 8 | Arabic Letter: ي | Pages: 3063–3064 | File: u_Y1.xml | Supplement

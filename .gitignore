@@ -1,3 +1,4 @@
+**/__pycache__/
 settings.json
 images/
 # scripts/
@@ -5,3 +6,7 @@ images/
 # requirements/
 # lexicon/
 # lexicon.sqlite
+
+# Duplicate XML files identified and removed
+db/lexica/ara/lan/u_0.xml
+db/lexica/ara/lan/uq2.xml
