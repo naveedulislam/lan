@@ -1,0 +1,11 @@
+Use these template:
+
+↓ <orth type="arrow" lang="ar"> تَصَدَّقَ فُلَانٌ صَدَقَةً بَتَاتًا</orth>, and <foreign lang="ar">صَدَقَةً بَتَّةً بَتْلَةُ</foreign>, (T, S,)
+
+<foreign lang="ar">بَتْلَآءَ</foreign> ↓ <orth type="arrow" lang="ar">من رأيه</orth>
+
+↓ <orth type="arrow" lang="ar">إِنَّمَا هُوَ الفَجْرُ أَوِالبَجْرُ</orth>
+
+<foreign lang="ar">عَيَّرَ بُجَيْرٌ</foreign> ↓ <orth type="arrow" lang="ar">بُجَرَةْ نَسِىَ بُجَيْرٌ خَبَرَهْ</orth>
+
+↓ <orth type="arrow" lang="ar">أَتَانَا بِثَرِيدٍ يَتَبَجَّسُ</orth>

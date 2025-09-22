@@ -10,3 +10,5 @@ requirements/
 # Duplicate XML files identified and removed
 db/lexica/ara/lan/u_0.xml
 db/lexica/ara/lan/uq2.xml
+references\dislocated_arrow.txt
+references\missing_aorist.txt

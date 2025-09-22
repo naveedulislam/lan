@@ -1,4 +1,4 @@
-Book 1 part 1 | Arabic Letter: ا | Pages: 1–141 | File: u_A0.xml
+Book 1 part 1 | Arabic Letter: ا | Pages: 1–140 | File: u_A0.xml
 Book 1 part 1 | Arabic Letter: ب | Pages: 141–291 | File: ub0.xml
 Book 1 part 1 | Arabic Letter: ت | Pages: 291–327 | File: ut0.xml
 Book 1 part 1 | Arabic Letter: ث | Pages: 327–369 | File: uv0.xml

@@ -1,0 +1,5 @@
+Use the following template:
+aor. 
+      <form n="infl">
+	<orth orig="Bi" lang="ar">يَبْتِتُ</orth></form>  
+

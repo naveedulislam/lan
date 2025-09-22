@@ -104,20 +104,20 @@ def populate_lexicon_table(conn, reference_file):
             for line in f:
                 if '|' in line and 'Pages:' in line and 'File:' in line:
                     parts = line.strip().split('|')
-                    if len(parts) >= 3:
-                        # Extract letter
-                        letter_part = parts[0].strip()
+                    if len(parts) >= 4:  # Changed from 3 to 4 since there are 4 parts
+                        # Extract letter from second part (index 1)
+                        letter_part = parts[1].strip()
                         letter_match = re.search(r'Arabic Letter:\s*(.+)', letter_part)
                         letter = letter_match.group(1) if letter_match else ''
                         
-                        # Extract page range
-                        pages_part = parts[1].strip()
+                        # Extract page range - now from parts[2] not parts[1]
+                        pages_part = parts[2].strip()
                         page_match = re.search(r'Pages:\s*(\d+)–(\d+)', pages_part)
                         start_page = int(page_match.group(1)) if page_match else None
                         end_page = int(page_match.group(2)) if page_match else None
                         
-                        # Extract filename
-                        file_part = parts[2].strip()
+                        # Extract filename - now from parts[3] not parts[2]
+                        file_part = parts[3].strip()
                         file_match = re.search(r'File:\s*(\S+)', file_part)
                         filename = file_match.group(1) if file_match else ''
                         file_abbrev = filename.replace('.xml', '') if filename else ''

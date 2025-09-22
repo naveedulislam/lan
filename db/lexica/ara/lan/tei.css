@@ -447,9 +447,18 @@ div1 > head:before {
   background-color: inherit;
 }
 div2 > head:before {
-  content: counter(div1) "." counter(div2) ". ";
-  color: black;
-  background-color: inherit;
+  display: none;
+}
+
+div2[type="root"] > head {
+  text-align: center !important;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin: 1em auto;
+  display: block;
+  width: 100%;
+  background-color: transparent !important;
+  padding: 0 !important;
 }
 div3 > head:before {
   content: counter(div1) "." counter(div2) "." counter(div3) ". ";
@@ -593,27 +602,28 @@ L {
 }
 
 quote L {
-  display: block;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
   margin-bottom: 0.3em;
   white-space: normal;
-  text-align: center;
-  position: relative;
+  gap: 0.5em;
 }
 
 quote L:before {
   content: "*";
   color: #666;
   font-weight: bold;
-  position: absolute;
-  left: 6em;
+  flex-shrink: 0;
+  align-self: flex-start;
 }
 
 quote L:after {
   content: "*";
   color: #666;
   font-weight: bold;
-  position: absolute;
-  right: 6em;
+  flex-shrink: 0;
+  align-self: flex-start;
 }
 
 label {
